@@ -1708,11 +1708,27 @@ namespace Content.Client.Lobby.UI
             _entManager.System<MetaDataSystem>().SetEntityName(PreviewDummy, newName);
         }
 
-        private void SetSpawnPriority(SpawnPriorityPreference newSpawnPriority)
+        private void SetSpawnPriority(SpawnPriorityPreference newSpawnPriority) 
         {
             Profile = Profile?.WithSpawnPriorityPreference(newSpawnPriority);
             SetDirty();
         }
+
+        // Corvax-Frontier-Barks-start
+        private void SetBarkVoice(string newVoice)
+        {
+            Profile = Profile?.WithBarkVoice(newVoice);
+            IsDirty = true;
+        }
+        // Corvax-Frontier-Barks-end
+
+        // Corvax-TTS-Start
+        private void SetVoice(string newVoice)
+        {
+            Profile = Profile?.WithVoice(newVoice);
+            IsDirty = true;
+        }
+        // Corvax-TTS-End
 
         private void SetHeight(float newHeight)
         {
