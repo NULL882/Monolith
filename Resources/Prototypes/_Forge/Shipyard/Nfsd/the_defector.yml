@@ -1,0 +1,45 @@
+# Author Info
+# GitHub: -
+# Discord: charodey0167
+# License: CC-BY-NC-ND-4.0
+# CorvaxForge
+
+# Maintainer Info
+# GitHub: https://github.com/mersen-tyn
+# Discord: mersen
+
+# Shuttle Notes:
+#
+# - type: vessel
+#   id: the_defector
+#   parent: BaseVessel
+#   name: NSF Перебежчик
+#   description: Малогабаритный патрульный шаттл ДСБФ. Рекомендуемый состав команды 1-3 человек.
+#   price: 20500
+#   category: Small
+#   access: Security
+#   mapchecker_group_override: Security
+#   group: Security
+#   shuttlePath: /Maps/_Forge/Shuttles/Nfsd/the_defector.yml
+#   class:
+#   - Patrol
+#   addComponents:
+#   - type: ShuttleFaction
+#     faction: NFSD
+
+# - type: gameMap
+#   id: the_defector
+#   mapName: 'NSF Перебежчик'
+#   mapPath: /Maps/_Forge/Shuttles/Nfsd/the_defector.yml
+#   minPlayers: 0
+#   stations:
+#     the_defector:
+#       stationProto: StandardFrontierSecurityVessel
+#       components:
+#         - type: StationNameSetup
+#           mapNameTemplate: 'Перебежчик {1}'
+#           nameGenerator:
+#             !type:NanotrasenNameGenerator
+#             prefixCreator: '14'
+#         - type: StationJobs
+#           availableJobs: {}

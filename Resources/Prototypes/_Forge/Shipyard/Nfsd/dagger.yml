@@ -1,0 +1,43 @@
+# Author Info
+# GitHub: https://github.com/Autsaider-IM
+# Discord: autsaider_m
+# License: CC-BY-NC-ND-4.0
+# CorvaxForge
+
+# Maintainer Info
+# GitHub: https://github.com/Autsaider-IM
+# Discord: autsaider_m
+
+# Notes:
+#
+- type: vessel
+  id: Dagger1
+  parent: BaseVessel
+  name: TL Кинжал
+  description: Шаттл перехватчик Кинжал. Произведено частной военно-производственной корпорации TechnicLogistic по спец. заказу НТ. Рекомендуемый состав команды 1-2 человека.
+  price: 22100
+  category: Small
+  group: Custom
+  shuttlePath: /Maps/_Forge/Shuttles/Nfsd/dagger.yml
+  class:
+  - Fighter
+  addComponents:
+  - type: ShuttleFaction
+    faction: NFSD
+
+- type: gameMap
+  id: Dagger1
+  mapName: 'TL Кинжал'
+  mapPath: /Maps/_Forge/Shuttles/Nfsd/dagger.yml
+  minPlayers: 0
+  stations:
+    Dagger1:
+      stationProto: StandardFrontierSecurityVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Кинжал {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs: {}

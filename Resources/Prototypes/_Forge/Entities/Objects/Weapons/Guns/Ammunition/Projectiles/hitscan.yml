@@ -1,0 +1,51 @@
+- type: entity
+  parent: Pulse
+  id: FiredartLaser
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: HitscanBasicDamage
+    damage:
+      types:
+        Heat: 20
+  - type: HitscanBasicRaycast
+    maxDistance: 21
+
+- type: entity
+  parent: Pulse
+  id: ImmolationLaser
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: HitscanBasicDamage
+    damage:
+      types:
+        Heat: 40
+  - type: HitscanBasicRaycast
+    maxDistance: 21
+
+
+- type: entity
+  parent: XrayLaser
+  id: ForgeXrayLaser
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: HitscanBasicDamage
+    damage:
+      types:
+        Heat: 20
+        Radiation: 20
+  - type: HitscanBasicRaycast
+    maxDistance: 21
+
+
+# Pulse
+- type: entity
+  parent: Pulse
+  id: HeavyPulse
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: HitscanBasicDamage
+    damage:
+      types:
+        Heat: 50
+  - type: HitscanBasicRaycast
+    maxDistance: 21

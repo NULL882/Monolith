@@ -1,0 +1,43 @@
+# Author Info
+# GitHub: -
+# Discord: -
+
+# Maintainer Info
+# GitHub: -
+# Discord: -
+
+# Shuttle Notes:
+#
+- type: vessel
+  id: Vitalis
+  name: CTC Виталис
+  parent: BaseVessel
+  description: Средний медицинский вспомогательный шаттл для медициского персонала, для использований криогенных условий.
+  price: 75000 #Appraisal is 53480
+  access: Medical
+  category: Medium
+  group: Medical
+  shuttlePath: /Maps/_Forge/Shuttles/Medical/vitalis.yml
+  guidebookPage: ShipyardVitalis
+  class:
+  - Medical
+  engine:
+  - Uranium
+
+- type: gameMap
+  id: Vitalis
+  mapName: 'CTC Виталис'
+  mapPath: /Maps/_Forge/Shuttles/Medical/vitalis.yml
+  minPlayers: 0
+  stations:
+    Vitalis:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Виталис {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            paraMedicalInterview: [ 0, 0 ]

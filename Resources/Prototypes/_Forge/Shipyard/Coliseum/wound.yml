@@ -1,0 +1,38 @@
+﻿# Author Info
+# GitHub: -
+# Discord: -
+# License: CC-BY-NC-ND-4.0
+# CorvaxForge
+
+# Maintainer Info
+# GitHub: https://github.com/mersen-tyn and https://github.com/FireFoxPhoenix
+# Discord: mersen and FireFoxPhoenix
+
+# Shuttle Notes:
+#
+- type: vessel
+  id: Wound
+  parent: BaseVessel
+  name: COL Рана
+  price: 25000
+  category: Small
+  group: Coliseum
+  shuttlePath: /Maps/_Forge/Shuttles/Coliseum/wound.yml
+  guidebookPage: Null
+
+- type: gameMap
+  id: Wound
+  mapName: 'COL Рана'
+  mapPath: /Maps/_Forge/Shuttles/Coliseum/wound.yml
+  minPlayers: 0
+  stations:
+    Wound:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Рана {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs: {}

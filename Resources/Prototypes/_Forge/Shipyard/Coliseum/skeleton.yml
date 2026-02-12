@@ -1,0 +1,38 @@
+﻿# Author Info
+# GitHub: -
+# Discord: -
+# License: CC-BY-NC-ND-4.0
+# CorvaxForge
+
+# Maintainer Info
+# GitHub: https://github.com/mersen-tyn and https://github.com/FireFoxPhoenix
+# Discord: mersen and FireFoxPhoenix
+
+# Shuttle Notes:
+#
+- type: vessel
+  id: Sceleton
+  parent: BaseVessel
+  name: COL Скелет
+  price: 27100
+  category: Small
+  group: Coliseum
+  shuttlePath: /Maps/_Forge/Shuttles/Coliseum/skeleton.yml
+  guidebookPage: Null
+
+- type: gameMap
+  id: Sceleton
+  mapName: 'COL Скелет'
+  mapPath: /Maps/_Forge/Shuttles/Coliseum/skeleton.yml
+  minPlayers: 0
+  stations:
+    Sceleton:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Скелет {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs: {}

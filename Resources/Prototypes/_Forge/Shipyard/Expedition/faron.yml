@@ -1,0 +1,41 @@
+# Author Info
+# GitHub: -
+# Discord: autsaider_m
+# License: CC-BY-NC-ND-4.0
+# CorvaxForge
+
+# Maintainer Info
+# GitHub: https://github.com/mersen-tyn
+# Discord: mersen
+
+# Shuttle Notes:
+#
+- type: vessel
+  id: Faron
+  parent: BaseVessel
+  name: NLE Фарон
+  description: Среднегабаритный экспедиционный шаттл. Рекомендуемый состав команды 2-5 человек.
+  price: 104000
+  category: Medium
+  group: Expedition
+  shuttlePath: /Maps/_Forge/Shuttles/Expedition/faron.yml
+
+- type: gameMap
+  id: Faron
+  mapName: 'NLE Фарон'
+  mapPath: /Maps/_Forge/Shuttles/Expedition/faron.yml
+  minPlayers: 0
+  stations:
+    Faron:
+      stationProto: StandardFrontierExpeditionVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Фарон {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            ContractorInterview: [ 0, 0 ]
+            PilotInterview: [ 0, 0 ]
+            MercenaryInterview: [ 0, 0 ]

@@ -1,0 +1,45 @@
+# Author Info
+# GitHub: -
+# Discord: xwinexday
+# License: CC-BY-NC-ND-4.0
+# CorvaxForge
+
+# Maintainer Info
+# GitHub: https://github.com/mersen-tyn
+# Discord: mersen
+
+# Shuttle Notes:
+#
+- type: vessel
+  id: QueenAnnesRevenge
+  parent: BaseVessel
+  name: Месть Королевы Анны
+  description: Среднегабаритный пиратский шаттл. Рекомендованный состав команды 2-8 человека.
+  price: 169999 # More guns and ammo
+  category: Medium
+  group: BlackMarket
+  shuttlePath: /Maps/_Forge/Shuttles/BlackMarket/queenAnnesRevenge.yml
+  addComponents:
+  - type: IFF
+    flags: [HideLabel]
+  - type: ShuttleFaction
+    faction: Pirate
+
+- type: gameMap
+  id: QueenAnnesRevenge
+  mapName: 'Месть Королевы Анны'
+  mapPath: /Maps/_Forge/Shuttles/BlackMarket/queenAnnesRevenge.yml
+  minPlayers: 0
+  stations:
+    QueenAnnesRevenge:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Месть Королевы Анны {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            NFPirate: [ 3, 3 ]
+            NFPirateFirstMate: [ 1, 1 ]

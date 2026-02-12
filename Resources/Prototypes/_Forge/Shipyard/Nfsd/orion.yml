@@ -1,0 +1,46 @@
+# Author Info
+# GitHub: https://github.com/Autsaider-IM
+# Discord: autsaider_m
+# License: CC-BY-NC-ND-4.0
+# CorvaxForge
+
+# Maintainer Info
+# GitHub: https://github.com/Autsaider-IM
+# Discord: autsaider_m
+
+# Notes:
+#
+- type: vessel
+  id: Orion
+  parent: BaseVessel
+  name: TL Орион MK2
+  description: Крупногабаритный линейный крейсер. Рекомендованный состав команды 4-8 человек.
+  price: 523100
+  category: Large
+  group: Security
+  access: Frontier
+  shuttlePath: /Maps/_Forge/Shuttles/Nfsd/orion.yml
+  guidebookPage: Null
+  class:
+  - Capital
+  addComponents:
+  - type: ShuttleFaction
+    faction: NFSD
+
+- type: gameMap
+  id: Orion
+  mapName: 'TL Орион MK2'
+  mapPath: /Maps/_Forge/Shuttles/Nfsd/orion.yml
+  minPlayers: 0
+  stations:
+    Orion:
+      stationProto: StandardFrontierSecurityVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Орион MK2 {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            Chef: [ 0, 0 ]

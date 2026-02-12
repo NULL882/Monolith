@@ -1,0 +1,38 @@
+﻿# Author Info
+# GitHub: -
+# Discord: -
+# License: CC-BY-NC-ND-4.0
+# CorvaxForge
+
+# Maintainer Info
+# GitHub: https://github.com/mersen-tyn and https://github.com/FireFoxPhoenix
+# Discord: mersen and FireFoxPhoenix
+
+# Shuttle Notes:
+#
+- type: vessel
+  id: Crater
+  parent: BaseVessel
+  name: COL Кратер
+  price: 26000
+  category: Small
+  group: Coliseum
+  shuttlePath: /Maps/_Forge/Shuttles/Coliseum/crater.yml
+  guidebookPage: Null
+
+- type: gameMap
+  id: Crater
+  mapName: 'COL Кратер'
+  mapPath: /Maps/_Forge/Shuttles/Coliseum/crater.yml
+  minPlayers: 0
+  stations:
+    Crater:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Кратер {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs: {}

@@ -1,0 +1,342 @@
+# Консоль Центуриона
+- type: entity
+  id: CenturionMothershipComputer
+  parent: BaseMothershipComputer
+  name: консоль авианосца "Центурион"
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Machines/computers.rsi
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerKeyboard"]
+      state: generic_keyboard
+    - map: ["computerLayerScreen"]
+      state: shipyard_nfsd
+    - map: ["computerLayerKeys"]
+      state: telesci_key
+  - type: ShipyardConsole
+    newJobTitle: null
+    shipyardChannel: Nfsd
+    newAccessLevels: [Captain, Security, Brig]
+  - type: ShipyardListing
+    shuttles:
+    - Templar
+    - Warrior2
+
+- type: entity
+  id: SkatMothershipComputer
+  parent: BaseMothershipComputer
+  name: Консоль авианосца "Большой скат"
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Machines/computers.rsi
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerKeyboard"]
+      state: generic_keyboard
+    - map: ["computerLayerScreen"]
+      state: shipyard_nfsd
+    - map: ["computerLayerKeys"]
+      state: telesci_key
+  - type: ShipyardConsole
+    newJobTitle: null
+    shipyardChannel: Nfsd
+    newAccessLevels: [Captain, Security, Brig]
+  - type: ShipyardListing
+    shuttles:
+    - Rogue
+    - Templar
+
+# The caduceus console
+- type: entity
+  id: CaduceusMothershipComputer
+  parent: BaseMothershipComputer
+  name: caduceus shipyard console
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Machines/computers.rsi
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer_medical
+    - map: ["computerLayerKeyboard"]
+      state: generic_keyboard
+    - map: ["computerLayerScreen"]
+      state: shipyard_medical
+    - map: ["computerLayerKeys"]
+      state: telesci_key
+  - type: ShipyardListing
+    shuttles:
+    - Spirit
+    - Searchlight
+    - Beaker
+    - Eagle
+    - Apothecary
+    - Tyne
+
+- type: entity
+  id: VostokMothershipComputer
+  parent: BaseMothershipComputer
+  name: консоль верфи Востока
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Machines/computers.rsi
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerKeyboard"]
+      state: generic_keyboard
+    - map: ["computerLayerScreen"]
+      state: shipyard_nfsd
+    - map: ["computerLayerKeys"]
+      state: telesci_key
+  - type: ShipyardConsole
+    newJobTitle: null
+    shipyardChannel: Nfsd
+    newAccessLevels: [Captain, Security, Brig]
+  - type: ShipyardListing
+    shuttles:
+    - Sword
+    - Trest
+    - Dagger1
+
+- type: entity
+  id: DredMothershipComputer
+  parent: BaseMothershipComputer
+  name: консоль верфи Дредноута
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Machines/computers.rsi
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerKeyboard"]
+      state: generic_keyboard
+    - map: ["computerLayerScreen"]
+      state: shipyard_nfsd
+    - map: ["computerLayerKeys"]
+      state: telesci_key
+  - type: ShipyardListing
+    shuttles:
+    - Owl
+
+- type: entity
+  id: ZenichMothershipComputer
+  parent: BaseMothershipComputer
+  name: консоль верфи Зенита
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Machines/computers.rsi
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerKeyboard"]
+      state: generic_keyboard
+    - map: ["computerLayerScreen"]
+      state: shipyard_mining
+    - map: ["computerLayerKeys"]
+      state: telesci_key
+  - type: ShipyardListing
+    shuttles:
+    - Owl
+    - Sergeant
+
+# Консоль Нансена
+- type: entity
+  id: NansenMothershipComputer
+  parent: BaseMothershipComputer
+  name: Captain Nansen shipyard console
+  components:
+  - type: Sprite
+    sprite: Forge/Structures/Machines/computers.rsi
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerKeyboard"]
+      state: generic_keyboard
+    - map: ["computerLayerScreen"]
+      state: Nansenshipyard
+  - type: ShipyardListing
+    shuttles:
+    - Bentsen
+    - Johan
+    - Viking
+    - Hendrick
+    - Serge
+    - Fram
+
+- type: entity
+  id: StarMothershipComputer
+  parent: BaseMothershipComputer
+  name: консоль верфи Энтерпрайза
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Machines/computers.rsi
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerKeyboard"]
+      state: generic_keyboard
+    - map: ["computerLayerScreen"]
+      state: shipyard_nfsd
+    - map: ["computerLayerKeys"]
+      state: telesci_key
+  - type: ShipyardListing
+    shuttles:
+    - Owl
+    - Sergeant
+
+- type: entity
+  id: ComputerShipyardNfsdModules
+  parent: [BaseStructureDisableToolUse, BaseStructureIndestructible, ComputerShipyardBase, BaseC2ContrabandUnredeemable] #Corvax-Frontier КБ
+  name: Консоль верфи модулей
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Machines/computers.rsi
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerKeyboard"]
+      state: generic_keyboard
+    - map: ["computerLayerScreen"]
+      state: shipyard_nfsd
+    - map: ["computerLayerKeys"]
+      state: telesci_key
+  - type: ActivatableUI
+    key: enum.ShipyardConsoleUiKey.Modules
+  - type: UserInterface
+    interfaces:
+      enum.ShipyardConsoleUiKey.Modules:
+        type: ShipyardConsoleBoundUserInterface
+  - type: ShipyardConsole
+    shipyardChannel: Nfsd
+    newAccessLevels: [Captain, Security, Brig, Modules]
+
+- type: entity
+  id: OrionMothershipComputer
+  parent: BaseMothershipComputer
+  name: консоль модулей Ориона
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Machines/computers.rsi
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerKeyboard"]
+      state: generic_keyboard
+    - map: ["computerLayerScreen"]
+      state: shipyard_nfsd
+    - map: ["computerLayerKeys"]
+      state: telesci_key
+  - type: ActivatableUI
+    key: enum.ShipyardConsoleUiKey.Modules
+  - type: UserInterface
+    interfaces:
+      enum.ShipyardConsoleUiKey.Modules:
+        type: ShipyardConsoleBoundUserInterface
+  - type: ShipyardConsole
+    newJobTitle: null
+    shipyardChannel: Nfsd
+    newAccessLevels: [Captain, Security, Brig, Modules]
+  - type: ShipyardListing
+    shuttles:
+    - false_right_side_of_he_ship_orion
+    - false_left_side_of_he_ship_orion
+
+- type: entity
+  id: OrionMothershipComputerTL
+  parent: BaseMothershipComputer
+  name: консоль верфи Ориона
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Machines/computers.rsi
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerKeyboard"]
+      state: generic_keyboard
+    - map: ["computerLayerScreen"]
+      state: shipyard_nfsd
+    - map: ["computerLayerKeys"]
+      state: telesci_key
+  - type: ShipyardConsole
+    newJobTitle: null
+    shipyardChannel: Nfsd
+    newAccessLevels: [Captain, Security, Brig, Modules]
+  - type: ShipyardListing
+    shuttles:
+    - Warrior2
+    - Wing
+
+- type: entity
+  id: Union4MothershipComputer
+  parent: BaseMothershipComputer
+  name: консоль модулей Союза
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Machines/computers.rsi
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerKeyboard"]
+      state: generic_keyboard
+    - map: ["computerLayerScreen"]
+      state: shipyard_nfsd
+    - map: ["computerLayerKeys"]
+      state: telesci_key
+  - type: ActivatableUI
+    key: enum.ShipyardConsoleUiKey.Modules
+  - type: UserInterface
+    interfaces:
+      enum.ShipyardConsoleUiKey.Modules:
+        type: ShipyardConsoleBoundUserInterface
+  - type: ShipyardConsole
+    newJobTitle: null
+    shipyardChannel: Nfsd
+    newAccessLevels: [Captain, Security, Brig, Modules]
+  - type: ShipyardListing
+    shuttles:
+    - false_left_side_of_he_ship_un4
+    - false_right_side_of_he_ship_un4
+
+- type: entity
+  id: SerpentMothershipComputer
+  parent: BaseMothershipComputer
+  name: консоль верфи Змея
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Machines/computers.rsi
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerKeyboard"]
+      state: generic_keyboard
+    - map: ["computerLayerScreen"]
+      state: shipyard
+    - map: ["computerLayerKeys"]
+      state: telesci_key
+  - type: ShipyardListing
+    shuttles:
+    - WaspS
+    - Guardian
+
+- type: entity
+  id: OblivionMothershipComputer
+  parent: BaseMothershipComputer
+  name: консоль верфи Обливиона
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Machines/computers.rsi
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerKeyboard"]
+      state: generic_keyboard
+    - map: ["computerLayerScreen"]
+      state: shipyard
+    - map: ["computerLayerKeys"]
+      state: telesci_key
+  - type: ShipyardListing
+    shuttles:
+    - Antimony
