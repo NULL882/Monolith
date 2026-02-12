@@ -79,13 +79,13 @@
 
 # region Other
 - type: latheRecipe
-  parent: [BaseGoldCircuitboardRecipe, BaseEngineeringMachineRecipeCategory]
+  parent: BaseGoldCircuitboardRecipe
   id: FRecAdvancedRadarConsoleCircuitboard
   result: AdvancedRadarConsoleCircuitboard
   completetime: 10
 
 - type: latheRecipe
-  parent: [BaseGoldCircuitboardRecipe, BaseEngineeringMachineRecipeCategory]
+  parent: BaseGoldCircuitboardRecipe
   id: FRecComputerIFFCircuitboard
   result: ComputerIFFCircuitboard
   completetime: 10
