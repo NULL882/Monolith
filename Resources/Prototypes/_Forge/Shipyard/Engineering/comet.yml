@@ -9,7 +9,7 @@
 # Shuttle Notes:
 #
 - type: vessel
-  id: Comet
+  id: Comet_Forge
   parent: BaseVessel
   name: NT Комета
   description: Среднегабаритный инженерный шаттл. Рекомендованный размер команды 3-6 человек.
@@ -23,7 +23,7 @@
   - Engineering
 
 - type: gameMap
-  id: Comet
+  id: Comet_Forge
   mapName: 'NT Комета'
   mapPath: /Maps/_Forge/Shuttles/Engineering/comet.yml
   minPlayers: 0

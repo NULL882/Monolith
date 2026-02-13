@@ -17,9 +17,6 @@
   category: Small
   group: Mercenary
   shuttlePath: /Maps/_Forge/Shuttles/Mercenary/star_track.yml
-  addComponents:
-  - type: MercenaryBountyDatabase
-    bounties: []
 
 - type: gameMap
   id: Star_track

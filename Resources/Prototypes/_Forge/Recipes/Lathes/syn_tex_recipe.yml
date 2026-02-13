@@ -199,33 +199,9 @@
     CreditCounterfeit: 5000
 
 - type: latheRecipe
-  id: GrenadeFlashRecipe
-  categories: [SyndicateTexSyn4]
-  result: NFGrenadeFlash
-  completetime: 1
-  materials:
-    CreditCounterfeit: 5000
-
-- type: latheRecipe
   id: GrenadeFragRecipe
   categories: [SyndicateTexSyn4]
   result: NFGrenadeFrag
-  completetime: 1
-  materials:
-    CreditCounterfeit: 7500
-
-- type: latheRecipe
-  id: GrenadeBlastRecipe
-  categories: [SyndicateTexSyn4]
-  result: NFGrenadeBlast
-  completetime: 1
-  materials:
-    CreditCounterfeit: 7500
-
-- type: latheRecipe
-  id: GrenadeBatonRecipe
-  categories: [SyndicateTexSyn4]
-  result: NFGrenadeBaton
   completetime: 1
   materials:
     CreditCounterfeit: 7500

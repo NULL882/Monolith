@@ -219,8 +219,6 @@
   - type: BatterySelfRecharger
     autoRecharge: true
     autoRechargeRate: 15
-  - type: NFWeaponDetails
-    class: weapon-details-class-assault-rifle
 
 - type: entity
   id: BaseWeaponFrameEnergyPistolSyndie
@@ -262,8 +260,6 @@
   - type: BatterySelfRecharger
     autoRecharge: true
     autoRechargeRate: 12
-  - type: NFWeaponDetails
-    class: weapon-details-class-pistol
 
 - type: entity
   id: BulletLaserHeavySyndie

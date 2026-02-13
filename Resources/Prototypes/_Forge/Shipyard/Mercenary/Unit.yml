@@ -19,9 +19,6 @@
   category: Small
   group: Mercenary
   shuttlePath: /Maps/_Forge/Shuttles/Mercenary/unit.yml
-  addComponents:
-  - type: MercenaryBountyDatabase
-    bounties: []
 
 - type: gameMap
   id: Unit

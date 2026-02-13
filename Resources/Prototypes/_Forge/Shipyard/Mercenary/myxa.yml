@@ -19,9 +19,6 @@
   category: Medium
   group: Mercenary
   shuttlePath: /Maps/_Forge/Shuttles/Mercenary/myxa.yml
-  addComponents:
-  - type: MercenaryBountyDatabase
-    bounties: []
 
 - type: gameMap
   id: Myxa

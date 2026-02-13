@@ -1,3 +1,31 @@
+#region NFBase
+- type: entity # Forge-change remove bullet-trace state, color, and tracer
+  id: NFBaseBullet
+  parent: BaseBullet
+  abstract: true
+  components:
+  - type: Sprite
+    noRot: false
+    sprite: Forge/Objects/Weapons/Guns/Ammunition/Projectiles/bullets.rsi
+    layers:
+    - state: bullet
+      shader: unshaded
+
+#region AntiMateriel
+- type: entity
+  id: NFBaseBulletAntiMateriel
+  parent: NFBaseBullet
+  abstract: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 30
+        Structural: 200
+    penetrationThreshold: 360
+    penetrationDamageTypeRequirement:
+    - Structural
+
 - type: entity
   id: NFBulletRifle60AP
   name: bullet (.60 rifle)

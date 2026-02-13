@@ -11,7 +11,7 @@
 # Shuttle Notes:
 #
 - type: vessel
-  id: Zenith
+  id: Zenith_Forge
   parent: BaseVessel
   name: TL Зенит
   description: Среднегабаритный добывающий авианосец. Рекомендованный размер команды 3-6 человек.
@@ -27,7 +27,7 @@
 
 
 - type: gameMap
-  id: Zenith
+  id: Zenith_Forge
   mapName: 'TL Зенит'
   mapPath: /Maps/_Forge/Shuttles/Salvage/zenith.yml
   minPlayers: 0

@@ -19,9 +19,6 @@
   category: Small
   group: Mercenary
   shuttlePath: /Maps/_Forge/Shuttles/Mercenary/owl.yml
-  addComponents:
-  - type: MercenaryBountyDatabase
-    bounties: []
 
 - type: gameMap
   id: Owl
@@ -37,5 +34,3 @@
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
-        - type: MercenaryBountyDatabase
-          bounties: []

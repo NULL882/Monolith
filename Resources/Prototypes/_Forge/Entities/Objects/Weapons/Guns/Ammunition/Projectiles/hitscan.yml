@@ -35,17 +35,3 @@
         Radiation: 20
   - type: HitscanBasicRaycast
     maxDistance: 21
-
-
-# Pulse
-- type: entity
-  parent: Pulse
-  id: HeavyPulse
-  categories: [ HideSpawnMenu ]
-  components:
-  - type: HitscanBasicDamage
-    damage:
-      types:
-        Heat: 50
-  - type: HitscanBasicRaycast
-    maxDistance: 21

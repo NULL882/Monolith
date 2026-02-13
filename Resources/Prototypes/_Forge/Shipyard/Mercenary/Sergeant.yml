@@ -16,9 +16,6 @@
   price: 20400
   category: Small
   shuttlePath: /Maps/_Forge/Shuttles/Mercenary/sergeant.yml
-  addComponents:
-  - type: MercenaryBountyDatabase
-    bounties: []
 
 - type: gameMap
   id: Sergeant

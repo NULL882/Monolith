@@ -18,6 +18,3 @@
     availableModes:
     - Burst
     selectedMode: Burst
-  - type: NFWeaponDetails
-    class: weapon-details-class-pistol
-    manufacturer: weapon-details-manufacturer-TechnicLogistic

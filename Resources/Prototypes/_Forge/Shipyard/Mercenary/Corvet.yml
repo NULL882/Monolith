@@ -17,9 +17,6 @@
   category: Small
   group: Mercenary
   shuttlePath: /Maps/_Forge/Shuttles/Mercenary/corvet.yml
-  addComponents:
-  - type: MercenaryBountyDatabase
-    bounties: []
 
 
 - type: gameMap

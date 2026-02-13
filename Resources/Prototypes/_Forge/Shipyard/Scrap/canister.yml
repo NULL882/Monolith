@@ -9,7 +9,7 @@
 # Shuttle Notes:
 #
 - type: vessel
-  id: Canister
+  id: Canister_Forge
   parent: BaseVessel
   name: UAC Канистра
   description: Малогабаритный транспортный шаттл. Рекомендуется для 1 игрока.
@@ -23,7 +23,7 @@
   - Civilian
 
 - type: gameMap
-  id: Canister
+  id: Canister_Forge
   mapName: 'UAC Канистра'
   mapPath: /Maps/_Forge/Shuttles/Scrap/canister.yml
   minPlayers: 0
