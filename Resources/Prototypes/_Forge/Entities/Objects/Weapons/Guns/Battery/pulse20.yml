@@ -1,19 +1,7 @@
-- type: entity
-  id: NFBaseWeaponEnergyRifleAssaultHitScanPulse
-  abstract: true
-  components:
-  - type: Gun
-    examineCaliber: gun-examine-pulse-low
-    soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/laser3.ogg # Corvax-Forge: Weapons Update
-    projectileSpeed: 50
-  - type: ProjectileBatteryAmmoProvider # Corvax-Forge: Weaponary update
-    proto: ForgeBulletHeavyPulse
-    fireCost: 60
 
 - type: entity
   name: импульсный ФН-200
-  parent: [BaseC2ContrabandUnredeemable, NFBaseWeaponEnergyRifleAssaultHitScanPulse, NFBaseWeaponFrameEnergyRifleAssaultNanotrasen]
+  parent: [BaseC2ContrabandUnredeemable, ForgeBaseWeaponEnergyRifleAssaultHitScanPulse, ForgeBaseWeaponFrameEnergyRifleAssaultNanotrasen]
   id: pulse20
   description: Учёные TL взяли за основу один из образцов оружия ядерный оперативников и переделали на свой манер.
   components:

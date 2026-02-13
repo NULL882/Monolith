@@ -28,7 +28,7 @@
 
 - type: entity
   name: KD12
-  parent: NFBaseWeaponFrameShotgun
+  parent: ForgeBaseWeaponFrameShotgun
   id: WeaponShotgunKD12
   description: The Compact Shotgun Model 12 is equipped with a three-round drum and a reload system. It was previously manufactured and supplied by TechnicLogistic as the primary weapon for convoy ships.
   components:
@@ -57,7 +57,7 @@
 
 - type: entity
   name: KD12Medic
-  parent: NFBaseWeaponFrameShotgun
+  parent: ForgeBaseWeaponFrameShotgun
   id: WeaponShotgunKD12Medic
   description: The Compact Shotgun Model 12 is equipped with a three-round drum and a reload system. It was previously manufactured and supplied by TechnicLogistic as the primary weapon for convoy ships.
   components:
@@ -85,7 +85,7 @@
 
 - type: entity
   name: Отбойник
-  parent: [BaseItem, NFBaseWeaponFrameShotgunWieldable, BaseC2Contraband]
+  parent: [BaseItem, ForgeBaseWeaponFrameShotgunWieldable, BaseC2Contraband]
   id: WeaponShotgunAD12
   description:  The Model 12 Automatic Shotgun is supplied in limited quantities to the DSBF forces by TechnicLogistic. The drum ammunition feeding system allows the weapon to develop a monstrous rate of fire and killing power.
   components:
@@ -153,7 +153,7 @@
 
 - type: entity
   name: Suppressor
-  parent: [BaseItem, NFBaseWeaponFrameShotgunWieldable, BaseC2Contraband]
+  parent: [BaseItem, ForgeBaseWeaponFrameShotgunWieldable, BaseC2Contraband]
   id: WeaponShotgunSuppressor
   description: The TechnicLogistic Model 16 Automatic Shotgun is a new generation model with a drum-type ammunition feeding system that allows the weapon to develop a monstrous rate of fire and lethal force.
   components:
@@ -217,7 +217,7 @@
 
 - type: entity
   id: WeaponShotgunChimera
-  parent: [ NFBaseWeaponShotgunChamber50, NFBaseWeaponFrameShotgunWieldable ]
+  parent: [ ForgeBaseWeaponShotgunChamber50, ForgeBaseWeaponFrameShotgunWieldable ]
   name: Химера
   description: Нет
   components:

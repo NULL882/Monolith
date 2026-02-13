@@ -4,7 +4,7 @@
 - type: entity
   id: ForgeAmmoDrum16mmBase
   name: "16mm ammo drum"
-  parent: Magazine20mmPiercing
+  parent: Magazine20mm
   components:
   - type: Tag
     tags:
@@ -48,7 +48,7 @@
 - type: entity
   id: ForgeAmmoDrum20mmBase
   name: "20x124mm ammo drum"
-  parent: Magazine20mmPiercing
+  parent: Magazine20mm
   components:
   - type: Sprite
     sprite: Forge/Objects/SpaceArtillery/magazine_20mm.rsi
@@ -81,7 +81,7 @@
 - type: entity
   id: ForgeAmmoDrum20mmAPHE
   name: "APHE 20mm ammo drum"
-  parent: Magazine20mmPiercing
+  parent: Magazine20mm
   components:
   - type: Sprite
     sprite: Forge/Objects/SpaceArtillery/magazine_20mm.rsi
@@ -115,7 +115,7 @@
 - type: entity
   id: ForgeAmmoDrum20mmAPCBC
   name: "APCBC 20mm ammo drum"
-  parent: Magazine20mmPiercing
+  parent: Magazine20mm
   components:
   - type: Sprite
     sprite: Forge/Objects/SpaceArtillery/magazine_20mm.rsi

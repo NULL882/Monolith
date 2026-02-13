@@ -173,7 +173,7 @@
 
 - type: entity
   id: BaseWeaponFrameEnergyRifleAssaultSyndie
-  parent: [ NFBaseWeaponEncumbranceRifleAssault, BaseWeaponBattery ]
+  parent: [ ForgeBaseWeaponEncumbranceRifleAssault, BaseWeaponBattery ]
   suffix: Frontier
   abstract: true
   components:

@@ -20,19 +20,6 @@
     - NFBlueprintNfsdTechfab
 
 - type: entity
-  parent: NFBlueprintArsenalNfsd
-  id: BlueprintGrenade
-  components:
-  - type: Blueprint
-    providedRecipes:
-    - NFGrenadeEMP
-    - NFMagazineGrenadeEmpty
-  - type: Tag
-    tags:
-    - NFBlueprintMercenaryTechfab
-    - NFBlueprintNfsdTechfab
-
-- type: entity
   parent: NFBaseBlueprintExpedition
   id: BaseBlueprintWeaponXrayCannon
   components:

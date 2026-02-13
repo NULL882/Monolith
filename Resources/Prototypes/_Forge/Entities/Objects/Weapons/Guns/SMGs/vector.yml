@@ -1,6 +1,6 @@
 - type: entity #FrontierCorvax
   name: Vector (.22 LR)
-  parent: [ NFBaseWeaponSubMachineGunChamber35, BaseC3SyndicateContraband, NFBaseWeaponFrameSubMachineGunGorlex ]
+  parent: [ NFBaseWeaponSubMachineGunChamber35, BaseC3SyndicateContraband, ForgeBaseWeaponFrameSubMachineGunGorlex ]
   id: WeaponSubMachineGunVector22
   description: An illegal version of the legendary submachine gun for sport shooting. He might even be able to shoot a squirrel. Uses .22lr ammunition.
   components:

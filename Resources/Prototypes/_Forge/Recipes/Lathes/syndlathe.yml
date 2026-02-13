@@ -453,15 +453,6 @@
     Gold: 1000
 
 - type: latheRecipe
-  id: FSynLRecFoodBoxPizzaSyndi
-  result: FoodBoxPizzaSyndi
-  completetime: 2
-  categories:
-  - Food
-  materials:
-    Cardboard: 100
-
-- type: latheRecipe
   id: FSynLRecSyndicateBusinessCard
   result: SyndicateBusinessCard
   completetime: 2
