@@ -6211,13 +6211,6 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 16.5,20.5
       parent: 3
-- proto: ComputerMercenaryBountyRedemption
-  entities:
-  - uid: 2233
-    components:
-    - type: Transform
-      pos: 40.5,28.5
-      parent: 3
 - proto: ComputerPalletConsoleNFNormalMarket
   entities:
   - uid: 2179

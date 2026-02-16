@@ -13,20 +13,6 @@
     color: "#8FBC8F"
 
 - type: entity
-  parent: [ ClothingHeadHelmetHardsuitMercenary, BaseC1Contraband ]
-  id: ClothingHeadHelmetHardsuitAAMrAdv
-  name: AAM r-44 helmet
-  description: AAM r-44 helmet desc
-  categories: [ HideSpawnMenu ]
-  components:
-  - type: Sprite
-    sprite: _Mono/Clothing/Head/Hardsuits/syndielite.rsi # textures from _Mono
-  - type: Clothing
-    sprite: _Mono/Clothing/Head/Hardsuits/syndielite.rsi # textures from _Mono
-  - type: PointLight
-    color: "#800000"
-
-- type: entity
   parent: [ BaseC1Contraband, ClothingHeadHelmetDOC ]
   id: ClothingHeadHelmetHardsuitDOC
   name: DOC hardsuit helmet

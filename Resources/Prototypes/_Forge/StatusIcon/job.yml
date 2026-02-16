@@ -18,15 +18,6 @@
 
 - type: jobIcon
   parent: JobIcon
-  id: JobIconMedSyn
-  icon:
-    sprite: /Textures/Forge/Interface/Misc/job_icons.rsi
-    state: medsyn
-  jobName: forge-job-name-medsyn
-  allowSelection: false # Frontier
-
-- type: jobIcon
-  parent: JobIcon
   id: JobIconEngineerSyn
   icon:
     sprite: /Textures/Forge/Interface/Misc/job_icons.rsi

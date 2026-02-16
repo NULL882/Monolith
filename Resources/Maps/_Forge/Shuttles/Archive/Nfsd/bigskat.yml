@@ -42605,7 +42605,7 @@ entities:
     - type: Transform
       pos: 2.5360885,-10.749028
       parent: 1
-- proto: NFWeaponEnergyPistolDisablerPractice
+- proto: ForgeWeaponEnergyPistolDisablerPractice
   entities:
   - uid: 3360
     components:

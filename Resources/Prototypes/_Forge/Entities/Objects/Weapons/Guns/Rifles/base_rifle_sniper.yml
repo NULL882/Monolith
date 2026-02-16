@@ -1,7 +1,7 @@
 #region frame
 - type: entity
   id: ForgeBaseWeaponFrameRifleSniper
-  parent: [ BaseC1Contraband, ForgeBaseWeaponEncumbranceSniper, NFBaseItemWeaponGun ]
+  parent: [ BaseC1Contraband, ForgeBaseWeaponEncumbranceSniper, ForgeBaseItemWeaponGun ]
   suffix: Frontier
   abstract: true
   components:

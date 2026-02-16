@@ -13,7 +13,7 @@
      - NFSalvage
      - NFScience
      - NFService
-     - ForgeNFSDtechDiscipline
+  #   - ForgeNFSDtechDiscipline
   - type: Sprite
     sprite: Forge/Structures/Machines/server.rsi
     snapCardinals: true

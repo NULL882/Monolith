@@ -23,30 +23,6 @@
        type: ShipyardConsoleBoundUserInterface
 
 - type: entity
-  id: ComputerShipyardSalvage
-  parent: [BaseStructureDisableToolUse, BaseStructureIndestructible, ComputerShipyardBase]
-  name: salvage shipyard console
-  description: This shipyard console created for miners.
-  components:
-  - type: Sprite
-    sprite: _NF/Structures/Machines/computers.rsi
-    layers:
-    - map: ["computerLayerBody"]
-      state: computer
-    - map: ["computerLayerKeyboard"]
-      state: generic_keyboard
-    - map: ["computerLayerScreen"]
-      state: shipyard_mining
-    - map: ["computerLayerKeys"]
-      state: telesci_key
-  - type: ActivatableUI
-    key: enum.ShipyardConsoleUiKey.Salvage
-  - type: UserInterface
-    interfaces:
-      enum.ShipyardConsoleUiKey.Salvage:
-       type: ShipyardConsoleBoundUserInterface
-
-- type: entity
   id: ComputerShipyardDebug
   parent: [BaseStructureDisableToolUse, BaseStructureIndestructible, ComputerShipyardBase]
   name: centcom shipyard console

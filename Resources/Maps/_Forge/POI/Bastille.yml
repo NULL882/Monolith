@@ -46169,8 +46169,6 @@ entities:
           ents:
           - 24
           - 27
-    missingComponents:
-    - BindToStation
 - proto: PortableGeneratorDKMachineCircuitboard
   entities:
   - uid: 26
@@ -46216,7 +46214,6 @@ entities:
           occludes: True
           ent: 7
     missingComponents:
-    - BindToStation
     - ActivatableUI
 - proto: PortableGeneratorJrPacmanMachineCircuitboard
   entities:

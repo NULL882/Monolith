@@ -26579,7 +26579,7 @@ entities:
     - type: Transform
       pos: -3.1286361,-23.02317
       parent: 1
-- proto: NFCartridgeRifle20
+- proto: ForgeCartridgeRifle20e20
   entities:
   - uid: 3261
     components:

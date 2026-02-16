@@ -9,7 +9,7 @@
     sprite: Forge/Objects/Weapons/Melee/contractor_baton.rsi
     layers:
     - state: stunbaton_off
-      map: [ "enum.ToggleableVisuals.Layer" ]
+      map: [ "enum.ToggleVisuals.Layer" ]
   - type: ItemToggle
     predictable: false
     soundActivate:
@@ -24,9 +24,6 @@
       path: /Audio/Machines/button.ogg
       params:
         variation: 0.250
-  - type: ItemTogglePrefix
-    prefixOn: on
-    prefixOff: off
   - type: ItemToggleMeleeWeapon
     activatedDamage:
       types:
@@ -64,8 +61,8 @@
   - type: Appearance
   - type: GenericVisualizer
     visuals:
-     enum.ToggleableVisuals.Enabled:
-        enum.ToggleableVisuals.Layer:
+      enum.ToggleVisuals.Toggled:
+        enum.ToggleVisuals.Layer:
           True: {state: stunbaton_on}
           False: {state: stunbaton_off}
   - type: StaticPrice

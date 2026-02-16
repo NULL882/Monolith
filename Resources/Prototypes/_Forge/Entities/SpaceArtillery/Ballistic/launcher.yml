@@ -4,7 +4,6 @@
   parent: BallisticArtilleryMagazine
   description: desc
   components:
-  - type: BindToStation # Forge-change
   - type: StaticPrice
     price: 750
   - type: Gun

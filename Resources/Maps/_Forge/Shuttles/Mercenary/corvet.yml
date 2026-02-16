@@ -2270,14 +2270,6 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -3.5,-3.5
       parent: 1
-- proto: ComputerMercenaryBountyRedemption
-  entities:
-  - uid: 276
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -3.5,-4.5
-      parent: 1
 - proto: ComputerTabletopShuttle
   entities:
   - uid: 273

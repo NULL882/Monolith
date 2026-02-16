@@ -1,4 +1,22 @@
 - type: entity
+  parent: AirlockShuttleSyndicate
+  id: AirlockShuttleSyndicatePirateLocked
+  suffix: Pirate, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsPirate ]
+
+- type: entity
+  parent: AirlockGlassShuttleSyndicate
+  id: AirlockGlassShuttleSyndicatePirateLocked
+  suffix: Pirate, Glass Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsPirate ]
+
+- type: entity
   parent: AirlockHatch
   id: AirlockHatchCentComLocked
   name: герметичный люк

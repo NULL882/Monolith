@@ -58,7 +58,7 @@
     Glass: 50
 
 - type: entity
-  parent: NFBaseBlueprintExpedition
+  parent: BaseBlueprintExpedition
   id: NFBlueprintCrossbowBoltSponge
   name: чертёж болта с губчатым наконечником
   components:
@@ -67,7 +67,6 @@
     - CrossbowBoltSponge
   - type: Tag
     tags:
-    - NFBlueprintProtolathe
     - BlueprintAutolathe
 
 # Filled versions

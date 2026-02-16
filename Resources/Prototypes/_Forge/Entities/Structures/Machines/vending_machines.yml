@@ -90,23 +90,6 @@
     canShoot: false
 
 - type: entity
-  parent: [VendingMachinePickNPack, BaseStructureDisableAnchoring]
-  id: VendingMachinePickNPackPOIMers
-  name: ОружеМат
-  suffix: POI, Наёмники
-  components:
-  - type: VendingMachine
-    pack: PickNPackPOIInventoryMers
-    dispenseOnHitChance: 0
-    dispenseOnHitThreshold: 900
-    ejectRandomMax: 0
-    ejectRandomCounter: 0
-    canShoot: false
-  - type: AccessReader
-    access: [["Mercenary"], ["Security"], ["HeadOfPersonnel"], ["HeadOfSecurity"]]
-  - type: ActivatableUIRequiresAccess
-
-- type: entity
   parent: [BaseStructureDisableAnchoring, VendingMachine] # Frontier
   id: VendingMachineOfficerDrobe
   name: ОфицерШкаф

@@ -257,6 +257,8 @@ namespace Content.Server.Database
             var height = profile.Height <= 0.005f ? 1.0f : profile.Height;
             var width = profile.Width <= 0.005f ? 1.0f : profile.Width;
 
+            var barkVoice = profile.BarkVoice ?? SharedHumanoidAppearanceSystem.DefaultBarkVoice; // Corvax-Frontier-Barks
+
             return new  HumanoidCharacterProfile(
                 profile.CharacterName,
                 profile.FlavorText,
@@ -284,7 +286,9 @@ namespace Content.Server.Database
                 antags.ToHashSet(),
                 traits.ToHashSet(),
                 loadouts,
-                company);
+                company,
+                barkVoice // Corvax-Frontier-Barks
+                );
         }
 
         private static Profile ConvertProfiles(HumanoidCharacterProfile humanoid, int slot, Profile? profile = null)
@@ -338,6 +342,8 @@ namespace Content.Server.Database
                 humanoid.TraitPreferences
                         .Select(t => new Trait {TraitName = t})
             );
+
+            profile.BarkVoice = humanoid.BarkVoice; // Corvax-Frontier-Barks
 
             profile.Loadouts.Clear();
 

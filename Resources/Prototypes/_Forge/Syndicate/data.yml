@@ -87,7 +87,6 @@
   components:
   - type: Sprite
     sprite: Forge/Structures/Specific/Syndicate/syndicatedataconventor.rsi
-    drawdepth: LargeObjects
     snapCardinals: true
     layers:
     - state: server-nopower

@@ -1,6 +1,6 @@
 - type: entity
   name: Gal-50
-  parent: [NFBaseWeaponSubMachineGunChamber35, BaseC3SyndicateContraband, NFBaseWeaponFrameSubMachineGunCybersun]
+  parent: [ForgeBaseWeaponSubMachineGunChamber35, BaseC3SyndicateContraband, ForgeBaseWeaponFrameSubMachineGunCybersun]
   id: WeaponSubMachineGunGalem
   components:
   - type: Sprite

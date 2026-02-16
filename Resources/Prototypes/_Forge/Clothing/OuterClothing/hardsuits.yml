@@ -12,10 +12,6 @@
     reduction: 0.8
   - type: ExplosionResistance
     damageCoefficient: 0.5
-  - type: StaminaResistance
-    damageCoefficient: 0.6
-  - type: ZombificationResistance
-    zombificationResistanceCoefficient: 0.1
   - type: Armor
     modifiers:
       coefficients:
@@ -57,10 +53,6 @@
     reduction: 0.5
   - type: ExplosionResistance
     damageCoefficient: 0.5
-  - type: StaminaResistance
-    damageCoefficient: 0.75
-  - type: ZombificationResistance
-    zombificationResistanceCoefficient: 0.1
   - type: Armor
     modifiers:
       coefficients:
@@ -106,10 +98,6 @@
     reduction: 0.8
   - type: ExplosionResistance
     damageCoefficient: 0.2
-  - type: StaminaResistance
-    damageCoefficient: 0.3
-  - type: ZombificationResistance
-    zombificationResistanceCoefficient: 0.1
   - type: Armor
     modifiers:
       coefficients:
@@ -149,10 +137,6 @@
     reduction: 0.5
   - type: ExplosionResistance
     damageCoefficient: 0.5
-  - type: StaminaResistance
-    damageCoefficient: 0
-  - type: ZombificationResistance
-    zombificationResistanceCoefficient: 0.2
   - type: Armor
     modifiers:
       coefficients:
@@ -188,10 +172,6 @@
     reduction: 0.5
   - type: ExplosionResistance
     damageCoefficient: 0.5
-  - type: StaminaResistance
-    damageCoefficient: 0
-  - type: ZombificationResistance
-    zombificationResistanceCoefficient: 0.2
   - type: Armor
     modifiers:
       coefficients:
@@ -232,10 +212,6 @@
     reduction: 0.25
   - type: ExplosionResistance
     damageCoefficient: 0.75
-  - type: StaminaResistance
-    damageCoefficient: 0.2
-  - type: ZombificationResistance
-    zombificationResistanceCoefficient: 0.2
   - type: Armor
     modifiers:
       coefficients:

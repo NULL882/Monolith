@@ -1,6 +1,6 @@
 - type: entity
   name: Scorpion
-  parent: NFBaseWeaponFrameSubMachineGunNanotrasen
+  parent: ForgeBaseWeaponFrameSubMachineGunNanotrasen
   id: WeaponSubMachineGunScorpion
   description: The compact submachine gun was developed by TechnicLogistic for self-defense forces. Based on a short-barreled SMG, it is supplied to DSBF forces under order from Nanotrasen.
   components:
@@ -45,11 +45,11 @@
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
         name: Chamber
-        startingItem: NFCartridgeRifle20
+        startingItem: ForgeCartridgeRifle20
         priority: 1
         whitelist:
           tags:
-            - NFCartridgeRifle20
+            - ForgeCartridgeRifle20
   - type: ContainerContainer
     containers:
       ballistic-ammo: !type:Container

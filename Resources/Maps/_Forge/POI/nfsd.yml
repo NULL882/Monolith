@@ -18453,8 +18453,6 @@ entities:
       parent: 1
     - type: Physics
       bodyType: Dynamic
-    missingComponents:
-    - BindToStation
   - uid: 2456
     components:
     - type: Transform
@@ -18463,8 +18461,6 @@ entities:
       parent: 1
     - type: Physics
       bodyType: Dynamic
-    missingComponents:
-    - BindToStation
 - proto: Handcuffs
   entities:
   - uid: 2457
@@ -19047,7 +19043,7 @@ entities:
     - type: Transform
       pos: 6.25,0.5
       parent: 1
-- proto: NFWeaponEnergyPistolDisablerPractice
+- proto: ForgeWeaponEnergyPistolDisablerPracticeice
   entities:
   - uid: 2537
     components:
@@ -22175,8 +22171,6 @@ entities:
       parent: 1
     - type: Physics
       bodyType: Dynamic
-    missingComponents:
-    - BindToStation
   - uid: 3048
     components:
     - type: Transform
@@ -22186,8 +22180,6 @@ entities:
       parent: 1
     - type: Physics
       bodyType: Dynamic
-    missingComponents:
-    - BindToStation
 - proto: ToolboxElectricalFilled
   entities:
   - uid: 3049

@@ -19,8 +19,6 @@
         Caustic: 0.5
   - type: FireProtection
     reduction: 0.7
-  - type: StaminaResistance
-    damageCoefficient: 0.3
   - type: ExplosionResistance
     damageCoefficient: 0.5
 
@@ -47,9 +45,5 @@
         Caustic: 0.5
   - type: FireProtection
     reduction: 0.7
-  - type: StaminaResistance
-    damageCoefficient: 0.3
   - type: ExplosionResistance
     damageCoefficient: 0.5
-  - type: ZombificationResistance
-    zombificationResistanceCoefficient: 0.3

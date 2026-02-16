@@ -17,7 +17,6 @@
     - SemiAuto
   - type: StaticPrice
     price: 250
-  - type: FireOnLand # DeltaV - gun safety
 
 #region manufacturer
 - type: entity

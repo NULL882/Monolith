@@ -1,24 +1,4 @@
 - type: entity
-  parent: BaseShipVoucher
-  id: ShipVoucherColiseum
-  name: coliseum ship voucher
-  description: Allows you to buy a shuttle for fighting at the coliseum.
-  components:
-  - type: Sprite
-    sprite: Forge/Objects/Misc/shipyard_voucher.rsi
-    layers:
-    - state: coliseum
-    - state: vouchercoliseum
-  - type: Item
-    heldPrefix: coliseum
-  - type: ShipyardVoucher
-    destroyOnEmpty: true
-    consoleType: Coliseum
-  - type: CargoSellBlacklist
-  - type: StaticPrice
-    price: 2500
-
-- type: entity
   parent: ShipVoucherNfsdSergeant
   id: ShipVoucherNfsdSheriff
   name: NFSD Sheriff ship voucher

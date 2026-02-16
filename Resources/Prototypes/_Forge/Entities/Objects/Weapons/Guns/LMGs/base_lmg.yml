@@ -65,11 +65,11 @@
             - NFMagazineBoxRifle20
       gun_chamber:
         name: Chamber
-        startingItem: NFCartridgeRifle20
+        startingItem: ForgeCartridgeRifle20
         priority: 1
         whitelist:
           tags:
-            - NFCartridgeRifle20
+            - ForgeCartridgeRifle20
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot

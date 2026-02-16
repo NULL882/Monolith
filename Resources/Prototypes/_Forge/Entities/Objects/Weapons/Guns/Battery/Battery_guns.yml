@@ -150,7 +150,7 @@
     fireModes:
     - proto: BulletLaserHeavySyndie
       fireCost: 160
-    - proto: NFBulletDisabler
+    - proto: ForgeBulletDisabler
       fireCost: 80
 
 - type: entity
@@ -168,7 +168,7 @@
     fireModes:
     - proto: BulletLaserSyndie
       fireCost: 120
-    - proto: NFBulletDisabler
+    - proto: ForgeBulletDisabler
       fireCost: 80
 
 - type: entity
@@ -222,7 +222,7 @@
 
 - type: entity
   id: BaseWeaponFrameEnergyPistolSyndie
-  parent: [ NFBaseWeaponFrameEnergyPistol, BaseWeaponBattery ]
+  parent: [ ForgeBaseWeaponFrameEnergyPistol, BaseWeaponBattery ]
   suffix: Frontier
   abstract: true
   components:
@@ -263,7 +263,7 @@
 
 - type: entity
   id: BulletLaserHeavySyndie
-  parent: NFBaseBulletLaser
+  parent: ForgeBaseBulletLaser
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -276,7 +276,7 @@
 
 - type: entity
   id: BulletLaserSyndie
-  parent: NFBaseBulletLaser
+  parent: ForgeBaseBulletLaser
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -408,7 +408,7 @@
 
 - type: entity
   id: WeaponDOCLaserPistol
-  parent: [ BaseWeaponEnergyPistolFireModesDOC, NFBaseWeaponFrameEnergyPistolNanotrasen ]
+  parent: [ BaseWeaponEnergyPistolFireModesDOC, ForgeBaseWeaponFrameEnergyPistolNanotrasen ]
   name: DOC pistol
   description: |-
     Powerful laser pistol specially designed by Vitezstvi for the Director of Care
@@ -445,7 +445,7 @@
 
 - type: entity
   id: BulletLaserDOC
-  parent: NFBaseBulletLaser
+  parent: ForgeBaseBulletLaser
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile

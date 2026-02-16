@@ -3,10 +3,10 @@
   name: disabling laser barrage
   id: ForgeBulletDisablerSmgSpread
   categories: [ HideSpawnMenu ]
-  parent: NFBulletDisablerSmg
+  parent: ForgeBulletDisablerSmg
   components:
   - type: ProjectileSpread
-    proto: NFBulletDisablerSmg
+    proto: ForgeBulletDisablerSmg
     count: 3 #bit stronger than a disabler if you hit your shots you goober, still not a 2 hit stun though
     spread: 9
 
@@ -14,10 +14,10 @@
   name: narrow laser barrage
   id: ForgeBulletLaserSpreadNarrow
   categories: [ HideSpawnMenu ]
-  parent: NFBulletLaserMedium
+  parent: ForgeBulletLaserMedium
   components:
   - type: ProjectileSpread
-    proto: NFBulletLaserMedium
+    proto: ForgeBulletLaserMedium
     count: 4 #*48* heat damage if you hit all your shots, but narrower spread
     spread: 10
 
@@ -25,9 +25,9 @@
   name: wide laser barrage
   id: ForgeBulletLaserSpread
   categories: [ HideSpawnMenu ]
-  parent: NFBulletLaserMedium
+  parent: ForgeBulletLaserMedium
   components:
   - type: ProjectileSpread
-    proto: NFBulletLaserMedium
+    proto: ForgeBulletLaserMedium
     count: 5 #*50* heat damage if you hit all your shots, but wide spread
     spread: 30

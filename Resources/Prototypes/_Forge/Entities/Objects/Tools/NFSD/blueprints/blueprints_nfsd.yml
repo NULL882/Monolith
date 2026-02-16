@@ -1,33 +1,33 @@
 - type: entity
-  parent: NFBaseBlueprintExpedition
+  parent: BaseBlueprintExpedition
   id: BlueprintRifleUranium
   components:
   - type: Blueprint
     providedRecipes:
-    - NFAmmunitionBoxShellShotgunIncendiary
-    - NFAmmunitionBoxShellShotgunUranium
-    - NFAmmunitionBoxRifle30Incendiary
-    - NFAmmunitionBoxRifle30Uranium
-    - NFAmmunitionBoxRifle25Incendiary
-    - NFAmmunitionBoxRifle25Uranium
-    - NFAmmunitionBoxPistol45Incendiary
-    - NFAmmunitionBoxPistol45Uranium
-    - NFAmmunitionBoxRifle20Incendiary
-    - NFAmmunitionBoxRifle20Uranium
+    - ForgeAmmunitionBoxShellShotgunIncendiary
+    - ForgeAmmunitionBoxShellShotgunUranium
+    - ForgeAmmunitionBoxRifle30Incendiary
+    - ForgeAmmunitionBoxRifle30Uranium
+    - ForgeAmmunitionBoxRifle25Incendiary
+    - ForgeAmmunitionBoxRifle25Uranium
+    - ForgeAmmunitionBoxPistol45Incendiary
+    - ForgeAmmunitionBoxPistol45Uranium
+    - ForgeAmmunitionBoxRifle20Incendiary
+    - ForgeAmmunitionBoxRifle20Uranium
   - type: Tag
     tags:
-    - NFBlueprintMercenaryTechfab
-    - NFBlueprintNfsdTechfab
+    - ForgeBlueprintMercenaryTechfab
+    - ForgeBlueprintNfsdTechfab
 
 - type: entity
-  parent: NFBaseBlueprintExpedition
+  parent: BaseBlueprintExpedition
   id: BaseBlueprintWeaponXrayCannon
   components:
   - type: Blueprint
     providedRecipes:
-    - NFWeaponEnergyRifleSniperXrayCannon
-    - NFWeaponEnergyRifleSniperCannon
+    - ForgeWeaponEnergyRifleSniperXrayCannon
+    - ForgeWeaponEnergyRifleSniperCannon
   - type: Tag
     tags:
-    - NFBlueprintMercenaryTechfab
-    - NFBlueprintNfsdTechfab
+    - ForgeBlueprintMercenaryTechfab
+    - ForgeBlueprintNfsdTechfab

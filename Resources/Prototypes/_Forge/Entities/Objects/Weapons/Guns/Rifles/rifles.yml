@@ -183,7 +183,7 @@
 
 - type: entity
   name: dagger
-  parent: [NFBaseWeaponRifleAssaultChamber20, BaseC2ContrabandUnredeemable, NFBaseWeaponFrameRifleAssaultCybersun]
+  parent: [ForgeBaseWeaponRifleAssaultChamber20, BaseC2ContrabandUnredeemable, ForgeBaseWeaponFrameRifleAssaultCybersun]
   id: WeaponRifleDagger
   components:
   - type: Sprite
@@ -227,11 +227,11 @@
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
         name: Chamber
-        startingItem: NFCartridgeRifle20
+        startingItem: ForgeCartridgeRifle20
         priority: 1
         whitelist:
           tags:
-            - NFCartridgeRifle20
+            - ForgeCartridgeRifle20
   - type: ContainerContainer
     containers:
       ballistic-ammo: !type:Container
@@ -264,7 +264,7 @@
 
 - type: entity
   name: Cascade
-  parent: [BaseWeaponRifleAssaultChamber45, BaseC2ContrabandUnredeemable, NFBaseWeaponFrameRifleAssaultCybersun]
+  parent: [BaseWeaponRifleAssaultChamber45, BaseC2ContrabandUnredeemable, ForgeBaseWeaponFrameRifleAssaultCybersun]
   id: WeaponRifleCascade
   suffix: TechnicLogistic
   components:
@@ -351,7 +351,7 @@
 
 - type: entity
   name: Union-M1
-  parent: [NFBaseWeaponRifleAssaultChamber20, BaseC2ContrabandUnredeemable, ForgeBaseWeaponFrameRifleAssaultNanotrasen]
+  parent: [ForgeBaseWeaponRifleAssaultChamber20, BaseC2ContrabandUnredeemable, ForgeBaseWeaponFrameRifleAssaultNanotrasen]
   id: WeaponRifleAr30
   description: The Scar-12 battle rifle, developed by TechnicLogistic for its own army, is one of the most commonly found models on the black market due to its efficiency and accuracy. Currently, it is supplied to DSBF forces under a special order from NT.
   components:
@@ -423,7 +423,7 @@
 
 - type: entity
   name: Рет-Cог
-  parent: [ForgeBaseWeaponRifleAssaultChamber30, BaseC3SyndicateContraband, NFBaseWeaponFrameRifleAssaultCybersun]
+  parent: [ForgeBaseWeaponRifleAssaultChamber30, BaseC3SyndicateContraband, ForgeBaseWeaponFrameRifleAssaultCybersun]
   id: WeaponRifleAkCyberSun
   description: Облегчённая штурмовая автоматическая винтовка, улучшена компанией Cybersun специально для поставки на черный рынок. Ещё чувствуется запах краски...
   components:
@@ -477,7 +477,7 @@
 
 - type: entity
   name: МВ Эсток
-  parent: [NFBaseWeaponRifleAssaultChamber20, BaseC3SyndicateContraband, NFBaseWeaponFrameRifleAssaultCybersun]
+  parent: [ForgeBaseWeaponRifleAssaultChamber20, BaseC3SyndicateContraband, ForgeBaseWeaponFrameRifleAssaultCybersun]
   id: NFWeaponRifleEstoc
   description: Специальная стрелковая винтовка, стреляющая очередями по 3 патрона. Эсток была разработана как дальнобойный аналог Лектера, оснащенный удлиненным 20-дюймовым стволом и оптическим прицелом.
   components:
@@ -526,11 +526,11 @@
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
         name: Chamber
-        startingItem: NFCartridgeRifle20
+        startingItem: ForgeCartridgeRifle20
         priority: 1
         whitelist:
           tags:
-          - NFCartridgeRifle20
+          - ForgeCartridgeRifle20
   - type: SpeedModifiedOnWield
     sprintModifier: 0.9
   - type: ContainerContainer
@@ -544,7 +544,7 @@
   - type: Appearance
 
 - type: entity
-  parent: [ NFBaseWeaponRifleChamber60Magazine, BaseGunWieldable, NFBaseWeaponFrameRifleSniperNanotrasen]
+  parent: [ ForgeBaseWeaponRifleChamber60Magazine, BaseGunWieldable, ForgeBaseWeaponFrameRifleSniperNanotrasen]
   id: WeaponSniperBrute
   name: Брут
   description: Смертоносная крупнокалиберная снайперская винтовка. Очевидно, что она не предназначена для разгона мирных демонстраций... Хотя, кто с вами будет спорить?
@@ -571,7 +571,7 @@
 
 - type: entity
   name: Anarchist
-  parent: [BaseWeaponRifleAssaultChamber45, BaseC2ContrabandUnredeemable, NFBaseWeaponFrameRifleAssaultCybersun]
+  parent: [BaseWeaponRifleAssaultChamber45, BaseC2ContrabandUnredeemable, ForgeBaseWeaponFrameRifleAssaultCybersun]
   id: WeaponRifleAnarchist
   description: The TechnicLogistic assault carbine from the Self-Defense Forces has a high authority and rate of fire, but the large caliber makes the weapon quite cumbersome.
   components:

@@ -21,12 +21,8 @@
         Caustic: 0.5
   - type: FireProtection
     reduction: 0.7
-  - type: StaminaResistance
-    damageCoefficient: 0.3
   - type: ExplosionResistance
     damageCoefficient: 0.5
-  - type: ZombificationResistance
-    zombificationResistanceCoefficient: 0.3
 
 - type: entity
   parent: [ ClothingOuterBaseLarge, BaseCentcommContraband ]
@@ -51,12 +47,8 @@
         Caustic: 0.3
   - type: FireProtection
     reduction: 0.8
-  - type: StaminaResistance
-    damageCoefficient: 0.2
   - type: ExplosionResistance
     damageCoefficient: 0.2
-  - type: ZombificationResistance
-    zombificationResistanceCoefficient: 0.3
   - type: GroupExamine
   - type: ClothingSpeedModifier
     walkModifier: 1
