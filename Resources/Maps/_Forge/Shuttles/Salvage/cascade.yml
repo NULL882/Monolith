@@ -1,3 +1,4 @@
+# Removed missing prototypes: NFMagnetBoxOre
 meta:
   format: 7
   category: Grid
@@ -1891,15 +1892,7 @@ entities:
     - type: Transform
       pos: -7.5,15.5
       parent: 826
-- proto: NFMagnetBoxOre
-  entities:
-  - uid: 2857
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -9.5,7.5
-      parent: 826
-    - type: Conveyed
+
 - proto: NitrogenCanister
   entities:
   - uid: 2905

@@ -1061,7 +1061,6 @@ entities:
     - type: Gravity
       gravityShakeSound: !type:SoundPathSpecifier
         path: /Audio/Effects/alert.ogg
-    - type: ImplicitRoof
 - proto: AccordionInstrument
   entities:
   - uid: 1426

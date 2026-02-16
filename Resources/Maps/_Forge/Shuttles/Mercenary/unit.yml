@@ -485,7 +485,6 @@ entities:
         chunkSize: 4
     - type: GasTileOverlay
     - type: RadiationGridResistance
-    - type: ImplicitRoof
 - proto: 150mmEmpShell
   entities:
   - uid: 429

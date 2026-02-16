@@ -355,7 +355,6 @@ entities:
     - type: BecomesStation
       id: Konserv
     - type: RadiationGridResistance
-    - type: ImplicitRoof
 - proto: AirAlarm
   entities:
   - uid: 2

@@ -1344,7 +1344,6 @@ entities:
     - type: RadiationGridResistance
     - type: BecomesStation
       id: arcadiaBase
-    - type: ImplicitRoof
     - type: ProtectedGrid
       hostileMobKillSound: !type:SoundPathSpecifier
         path: /Audio/Effects/holy.ogg

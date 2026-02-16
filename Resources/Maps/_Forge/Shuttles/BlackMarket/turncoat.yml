@@ -749,7 +749,6 @@ entities:
     - type: RadiationGridResistance
     - type: BecomesStation
       id: Turncoat
-    - type: ImplicitRoof
 - proto: AccordionInstrument
   entities:
   - uid: 2

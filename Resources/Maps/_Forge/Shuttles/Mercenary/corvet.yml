@@ -715,7 +715,6 @@ entities:
     - type: RadiationGridResistance
     - type: BecomesStation
       id: Corvet
-    - type: ImplicitRoof
 - proto: AirAlarm
   entities:
   - uid: 2

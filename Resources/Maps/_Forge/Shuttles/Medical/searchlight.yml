@@ -1,3 +1,4 @@
+# Removed missing prototypes: NFSpawnerRandomPosterLvhi
 meta:
   format: 7
   category: Grid
@@ -2143,13 +2144,7 @@ entities:
       rot: 3.141592653589793 rad
       pos: -0.5,-13.5
       parent: 1
-- proto: NFSpawnerRandomPosterLvhi
-  entities:
-  - uid: 339
-    components:
-    - type: Transform
-      pos: -1.5,-1.5
-      parent: 1
+
 - proto: NitrogenCanister
   entities:
   - uid: 244

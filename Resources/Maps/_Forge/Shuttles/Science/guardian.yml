@@ -1,3 +1,4 @@
+# Removed missing prototypes: HandheldArtifactContainer, NFLockerScienceFilled
 meta:
   format: 7
   category: Grid
@@ -623,7 +624,6 @@ entities:
     - type: RadiationGridResistance
     - type: BecomesStation
       id: Guardian
-    - type: ImplicitRoof
 - proto: AirAlarm
   entities:
   - uid: 211
@@ -3814,14 +3814,7 @@ entities:
     - type: Transform
       pos: 7.5,10.5
       parent: 2
-- proto: HandheldArtifactContainer
-  entities:
-  - uid: 494
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 1.4849463,14.6558275
-      parent: 2
+
 - proto: KitchenReagentGrinder
   entities:
   - uid: 767
@@ -3921,13 +3914,7 @@ entities:
       parent: 2
     - type: WiresPanel
       open: True
-- proto: NFLockerScienceFilled
-  entities:
-  - uid: 369
-    components:
-    - type: Transform
-      pos: 14.225573,6.50666
-      parent: 2
+
 - proto: OreBag
   entities:
   - uid: 386

@@ -232,7 +232,6 @@ entities:
     - type: RadiationGridResistance
     - type: BecomesStation
       id: Dagger1
-    - type: ImplicitRoof
 - proto: AirlockGlassShuttleNfsdLocked
   entities:
   - uid: 1549

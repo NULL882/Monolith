@@ -1,3 +1,4 @@
+# Removed missing prototypes: ADTSalvageAirlockGlass, NFMagnetBoxOre
 meta:
   format: 7
   category: Grid
@@ -68,7 +69,6 @@ entities:
     - type: SpreaderGrid
     - type: Shuttle
       dampingModifier: 0.25
-    - type: ImplicitRoof
     - type: GridPathfinding
     - type: Gravity
       gravityShakeSound: !type:SoundPathSpecifier
@@ -290,31 +290,7 @@ entities:
     - type: RadiationGridResistance
     - type: BecomesStation
       id: Spark
-- proto: ADTSalvageAirlockGlass
-  entities:
-  - uid: 130
-    components:
-    - type: Transform
-      pos: 1.5,2.5
-      parent: 207
-  - uid: 275
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 1.5,10.5
-      parent: 207
-  - uid: 288
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 2.5,10.5
-      parent: 207
-  - uid: 290
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 1.5,14.5
-      parent: 207
+
 - proto: AirAlarm
   entities:
   - uid: 466
@@ -2596,15 +2572,7 @@ entities:
     - type: Transform
       pos: 1.5,15.5
       parent: 207
-- proto: NFMagnetBoxOre
-  entities:
-  - uid: 214
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -1.5,8.5
-      parent: 207
-    - type: Conveyed
+
 - proto: NitrogenCanister
   entities:
   - uid: 254

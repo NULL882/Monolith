@@ -344,7 +344,6 @@ entities:
     - type: GasTileOverlay
     - type: BecomesStation
       id: SalvationUnion
-    - type: ImplicitRoof
 - proto: AirCanister
   entities:
   - uid: 114

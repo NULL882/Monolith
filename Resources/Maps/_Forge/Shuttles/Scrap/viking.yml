@@ -1,3 +1,4 @@
+# Removed missing prototypes: NFMagnetBoxOre
 meta:
   format: 7
   category: Grid
@@ -5010,41 +5011,7 @@ entities:
     - type: Transform
       pos: 4.674666,-4.3010406
       parent: 1
-- proto: NFMagnetBoxOre
-  entities:
-  - uid: 567
-    components:
-    - type: Transform
-      pos: -0.7776567,-13.845795
-      parent: 1
-    - type: Storage
-      storedItems:
-        568:
-          position: 6,3
-          _rotation: South
-        569:
-          position: 14,1
-          _rotation: East
-        572:
-          position: 10,5
-          _rotation: South
-        570:
-          position: 16,7
-          _rotation: East
-        571:
-          position: 2,4
-          _rotation: North
-    - type: ContainerContainer
-      containers:
-        storagebase: !type:Container
-          showEnts: False
-          occludes: True
-          ents:
-          - 568
-          - 569
-          - 572
-          - 570
-          - 571
+
 - proto: NitrogenTank
   entities:
   - uid: 573

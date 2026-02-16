@@ -1122,7 +1122,6 @@ entities:
     - type: RadiationGridResistance
     - type: BecomesStation
       id: Poli
-    - type: ImplicitRoof
   - uid: 26
     components:
     - type: MetaData

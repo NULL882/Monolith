@@ -173,7 +173,6 @@ entities:
         chunkSize: 4
     - type: GasTileOverlay
     - type: RadiationGridResistance
-    - type: ImplicitRoof
 - proto: AirlockGlassShuttleNfsdLocked
   entities:
   - uid: 28

@@ -1488,7 +1488,6 @@ entities:
     - type: GasTileOverlay
     - type: BecomesStation
       id: Orion
-    - type: ImplicitRoof
 - proto: AirAlarm
   entities:
   - uid: 1387

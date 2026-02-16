@@ -1108,7 +1108,6 @@ entities:
     - type: GasTileOverlay
     - type: BecomesStation
       id: Enigma
-    - type: ImplicitRoof
 - proto: AdvMopItem
   entities:
   - uid: 3

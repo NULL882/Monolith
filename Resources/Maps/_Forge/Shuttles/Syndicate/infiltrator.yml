@@ -563,7 +563,6 @@ entities:
     - type: BecomesStation
       id: Infiltrator
     - type: GridPathfinding
-    - type: ImplicitRoof
 - proto: AirlockExternal
   entities:
   - uid: 4

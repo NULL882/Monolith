@@ -1125,7 +1125,6 @@ entities:
     - type: BecomesStation
       id: Vostok
     - type: NavMap
-    - type: ImplicitRoof
 - proto: 150mmEmpShell
   entities:
   - uid: 2484

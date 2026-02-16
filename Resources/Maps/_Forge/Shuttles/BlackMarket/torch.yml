@@ -441,7 +441,6 @@ entities:
       id: Torch
     - type: IFF
       flags: HideLabel
-    - type: ImplicitRoof
 - proto: AirAlarm
   entities:
   - uid: 34

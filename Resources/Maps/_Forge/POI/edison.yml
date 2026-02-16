@@ -2660,7 +2660,6 @@ entities:
     - type: RadiationGridResistance
     - type: BecomesStation
       id: Edison
-    - type: ImplicitRoof
 - proto: AcousticGuitarInstrument
   entities:
   - uid: 3

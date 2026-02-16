@@ -1,3 +1,4 @@
+# Removed missing prototypes: SpawnRandomDrinkMug
 meta:
   format: 7
   category: Grid
@@ -850,7 +851,6 @@ entities:
     - type: RadiationGridResistance
     - type: BecomesStation
       id: Retort
-    - type: ImplicitRoof
 - proto: AirAlarm
   entities:
   - uid: 2
@@ -5025,18 +5025,7 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -5.5,-7.5
       parent: 1
-- proto: SpawnRandomDrinkMug
-  entities:
-  - uid: 133
-    components:
-    - type: Transform
-      pos: -6.19751,-9.488662
-      parent: 1
-  - uid: 206
-    components:
-    - type: Transform
-      pos: -6.1454263,-9.207412
-      parent: 1
+
 - proto: StairDark
   entities:
   - uid: 424

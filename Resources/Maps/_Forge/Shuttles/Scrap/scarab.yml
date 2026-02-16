@@ -1,3 +1,4 @@
+# Removed missing prototypes: NFMagnetBoxOre
 meta:
   format: 7
   category: Grid
@@ -2166,13 +2167,7 @@ entities:
     - type: Transform
       pos: 13.5,3.5
       parent: 2
-- proto: NFMagnetBoxOre
-  entities:
-  - uid: 433
-    components:
-    - type: Transform
-      pos: 11.5,7.5
-      parent: 2
+
 - proto: OreProcessor
   entities:
   - uid: 434

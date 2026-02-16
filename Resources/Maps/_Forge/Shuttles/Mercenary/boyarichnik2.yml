@@ -768,7 +768,6 @@ entities:
     - type: RadiationGridResistance
     - type: BecomesStation
       id: boyaryshnik2
-    - type: ImplicitRoof
   - uid: 743
     mapInit: true
     paused: true

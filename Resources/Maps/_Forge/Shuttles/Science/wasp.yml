@@ -1,3 +1,4 @@
+# Removed missing prototypes: HandheldArtifactContainer
 meta:
   format: 7
   category: Grid
@@ -64,7 +65,6 @@ entities:
     - type: SpreaderGrid
     - type: Shuttle
       dampingModifier: 0.25
-    - type: ImplicitRoof
     - type: GridPathfinding
     - type: Gravity
       gravityShakeSound: !type:SoundPathSpecifier
@@ -1005,19 +1005,7 @@ entities:
     - type: Transform
       pos: -0.5,-8.5
       parent: 1
-- proto: HandheldArtifactContainer
-  entities:
-  - uid: 107
-    components:
-    - type: Transform
-      pos: 3.7444687,-5.5355053
-      parent: 1
-  - uid: 108
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 2.9475937,-3.3167572
-      parent: 1
+
 - proto: LockerWallMaterialsFuelPlasmaFilled
   entities:
   - uid: 80

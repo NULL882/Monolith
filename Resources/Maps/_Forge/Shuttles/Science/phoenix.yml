@@ -1,3 +1,4 @@
+# Removed missing prototypes: HandheldArtifactContainer, NFLockerScienceFilled
 meta:
   format: 7
   category: Grid
@@ -1201,7 +1202,6 @@ entities:
     - type: RadiationGridResistance
     - type: BecomesStation
       id: Phoenix
-    - type: ImplicitRoof
 - proto: AirAlarm
   entities:
   - uid: 2
@@ -4296,18 +4296,7 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 1.5,1.5
       parent: 1
-- proto: HandheldArtifactContainer
-  entities:
-  - uid: 265
-    components:
-    - type: Transform
-      pos: 0.5,-2.5
-      parent: 1
-  - uid: 283
-    components:
-    - type: Transform
-      pos: 0.5,-3.5
-      parent: 1
+
 - proto: HandLabeler
   entities:
   - uid: 476
@@ -4494,13 +4483,7 @@ entities:
     - type: Transform
       pos: 12.5,11.5
       parent: 1
-- proto: NFLockerScienceFilled
-  entities:
-  - uid: 512
-    components:
-    - type: Transform
-      pos: 8.5,10.5
-      parent: 1
+
 - proto: NitrogenCanister
   entities:
   - uid: 498

@@ -1,3 +1,4 @@
+# Removed missing prototypes: NFMagnetBoxOre
 meta:
   format: 7
   category: Grid
@@ -4774,41 +4775,7 @@ entities:
     - type: Transform
       pos: 3.5,18.5
       parent: 249
-- proto: NFMagnetBoxOre
-  entities:
-  - uid: 186
-    components:
-    - type: Transform
-      anchored: True
-      rot: 1.5707963267948966 rad
-      pos: 7.5,-0.5
-      parent: 249
-    - type: Physics
-      bodyType: Static
-    - type: Conveyed
-  - uid: 928
-    components:
-    - type: Transform
-      pos: 8.5,6.5
-      parent: 249
-  - uid: 943
-    components:
-    - type: Transform
-      anchored: True
-      pos: -6.5,1.5
-      parent: 249
-    - type: Physics
-      bodyType: Static
-  - uid: 944
-    components:
-    - type: Transform
-      anchored: True
-      rot: 3.141592653589793 rad
-      pos: -1.5,6.5
-      parent: 249
-    - type: Physics
-      bodyType: Static
-    - type: Conveyed
+
 - proto: NitrogenCanister
   entities:
   - uid: 181

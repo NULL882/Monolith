@@ -263,7 +263,6 @@ entities:
     - type: RadiationGridResistance
     - type: BecomesStation
       id: flash
-    - type: ImplicitRoof
 - proto: AirlockExternalShuttleSyndicateLocked
   entities:
   - uid: 19

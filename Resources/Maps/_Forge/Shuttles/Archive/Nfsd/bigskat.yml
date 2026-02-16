@@ -1,3 +1,4 @@
+# Removed missing prototypes: NFLockerScienceFilled
 meta:
   format: 7
   category: Grid
@@ -42428,18 +42429,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: NFLockerScienceFilled
-  entities:
-  - uid: 3377
-    components:
-    - type: Transform
-      pos: -10.5,-7.5
-      parent: 1
-  - uid: 3378
-    components:
-    - type: Transform
-      pos: -9.5,-7.5
-      parent: 1
+
 - proto: NFMagazinePistol35
   entities:
   - uid: 4454

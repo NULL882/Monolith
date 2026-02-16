@@ -266,7 +266,6 @@ entities:
     - type: BecomesStation
       id: Sword
     - type: RadiationGridResistance
-    - type: ImplicitRoof
 - proto: AirCanister
   entities:
   - uid: 1036

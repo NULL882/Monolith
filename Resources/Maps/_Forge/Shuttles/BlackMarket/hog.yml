@@ -510,7 +510,6 @@ entities:
     - type: IFF
       color: '#FFC000FF'
       flags: HideLabel
-    - type: ImplicitRoof
 - proto: AirlockGlassShuttleSyndicate
   entities:
   - uid: 125

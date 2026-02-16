@@ -233,7 +233,6 @@ entities:
       color: '#FFC000FF'
       flags: HideLabel
     - type: RadiationGridResistance
-    - type: ImplicitRoof
 - proto: AirlockExternalGlassPirateLocked
   entities:
   - uid: 8

@@ -1,3 +1,4 @@
+# Removed missing prototypes: NFMagnetBoxOre, NFClothingBackpackDuffelColorBrownLight, NFSpawnerRandomPosterLvhi, SpawnRandomDrinkMug
 meta:
   format: 7
   category: Grid
@@ -1674,13 +1675,7 @@ entities:
     - type: Transform
       pos: -0.5940566,-0.78623724
       parent: 1
-- proto: NFClothingBackpackDuffelColorBrownLight
-  entities:
-  - uid: 301
-    components:
-    - type: Transform
-      pos: 1.4684434,-1.4581122
-      parent: 1
+
 - proto: NFHolopadShip
   entities:
   - uid: 298
@@ -1688,13 +1683,7 @@ entities:
     - type: Transform
       pos: -2.5,-2.5
       parent: 1
-- proto: NFMagnetBoxOre
-  entities:
-  - uid: 303
-    components:
-    - type: Transform
-      pos: 2.5,-7.5
-      parent: 1
+
 - proto: NFSignDock
   entities:
   - uid: 267
@@ -1703,13 +1692,7 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -0.5,-10.5
       parent: 1
-- proto: NFSpawnerRandomPosterLvhi
-  entities:
-  - uid: 288
-    components:
-    - type: Transform
-      pos: 1.5,0.5
-      parent: 1
+
 - proto: NitrogenCanister
   entities:
   - uid: 234
@@ -2036,18 +2019,7 @@ entities:
     - type: Transform
       pos: 0.5,-1.5
       parent: 1
-- proto: SpawnRandomDrinkMug
-  entities:
-  - uid: 49
-    components:
-    - type: Transform
-      pos: -0.609375,-0.38597608
-      parent: 1
-  - uid: 244
-    components:
-    - type: Transform
-      pos: -0.34375,-0.46410108
-      parent: 1
+
 - proto: StairStageDark
   entities:
   - uid: 105

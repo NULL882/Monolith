@@ -987,7 +987,6 @@ entities:
     - type: BecomesStation
       id: Faron
     - type: RadiationGridResistance
-    - type: ImplicitRoof
 - proto: AirAlarm
   entities:
   - uid: 2

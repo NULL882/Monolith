@@ -847,7 +847,6 @@ entities:
       color: '#FFC000FF'
       flags: HideLabel
     - type: NavMap
-    - type: ImplicitRoof
 - proto: AirAlarm
   entities:
   - uid: 663

@@ -1,3 +1,4 @@
+# Removed missing prototypes: HandheldArtifactContainer, NFLockerScienceFilled, NFMagnetBoxOre
 meta:
   format: 7
   category: Grid
@@ -813,7 +814,6 @@ entities:
         chunkSize: 4
     - type: GasTileOverlay
     - type: RadiationGridResistance
-    - type: ImplicitRoof
 - proto: AirAlarm
   entities:
   - uid: 2
@@ -4675,18 +4675,7 @@ entities:
     - type: Transform
       pos: -3.5,-6.5
       parent: 1
-- proto: HandheldArtifactContainer
-  entities:
-  - uid: 635
-    components:
-    - type: Transform
-      pos: 2.4052835,-0.32003427
-      parent: 1
-  - uid: 636
-    components:
-    - type: Transform
-      pos: 2.5696344,-0.61528397
-      parent: 1
+
 - proto: HarmonicaInstrument
   entities:
   - uid: 637
@@ -4948,20 +4937,8 @@ entities:
     - type: Transform
       pos: -2.5,-6.5
       parent: 1
-- proto: NFLockerScienceFilled
-  entities:
-  - uid: 661
-    components:
-    - type: Transform
-      pos: 11.5,1.5
-      parent: 1
-- proto: NFMagnetBoxOre
-  entities:
-  - uid: 662
-    components:
-    - type: Transform
-      pos: 5.5,0.5
-      parent: 1
+
+
 - proto: NitrogenCanister
   entities:
   - uid: 663

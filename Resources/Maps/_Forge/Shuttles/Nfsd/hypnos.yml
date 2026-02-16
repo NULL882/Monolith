@@ -503,7 +503,6 @@ entities:
         chunkSize: 4
     - type: GasTileOverlay
     - type: RadiationGridResistance
-    - type: ImplicitRoof
 - proto: AirlockEngineering
   entities:
   - uid: 2

@@ -277,7 +277,6 @@ entities:
     - type: RadiationGridResistance
     - type: BecomesStation
       id: Owl
-    - type: ImplicitRoof
 - proto: AirAlarm
   entities:
   - uid: 1674

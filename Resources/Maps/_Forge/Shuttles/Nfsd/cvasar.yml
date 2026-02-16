@@ -269,7 +269,6 @@ entities:
     - type: GasTileOverlay
     - type: BecomesStation
       id: cvasar
-    - type: ImplicitRoof
 - proto: AirAlarm
   entities:
   - uid: 2

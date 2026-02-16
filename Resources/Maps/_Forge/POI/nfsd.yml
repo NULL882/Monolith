@@ -1,3 +1,4 @@
+# Removed missing prototypes: NFLockerScienceFilled, NFMagnetBoxOre
 meta:
   format: 7
   category: Grid
@@ -3221,7 +3222,6 @@ entities:
     - type: BecomesStation
       id: Nfsd
     - type: NavMap
-    - type: ImplicitRoof
 - proto: ActionToggleLight
   entities:
   - uid: 3
@@ -18888,21 +18888,8 @@ entities:
     - type: Transform
       pos: -3.5,7.5
       parent: 1
-- proto: NFLockerScienceFilled
-  entities:
-  - uid: 2511
-    components:
-    - type: Transform
-      pos: 19.5,18.5
-      parent: 1
-- proto: NFMagnetBoxOre
-  entities:
-  - uid: 2512
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 17.5,21.5
-      parent: 1
+
+
 - proto: NFPrisonerClosetWallOrangeFilled
   entities:
   - uid: 2513

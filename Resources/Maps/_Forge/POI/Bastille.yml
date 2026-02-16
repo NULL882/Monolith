@@ -1,3 +1,4 @@
+# Removed missing prototypes: NFMagnetBoxOre
 meta:
   format: 7
   category: Grid
@@ -7749,7 +7750,6 @@ entities:
     - type: StationMember
     - type: StationTransit
       routes: {}
-    - type: ImplicitRoof
   - uid: 3
     components:
     - type: MetaData
@@ -44180,18 +44180,7 @@ entities:
     - type: Transform
       pos: -6.3096323,9.260017
       parent: 1
-- proto: NFMagnetBoxOre
-  entities:
-  - uid: 5512
-    components:
-    - type: Transform
-      pos: 34.5,6.5
-      parent: 1
-  - uid: 5513
-    components:
-    - type: Transform
-      pos: -11.5,8.5
-      parent: 1
+
 - proto: NFPlushieConstruction
   entities:
   - uid: 3924

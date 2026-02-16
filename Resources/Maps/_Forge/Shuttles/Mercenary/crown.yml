@@ -368,7 +368,6 @@ entities:
     - type: BecomesStation
       id: Crown
     - type: RadiationGridResistance
-    - type: ImplicitRoof
 - proto: AirCanister
   entities:
   - uid: 2

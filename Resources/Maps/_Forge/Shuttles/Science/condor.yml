@@ -1,3 +1,4 @@
+# Removed missing prototypes: NFLockerScienceFilled
 meta:
   format: 7
   category: Grid
@@ -4616,13 +4617,7 @@ entities:
     - type: Transform
       pos: -1.5,-0.5
       parent: 281
-- proto: NFLockerScienceFilled
-  entities:
-  - uid: 631
-    components:
-    - type: Transform
-      pos: 1.5,-8.5
-      parent: 281
+
 - proto: PaperBin10
   entities:
   - uid: 28

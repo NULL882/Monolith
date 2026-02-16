@@ -1,3 +1,4 @@
+# Removed missing prototypes: NFMagnetBoxOre
 meta:
   format: 7
   category: Grid
@@ -718,7 +719,6 @@ entities:
     - type: RadiationGridResistance
     - type: BecomesStation
       id: Mule
-    - type: ImplicitRoof
 - proto: AirAlarm
   entities:
   - uid: 2
@@ -4510,19 +4510,7 @@ entities:
     - type: Transform
       pos: 0.5,8.5
       parent: 1
-- proto: NFMagnetBoxOre
-  entities:
-  - uid: 594
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 2.5,-9.5
-      parent: 1
-  - uid: 833
-    components:
-    - type: Transform
-      pos: 2.5,-10.5
-      parent: 1
+
 - proto: NFPosterContrabandLvhiLogo
   entities:
   - uid: 850

@@ -993,7 +993,6 @@ entities:
     - type: BecomesStation
       id: Ravager
     - type: NavMap
-    - type: ImplicitRoof
 - proto: AirAlarm
   entities:
   - uid: 1765

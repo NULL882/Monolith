@@ -361,7 +361,6 @@ entities:
       color: '#FFC000FF'
       flags: HideLabel
     - type: RadiationGridResistance
-    - type: ImplicitRoof
 - proto: 150mmApShell
   entities:
   - uid: 525

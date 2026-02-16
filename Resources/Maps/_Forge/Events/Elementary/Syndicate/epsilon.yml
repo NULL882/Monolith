@@ -459,7 +459,6 @@ entities:
     - type: RadiationGridResistance
     - type: BecomesStation
       id: Epsilon
-    - type: ImplicitRoof
 - proto: AirAlarm
   entities:
   - uid: 830

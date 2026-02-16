@@ -287,7 +287,6 @@ entities:
     - type: RadiationGridResistance
     - type: BecomesStation
       id: Oblomok
-    - type: ImplicitRoof
 - proto: AirAlarm
   entities:
   - uid: 239

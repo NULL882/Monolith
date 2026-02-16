@@ -966,7 +966,6 @@ entities:
     - type: RadiationGridResistance
     - type: BecomesStation
       id: Dreadnought
-    - type: ImplicitRoof
 - proto: AirAlarm
   entities:
   - uid: 903

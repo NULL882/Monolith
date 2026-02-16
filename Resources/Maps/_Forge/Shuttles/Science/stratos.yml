@@ -1,3 +1,4 @@
+# Removed missing prototypes: ADTSalvageAirlockGlass, HandheldArtifactContainer, NFLockerScienceFilled, NFMagnetBoxOre
 meta:
   format: 7
   category: Grid
@@ -1667,7 +1668,6 @@ entities:
     - type: RadiationGridResistance
     - type: BecomesStation
       id: Stratos
-    - type: ImplicitRoof
 - proto: ADTBarAirlock
   entities:
   - uid: 1052
@@ -1689,20 +1689,6 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 11.5,25.5
-      parent: 1
-- proto: ADTSalvageAirlockGlass
-  entities:
-  - uid: 1055
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -3.5,19.5
-      parent: 1
-  - uid: 1056
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -3.5,18.5
       parent: 1
 - proto: AirAlarm
   entities:
@@ -8736,18 +8722,6 @@ entities:
     - type: Transform
       pos: -7.5,13.5
       parent: 1
-- proto: HandheldArtifactContainer
-  entities:
-  - uid: 1257
-    components:
-    - type: Transform
-      pos: 4.6213655,7.463336
-      parent: 1
-  - uid: 1258
-    components:
-    - type: Transform
-      pos: 4.5119905,7.635211
-      parent: 1
 - proto: HospitalCurtainsOpen
   entities:
   - uid: 665
@@ -9008,26 +8982,6 @@ entities:
     - type: Transform
       pos: 0.5,21.5
       parent: 1
-- proto: NFLockerScienceFilled
-  entities:
-  - uid: 592
-    components:
-    - type: Transform
-      pos: -3.2600994,9.537935
-      parent: 1
-  - uid: 649
-    components:
-    - type: Transform
-      pos: -1.2706952,11.526087
-      parent: 1
-- proto: NFMagnetBoxOre
-  entities:
-  - uid: 722
-    components:
-    - type: Transform
-      pos: -6.5,15.5
-      parent: 1
-    - type: Conveyed
 - proto: NFPosterLegitMothPlease
   entities:
   - uid: 1132

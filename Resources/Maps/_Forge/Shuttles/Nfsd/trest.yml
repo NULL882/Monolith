@@ -228,7 +228,6 @@ entities:
     - type: RadiationGridResistance
     - type: BecomesStation
       id: Trest
-    - type: ImplicitRoof
 - proto: AirCanister
   entities:
   - uid: 1098

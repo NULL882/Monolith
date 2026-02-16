@@ -1,3 +1,4 @@
+# Removed missing prototypes: NFMagnetBoxOre
 meta:
   format: 7
   category: Grid
@@ -61,7 +62,6 @@ entities:
     - type: SpreaderGrid
     - type: Shuttle
       dampingModifier: 0.25
-    - type: ImplicitRoof
     - type: GridPathfinding
     - type: Gravity
       gravityShakeSound: !type:SoundPathSpecifier
@@ -2153,13 +2153,7 @@ entities:
     - type: Transform
       pos: -1.5,7.5
       parent: 1
-- proto: NFMagnetBoxOre
-  entities:
-  - uid: 280
-    components:
-    - type: Transform
-      pos: -2.5,1.5
-      parent: 1
+
 - proto: NitrogenCanister
   entities:
   - uid: 281

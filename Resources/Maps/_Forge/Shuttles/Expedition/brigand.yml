@@ -1,3 +1,4 @@
+# Removed missing prototypes: NFMagnetBoxOre
 meta:
   format: 7
   category: Grid
@@ -897,7 +898,6 @@ entities:
     - type: RadiationGridResistance
     - type: BecomesStation
       id: Brigand
-    - type: ImplicitRoof
 - proto: ActionStethoscope
   entities:
   - uid: 3
@@ -4386,14 +4386,7 @@ entities:
     - type: Transform
       pos: -1.5,4.5
       parent: 1
-- proto: NFMagnetBoxOre
-  entities:
-  - uid: 550
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -1.5,-11.5
-      parent: 1
+
 - proto: NFPosterContrabandLvhiLogo
   entities:
   - uid: 551

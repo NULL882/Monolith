@@ -965,7 +965,6 @@ entities:
     - type: IFF
       readOnly: True
       color: '#488C40FF'
-    - type: ImplicitRoof
     - type: BlockEvacuation
 - proto: AirAlarm
   entities:

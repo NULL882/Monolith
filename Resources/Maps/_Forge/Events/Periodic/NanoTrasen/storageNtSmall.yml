@@ -335,7 +335,6 @@ entities:
     - type: RadiationGridResistance
     - type: BecomesStation
       id: vaultsmall
-    - type: ImplicitRoof
 - proto: AirlockExternalLocked
   entities:
   - uid: 212

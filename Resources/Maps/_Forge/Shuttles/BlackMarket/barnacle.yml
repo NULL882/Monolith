@@ -161,7 +161,6 @@ entities:
       flags: HideLabel
     - type: SpreaderGrid
     - type: NavMap
-    - type: ImplicitRoof
 - proto: AirAlarm
   entities:
   - uid: 235

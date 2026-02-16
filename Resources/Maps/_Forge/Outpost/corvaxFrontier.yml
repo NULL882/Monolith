@@ -14796,7 +14796,6 @@ entities:
     - type: BecomesStation
       id: corvaxFrontier
     - type: RadiationGridResistance
-    - type: ImplicitRoof
     - type: ProtectedGrid
       hostileMobKillSound: !type:SoundPathSpecifier
         path: /Audio/Effects/holy.ogg
