@@ -69,6 +69,7 @@ ent-ComputerShuttleTradeOutpostRemote = Консоль трафика Торго
 
 ent-BaseComputerTraffic = консоль трафика
 ent-ComputerPalletConsoleNFVeryHighMarket = { ent-ComputerPalletConsoleNFNormalMarket }
+    .desc = Используется для продажи товаров, размещенных на грузовых поддонах.
     .suffix = Очень высокий налог
 ent-ComputerSalvageExpeditionDebug = консоль продажи газа
     .desc = Продаёт газ, закачанный в связанный порт/пункт продажи.
