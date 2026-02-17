@@ -162,3 +162,101 @@
   parent: WelderExperimental
   id: FRecWelderNfsd
   result: WelderNfsd
+
+# region Ammo
+
+# Forge-Change: NFSD ammo box recipes ported from Frontier1 (_NF/Recipes/Lathes/security.yml) with Forge ids
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: ForgeAmmunitionBoxShellShotgunIncendiary
+  result: ForgeAmmunitionBoxShellShotgunIncendiary
+  materials:
+    Plastic: 400 # 20 shells * 20 Plastic per shell
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: ForgeAmmunitionBoxShellShotgunUranium
+  result: ForgeAmmunitionBoxShellShotgunUranium
+  materials:
+    Plastic: 250 # 20 shells * 12.5 Plastic per shell
+    Uranium: 250 # 20 shells * 12.5 Uranium per shell
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: ForgeAmmunitionBoxRifle20Incendiary
+  result: ForgeAmmunitionBoxRifle20Incendiary
+  materials:
+    Plastic: 1200 # 60 rounds * 20 Plastic per round
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: ForgeAmmunitionBoxRifle20Uranium
+  result: ForgeAmmunitionBoxRifle20Uranium
+  materials:
+    Plastic: 600 # 60 rounds * 10 Plastic per round
+    Uranium: 600 # 60 rounds * 10 Uranium per round
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: ForgeAmmunitionBoxRifle25Incendiary
+  result: ForgeAmmunitionBoxRifle25Incendiary
+  materials:
+    Plastic: 1200 # 60 rounds * 20 Plastic per round
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: ForgeAmmunitionBoxRifle25Uranium
+  result: ForgeAmmunitionBoxRifle25Uranium
+  materials:
+    Plastic: 600 # 60 rounds * 10 Plastic per round
+    Uranium: 600 # 60 rounds * 10 Uranium per round
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: ForgeAmmunitionBoxRifle30Incendiary
+  result: ForgeAmmunitionBoxRifle30Incendiary
+  materials:
+    Plastic: 1200 # 60 rounds * 20 Plastic per round
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: ForgeAmmunitionBoxRifle30Uranium
+  result: ForgeAmmunitionBoxRifle30Uranium
+  materials:
+    Plastic: 600 # 60 rounds * 10 Plastic per round
+    Uranium: 600 # 60 rounds * 10 Uranium per round
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: ForgeAmmunitionBoxPistol45Incendiary
+  result: ForgeAmmunitionBoxPistol45Incendiary
+  materials:
+    Plastic: 1200 # 80 rounds * 15 Plastic per round
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: ForgeAmmunitionBoxPistol45Uranium
+  result: ForgeAmmunitionBoxPistol45Uranium
+  materials:
+    Plastic: 600 # 80 rounds * 7.5 Plastic per round
+    Uranium: 600 # 80 rounds * 7.5 Uranium per round
+
+- type: latheRecipe
+  parent: BaseWeaponRecipeLong
+  id: ForgeWeaponEnergyRifleSniperXrayCannon
+  result: ForgeWeaponEnergyRifleSniperXrayCannon
+  materials:
+    Steel: 1500
+    Glass: 500
+    Plastic: 250
+    Gold: 100
+
+- type: latheRecipe
+  parent: BaseWeaponRecipeLong
+  id: ForgeWeaponEnergyRifleSniperCannon
+  result: ForgeWeaponEnergyRifleSniperCannon
+  materials:
+    Steel: 1250
+    Plastic: 750
+    Gold: 500

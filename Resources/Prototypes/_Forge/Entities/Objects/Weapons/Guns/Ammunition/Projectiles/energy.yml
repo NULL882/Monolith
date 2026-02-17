@@ -10,7 +10,7 @@
     damage:
       types:
         Heat: 13.5 # Corvax-Forge: Weaponary update
-      armorPenetration: 0.1 # Forge-Change
+    armorPenetration: 0.1 # Forge-Change
 
 - type: entity
   id: ForgeBulletLaserLowMed # Corvax-Forge: Weaponary update
@@ -22,7 +22,7 @@
     damage:
       types:
         Heat: 16.5 # Corvax-Forge: Weaponary update
-      armorPenetration: 0.15 # Forge-Change
+    armorPenetration: 0.15 # Forge-Change
 
 # Assault Rifles / Carbines
 - type: entity
@@ -52,7 +52,7 @@
     damage:
       types:
         Heat: 18 # Corvax-Forge: Weaponary update
-      armorPenetration: 0.2 # Forge-Change
+    armorPenetration: 0.2 # Forge-Change
 
 # Rifles
 - type: entity
@@ -65,7 +65,7 @@
     damage:
       types:
         Heat: 21 # Corvax-Forge: Weaponary update
-      armorPenetration: 0.25 # Forge-Change
+    armorPenetration: 0.25 # Forge-Change
 
 #region Disabler bolts
 - type: entity
@@ -192,7 +192,7 @@
     damage:
       types:
         Heat: 40
-      armorPenetration: 0.4
+    armorPenetration: 0.4
 
 - type: entity
   name: лазерный снаряд
@@ -205,7 +205,7 @@
     damage:
       types:
         Heat: 20
-      armorPenetration: 0.2
+    armorPenetration: 0.2
 
 - type: entity
   name: радиактивный снаряд
@@ -225,7 +225,7 @@
       types:
         Heat: 20
         Radiation: 20
-      armorPenetration: 0.2
+    armorPenetration: 0.2
 
 - type: entity
   name: импульсный снаряд
@@ -245,7 +245,7 @@
       types:
         Heat: 30
         Structural: 100
-      armorPenetration: 0.4
+    armorPenetration: 0.4
 
 - type: entity
   name: тяжёлый импульсный снаряд
@@ -265,7 +265,7 @@
       types:
         Heat: 100
         Structural: 1000
-      armorPenetration: 0.5
+    armorPenetration: 0.5
 
 - type: entity
   name: тяжёлый импульсный снаряд
@@ -285,7 +285,7 @@
       types:
         Heat: 50
         Structural: 500
-      armorPenetration: 0.5
+    armorPenetration: 0.5
 
 - type: entity
   name: Уничтожить

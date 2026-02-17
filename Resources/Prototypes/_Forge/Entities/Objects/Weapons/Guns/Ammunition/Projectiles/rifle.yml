@@ -37,7 +37,7 @@
       types:
         Piercing: 70
         Structural: 300
-      armorPenetration: 0.85
+    armorPenetration: 0.85 # Forge-Change: moved out of DamageSpecifier
     penetrationThreshold: 700
     penetrationDamageTypeRequirement:
     - Structural
@@ -54,7 +54,7 @@
         Piercing: 25
         Heat: 20
         Structural: 100
-      armorPenetration: 0.6
+    armorPenetration: 0.6 # Forge-Change: moved out of DamageSpecifier
     penetrationThreshold: 360
     penetrationDamageTypeRequirement:
     - Structural

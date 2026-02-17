@@ -73,3 +73,55 @@
     - type: Sprite
       sprite: Forge/Objects/Storage/boxes.rsi
       state: KS23BeanbagDispenser
+
+# Forge-Change: ported NF shotgun ammo boxes from Frontier1 with Forge prefix
+
+- type: entity
+  id: ForgeBaseAmmunitionBoxShellShotgun
+  parent: ForgeBaseAmmunitionBox
+  name: shell box (.50 shell)
+  abstract: true
+  components:
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+      - ShellShotgun
+    capacity: 20
+  - type: Sprite
+    sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/shotgun.rsi
+
+- type: entity
+  id: ForgeAmmunitionBoxShellShotgunIncendiary
+  parent: [ForgeBaseAmmunitionBoxShellShotgun, BaseC2ContrabandUnredeemable]
+  name: shell box (.50 incendiary)
+  components:
+  - type: BallisticAmmoProvider
+    proto: NFShellShotgunIncendiary
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+      color: "#897e6a"
+    - state: decal-01
+      color: "#ff0000"
+    - state: decal-shell-incendiary
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  id: ForgeAmmunitionBoxShellShotgunUranium
+  parent: [ForgeBaseAmmunitionBoxShellShotgun, BaseC2ContrabandUnredeemable]
+  name: shell box (.50 uranium)
+  components:
+  - type: BallisticAmmoProvider
+    proto: NFShellShotgunUranium
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+      color: "#897e6a"
+    - state: decal-01
+      color: "#00ff00"
+    - state: decal-shell-uranium
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]

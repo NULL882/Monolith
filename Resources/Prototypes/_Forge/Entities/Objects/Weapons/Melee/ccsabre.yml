@@ -12,7 +12,7 @@
     damage:
       types:
         Slash: 19
-      armorPenetration: 0.5
+    armorPenetration: 0.5 # Forge-Change: moved out of DamageSpecifier
     soundHit:
         path: /Audio/Weapons/bladeslice.ogg
   - type: Reflect
@@ -51,7 +51,7 @@
     damage:
       types:
         Slash: 25
-      armorPenetration: 0.7
+    armorPenetration: 0.7 # Forge-Change: moved out of DamageSpecifier
     soundHit:
         path: /Audio/Weapons/bladeslice.ogg
   - type: Reflect

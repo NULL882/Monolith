@@ -105,3 +105,11 @@
 
 - type: Tag
   id: MagazineRifle45
+
+# Forge-Change: tags used by NFSD blueprints
+
+- type: Tag
+  id: ForgeBlueprintMercenaryTechfab
+
+- type: Tag
+  id: ForgeBlueprintNfsdTechfab

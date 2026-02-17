@@ -54,7 +54,7 @@
     damage:
       types:
         Slash: 19
-      armorPenetration: 0.4
+    armorPenetration: 0.4 # Forge-Change: moved out of DamageSpecifier
     soundHit:
         path: /Audio/Weapons/bladeslice.ogg
   - type: Reflect

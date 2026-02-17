@@ -272,7 +272,7 @@
       types:
         Heat: 16
         Radiation: 4
-      armorPenetration: 0.2
+    armorPenetration: 0.2 # Forge-Change: moved out of DamageSpecifier
 
 - type: entity
   id: BulletLaserSyndie
@@ -285,7 +285,7 @@
       types:
         Heat: 11
         Radiation: 3
-      armorPenetration: 0.15
+    armorPenetration: 0.15 # Forge-Change: moved out of DamageSpecifier
 
 - type: entity
   id: WeaponSyndieEnergyFalconPistolLaser
