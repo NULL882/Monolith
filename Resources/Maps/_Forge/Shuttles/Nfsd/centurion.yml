@@ -10808,13 +10808,13 @@ entities:
     - type: Transform
       parent: 1502
     - type: ProjectileBatteryAmmoProvider
-      proto: NFBulletDisabler
+      proto: ForgeBulletDisabler
     - type: EnergyGun
       currentFireMode:
         state: disabler
         name: disable
         fireCost: 60
-        proto: NFBulletDisabler
+        proto: ForgeBulletDisabler
     - type: Item
       heldPrefix: disabler
     - type: Physics

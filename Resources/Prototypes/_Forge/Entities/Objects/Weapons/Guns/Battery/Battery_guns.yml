@@ -440,7 +440,7 @@
     fireModes:
     - proto: BulletLaserDOC
       fireCost: 120
-    - proto: NFBulletDisabler
+    - proto: ForgeBulletDisabler
       fireCost: 80
 
 - type: entity
