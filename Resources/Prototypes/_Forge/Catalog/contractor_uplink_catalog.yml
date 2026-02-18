@@ -346,16 +346,16 @@
   - ContractorUplinkAmmo
 
 # For the Cobra
-- type: listing
-  id: ContractorUplinkMagazinePistolCaselessRifle
-  name: uplink-pistol-magazine-caseless-name
-  description: uplink-pistol-magazine-caseless-desc
-  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/CaselessRifle/caseless_pistol_mag.rsi, state: red-icon }
-  productEntity: NFMagazinePistol45
-  cost:
-    Telecrystal: 2
-  categories:
-  - ContractorUplinkAmmo
+# - type: listing
+#   id: ContractorUplinkMagazinePistolCaselessRifle
+#   name: uplink-pistol-magazine-caseless-name
+#   description: uplink-pistol-magazine-caseless-desc
+#   icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/CaselessRifle/caseless_pistol_mag.rsi, state: red-icon }
+#   productEntity: NFMagazinePistol45
+#   cost:
+#     Telecrystal: 2
+#   categories:
+#   - ContractorUplinkAmmo
 
 # For the Python
 - type: listing

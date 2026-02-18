@@ -15,8 +15,8 @@
   - FreedomImplanter
   - C4
   - NFWeaponRifleAssaultSm
-  - NFMagazineRifle30
-  - NFMagazineRifle30
+  # - NFMagazineRifle30
+  # - NFMagazineRifle30
   - NFAmmunitionBoxRifle30
 
 - type: thiefBackpackSet
@@ -59,7 +59,7 @@
   - NFWeaponShotgunBulldog
   - NFMagazineShotgunDrum
   - NFMagazineShotgunDrum
-  - NFAmmunitionBoxShellShotgunBuckshot
+  # - NFAmmunitionBoxShellShotgunBuckshot
 
 - type: thiefBackpackSet
   id: SyndCommander4Set

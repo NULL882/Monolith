@@ -12,9 +12,9 @@
   - DefibrillatorSyndicate
   - NFPouchFirstAidMEdickMedipen
   - NFWeaponRifleAssaultJackdaw
-  - NFMagazineRifle20
-  - NFMagazineRifle20
-  - NFWeaponEnergyPistolDisabler
+  # - NFMagazineRifle20
+  # - NFMagazineRifle20
+  - WeaponDisabler
   - Stimpack
   - Stimpack
   - MedkitCombatFilled
@@ -37,9 +37,9 @@
   - DefibrillatorSyndicate
   - NFPouchFirstAidMEdickMedipen
   - NFWeaponShotgunEnforcer
-  - NFAmmunitionBoxShellShotgunBuckshot
-  - NFAmmunitionBoxShellShotgunBuckshot
-  - NFWeaponEnergyPistolDisabler
+  # - NFAmmunitionBoxShellShotgunBuckshot
+  # - NFAmmunitionBoxShellShotgunBuckshot
+  - WeaponDisabler
   - Stimpack
   - Stimpack
   - MedkitCombatFilled
@@ -88,12 +88,12 @@
   - SyndiHypo
   - DefibrillatorSyndicate
   - NFPouchFirstAidMEdickMedipen
-  - NFWeaponEnergyPistolDisabler
+  - WeaponDisabler
   - EnergyShield
   - EnergyDaggerLoud
   - ChemistryBottleEpinephrine
   - ChemistryBottleEpinephrine
-  - ChemistryBottleOmnizine
+  - OmnizineChemistryBottle
   - MedkitFilled
   - MedkitAdvancedFilled
   - MedkitToxinFilled

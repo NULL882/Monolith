@@ -19,7 +19,7 @@
   - SheetGlass
   - ConstructionBag
   - NFWeaponRifleAssaultSm
-  - NFMagazineRifle30
+  # - NFMagazineRifle30
 
 - type: thiefBackpackSet
   id: SyndEngineer2Set

@@ -20,7 +20,7 @@
     NFAmmunitionBoxRifle30: 4294967295
     NFAmmunitionBoxPistol45: 4294967295
     NFAmmunitionBoxRifle20: 4294967295
-    NFAmmunitionBoxShellShotgunBuckshot: 4294967295
+    # NFAmmunitionBoxShellShotgunBuckshot: 4294967295
     NFAmmunitionBoxShellShotgunFlare: 4294967295
   emaggedInventory:
     NFWeaponPistolViper: 1
@@ -29,11 +29,11 @@
   id: PickNPackPOIInventoryMers
   startingInventory:
   # Weapons
-    NFWeaponPistolMk58: 4294967295
+    WeaponPistolMk58: 4294967295
     NFWeaponPistolPollock: 4294967295
     NFWeaponRifleAssaultNovaliteC1: 4294967295
     NFWeaponRifleAssaultGestio: 4294967295
-    NFWeaponShotgunKammerer: 4294967295
+    WeaponShotgunKammerer: 4294967295
     NFWeaponEnergyPistolLaser: 4294967295 #CorvaxFrontier
     # NFWeaponRevolverArgenti: 4294967295 #CorvaxFrontier
     NFWeaponRevolverFitz: 4294967295 #CorvaxFrontier

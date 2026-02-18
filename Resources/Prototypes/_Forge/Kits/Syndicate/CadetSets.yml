@@ -12,7 +12,7 @@
   - ClothingShoesBootsMagSyndie
   - EmpImplanter
   - FreedomImplanter
-  - NFWeaponEnergyPistolDisabler
+  - WeaponDisabler
   - Stunbaton
   - BoxZiptie
   - PinpointerUniversal
@@ -20,8 +20,8 @@
   - MedkitAdvancedFilled
   - Stimpack
   - NFWeaponPistolCobra
-  - NFMagazinePistol45
-  - NFMagazinePistol45
+  # - NFMagazinePistol45
+  # - NFMagazinePistol45
   - NFAmmunitionBoxPistol45
 
 - type: thiefBackpackSet
@@ -38,7 +38,7 @@
   - ClothingShoesBootsMagSyndie
   - EmpImplanter
   - FreedomImplanter
-  - NFWeaponEnergyPistolDisabler
+  - WeaponDisabler
   - Stunbaton
   - BoxZiptie
   - PinpointerUniversal

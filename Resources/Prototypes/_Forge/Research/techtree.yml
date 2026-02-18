@@ -1390,8 +1390,8 @@
   tier: 1
   cost: 1000
   recipeUnlocks:
-  - NFAmmunitionBoxShellShotgunBuckshot
-  - NFAmmunitionBoxShellShotgunSlug
+  # - NFAmmunitionBoxShellShotgunBuckshot
+  # - NFAmmunitionBoxShellShotgunSlug
   - NFAmmunitionBoxRifle20
   - NFAmmunitionBoxRifle25
   - NFAmmunitionBoxRifle30
@@ -1437,7 +1437,7 @@
   - NFAmmunitionBoxPistol35Overpressure
   - NFAmmunitionBoxPistol45Overpressure
   - NFMagazineHighCapacityPistol35Empty
-  - NFMagazinePistol45Empty
+  # - NFMagazinePistol45Empty
   prerequisiteLineType: Diagonal
   technologyPrerequisites:
   - NFBasicAmmunitionProduction
@@ -1454,8 +1454,8 @@
   - NFAmmunitionBoxRifle20Overpressure
   - NFAmmunitionBoxRifle30Overpressure
   - NFAmmunitionBoxShellShotgunOverpressure
-  - NFMagazineRifle20Empty
-  - NFMagazineRifle30Empty
+  # - NFMagazineRifle20Empty
+  # - NFMagazineRifle30Empty
   - NFMagazineDrumRifle20Empty
   - MagazineAsmgtUniversalEmpty
   technologyPrerequisites:
@@ -1471,7 +1471,7 @@
   cost: 5000
   recipeUnlocks:
   - NFAmmunitionBoxRifle25Overpressure
-  - NFMagazineSubMachineGunTopMounted35Empty
+  # - NFMagazineSubMachineGunTopMounted35Empty
   prerequisiteLineType: Diagonal
   technologyPrerequisites:
   - NFImprovedPistolAmmo

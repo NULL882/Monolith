@@ -38,10 +38,10 @@
       amount: 1
     - id: EmergencyMedipen
       amount: 1
-    - id: NFWeaponShotgunKammerer
+    - id: WeaponShotgunKammerer
       amount: 1
-    - id: NFAmmunitionBoxShellShotgunBuckshot
-      amount: 2
+    # - id: NFAmmunitionBoxShellShotgunBuckshot
+    #   amount: 2
 
 - type: entity
   parent: CrateNfsdSecure2
@@ -417,7 +417,7 @@
       amount: 1
     - id: PunctAutoInjector
       amount: 1
-    - id: NFWeaponEnergyPistolDisabler
+    - id: WeaponDisabler
       amount: 1
     - id: PinpointerUniversal
       amount: 1
@@ -446,7 +446,7 @@
       amount: 1
     - id: PunctAutoInjector
       amount: 1
-    - id: NFWeaponEnergyPistolDisabler
+    - id: WeaponDisabler
       amount: 1
     - id: PinpointerUniversal
       amount: 1
@@ -477,7 +477,7 @@
       amount: 1
     - id: PunctAutoInjector
       amount: 1
-    - id: NFWeaponEnergyPistolDisabler
+    - id: WeaponDisabler
       amount: 1
     - id: PinpointerUniversal
       amount: 1
@@ -506,7 +506,7 @@
       amount: 1
     - id: PunctAutoInjector
       amount: 1
-    - id: NFWeaponEnergyPistolDisabler
+    - id: WeaponDisabler
       amount: 1
     - id: PinpointerUniversal
       amount: 1

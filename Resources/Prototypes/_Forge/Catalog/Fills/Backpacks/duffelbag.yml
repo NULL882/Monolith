@@ -123,12 +123,12 @@
     contents:
       - id: NFMagazineSubMachineGun35Overpressure
         amount: 4
-      - id: NFMagazineRifle30Overpressure
-        amount: 4
+      # - id: NFMagazineRifle30Overpressure
+      #   amount: 4
       - id: NFMagazineShotgunDrumSlug
         amount: 4
-      - id: NFMagazineRifle20Overpressure
-        amount: 4
+      # - id: NFMagazineRifle20Overpressure
+      #   amount: 4
       - id: NFAmmunitionBoxRifle25Overpressure
         amount: 2
       - id: NFAmmunitionBoxRifle30Overpressure

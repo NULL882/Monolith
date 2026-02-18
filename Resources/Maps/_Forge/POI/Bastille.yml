@@ -26636,14 +26636,14 @@ entities:
     - type: Transform
       pos: 12.285237,-43.708466
       parent: 1
-- proto: ChemistryBottleNitrogen
+- proto: NitrogenChemistryBottle
   entities:
   - uid: 3548
     components:
     - type: Transform
       pos: -17.697819,-43.180977
       parent: 1
-- proto: ChemistryBottleOmnizine
+- proto: OmnizineChemistryBottle
   entities:
   - uid: 15
     components:
@@ -26675,7 +26675,7 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 12.627687,-34.76494
       parent: 1
-- proto: ChemistryBottleUnstableMutagen
+- proto: UnstableMutagenChemistryBottle
   entities:
   - uid: 1369
     components:
@@ -44094,29 +44094,6 @@ entities:
     - type: Transform
       pos: -6.6037025,-48.428066
       parent: 1
-- proto: NFAmmunitionBoxBigRifle20Incendiary
-  entities:
-  - uid: 5499
-    components:
-    - type: Transform
-      pos: 6.287954,-48.28153
-      parent: 1
-- proto: NFAmmunitionBoxShellShotgunBuckshot
-  entities:
-  - uid: 5500
-    components:
-    - type: Transform
-      pos: -0.35142344,-47.418
-      parent: 1
-- proto: NFAmmunitionBoxShellShotgunSlug
-  entities:
-  - uid: 3588
-    components:
-    - type: Transform
-      parent: 3587
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
 - proto: NFBedroll
   entities:
   - uid: 5501

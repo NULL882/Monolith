@@ -166,12 +166,12 @@
   materials:
     MercenaryToken: 5
 
-- type: latheRecipe
-  id: BoxMagazinePistolSubMachineGunTopMountedExchangeRecipe
-  result: NFMagazineSubMachineGunTopMounted35
-  completetime: 1
-  materials:
-    MercenaryToken: 5
+# - type: latheRecipe
+#   id: BoxMagazinePistolSubMachineGunTopMountedExchangeRecipe
+#   result: NFMagazineSubMachineGunTopMounted35
+#   completetime: 1
+#   materials:
+#     MercenaryToken: 5
 
 - type: latheRecipe
   id: RiotLaserShieldExchangeRecipe

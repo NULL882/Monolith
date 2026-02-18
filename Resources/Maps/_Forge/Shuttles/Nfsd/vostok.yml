@@ -11045,7 +11045,7 @@ entities:
     - type: Transform
       pos: 38.5,14.5
       parent: 1
-- proto: NFWeaponRifleAssaultLecter
+- proto: WeaponRifleLecter
   entities:
   - uid: 2238
     components:

@@ -3907,7 +3907,7 @@ entities:
     - type: Transform
       pos: 12.5,2.5
       parent: 1
-- proto: ChemistryBottleOmnizine
+- proto: OmnizineChemistryBottle
   entities:
   - uid: 1610
     components:
@@ -9073,22 +9073,6 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: NFAmmunitionBoxShellShotgunBuckshot
-  entities:
-  - uid: 1629
-    components:
-    - type: Transform
-      parent: 1628
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-  - uid: 1630
-    components:
-    - type: Transform
-      parent: 1628
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
 - proto: NFAshtray
   entities:
   - uid: 601
@@ -9103,119 +9087,6 @@ entities:
     - type: Transform
       pos: 0.5,1.5
       parent: 1
-- proto: NFMagazinePistol45
-  entities:
-  - uid: 1669
-    components:
-    - type: Transform
-      parent: 1665
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-- proto: NFMagazineRifle20
-  entities:
-  - uid: 1546
-    components:
-    - type: Transform
-      parent: 1532
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-  - uid: 1565
-    components:
-    - type: Transform
-      parent: 1564
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-  - uid: 1585
-    components:
-    - type: Transform
-      parent: 1584
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-  - uid: 1586
-    components:
-    - type: Transform
-      parent: 1584
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-  - uid: 1587
-    components:
-    - type: Transform
-      parent: 1584
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-  - uid: 1590
-    components:
-    - type: Transform
-      parent: 1584
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-- proto: NFMagazineRifle30
-  entities:
-  - uid: 1596
-    components:
-    - type: Transform
-      parent: 1595
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-  - uid: 1597
-    components:
-    - type: Transform
-      parent: 1595
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-  - uid: 1598
-    components:
-    - type: Transform
-      parent: 1595
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-  - uid: 1599
-    components:
-    - type: Transform
-      parent: 1595
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-- proto: NFMagazineSubMachineGunTopMounted35
-  entities:
-  - uid: 1557
-    components:
-    - type: Transform
-      parent: 1556
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-  - uid: 1558
-    components:
-    - type: Transform
-      parent: 1556
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-  - uid: 1559
-    components:
-    - type: Transform
-      parent: 1556
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-  - uid: 1560
-    components:
-    - type: Transform
-      parent: 1556
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
 - proto: NFPlushieSharkMinnow
   entities:
   - uid: 1186
@@ -9277,7 +9148,7 @@ entities:
     - type: Transform
       pos: -0.5,-3.5
       parent: 1
-- proto: NFWeaponEnergyPistolDisabler
+- proto: WeaponDisabler
   entities:
   - uid: 1539
     components:
@@ -9300,7 +9171,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: NFWeaponEnergySubMachineGunDisabler
+- proto: WeaponDisablerSMG
   entities:
   - uid: 1603
     components:
@@ -9332,7 +9203,7 @@ entities:
       parent: 1602
     - type: Physics
       canCollide: False
-- proto: NFWeaponPistolMk58
+- proto: WeaponPistolMk58
   entities:
   - uid: 171
     components:
@@ -9340,7 +9211,7 @@ entities:
       rot: 0.4014257279586958 rad
       pos: 2.5538805,-7.4982495
       parent: 1
-- proto: NFWeaponPistolN1984
+- proto: WeaponPistolN1984
   entities:
   - uid: 1677
     components:
@@ -9349,7 +9220,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: NFWeaponRifleAssaultLecter
+- proto: WeaponRifleLecter
   entities:
   - uid: 1533
     components:
@@ -9395,7 +9266,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: NFWeaponShotgunKammerer
+- proto: WeaponShotgunKammerer
   entities:
   - uid: 1631
     components:

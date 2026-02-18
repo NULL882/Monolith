@@ -8,8 +8,8 @@
     contents:
     - id: WeaponRifleCascade
       amount: 1
-    - id: NFMagazineRifle30
-      amount: 2
+    # - id: NFMagazineRifle30
+    #   amount: 2
 
 - type: entity
   parent: WeaponCaseLong
@@ -21,8 +21,8 @@
     contents:
     - id: WeaponRifleDagger
       amount: 1
-    - id: NFMagazineRifle30
-      amount: 2
+    # - id: NFMagazineRifle30
+    #   amount: 2
 
 - type: entity
   parent: WeaponCaseLong
@@ -99,8 +99,8 @@
     contents:
     - id: WeaponSubMachineGunScorpion
       amount: 1
-    - id: NFMagazineRifle20
-      amount: 2
+    # - id: NFMagazineRifle20
+    #   amount: 2
 
 - type: entity
   parent: WeaponCaseLong

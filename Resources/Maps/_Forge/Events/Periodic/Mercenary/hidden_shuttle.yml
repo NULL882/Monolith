@@ -3662,7 +3662,7 @@ entities:
     - type: Transform
       pos: 7.643958,7.427458
       parent: 3
-- proto: NFWeaponPistolN1984
+- proto: WeaponPistolN1984
   entities:
   - uid: 1534
     components:

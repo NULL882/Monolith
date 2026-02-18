@@ -19,7 +19,7 @@
     MedTekCartridge: 4294967295 # 3 -> infinite
     ChemistryBottleEphedrine: 4 # 500
     ChemistryBottleNocturine: 2 # 1.000
-    ChemistryBottleOmnizine: 4 # 2.000
+    OmnizineChemistryBottle: 4 # 2.000
     MedicatedSuture: 1
     RegenerativeMesh: 1
     BoxBeaker: 1

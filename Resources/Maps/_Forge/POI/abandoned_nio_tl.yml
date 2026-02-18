@@ -7931,7 +7931,7 @@ entities:
       dnas: []
       fibers: []
       fingerprints: []
-- proto: NFWeaponShotgunKammerer
+- proto: WeaponShotgunKammerer
   entities:
   - uid: 325
     components:

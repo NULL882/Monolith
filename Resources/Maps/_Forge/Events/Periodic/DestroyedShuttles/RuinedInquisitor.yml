@@ -3349,25 +3349,6 @@ entities:
     - type: Transform
       pos: 4.5,13.5
       parent: 1
-- proto: NFMagazineRifle30
-  entities:
-  - uid: 15
-    components:
-    - type: Transform
-      pos: 8.8279085,4.2592306
-      parent: 1
-  - uid: 251
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 9.187748,7.692352
-      parent: 1
-  - uid: 319
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -0.78531164,6.7822804
-      parent: 1
 - proto: NFWardrobePrisonFilled
   entities:
   - uid: 290

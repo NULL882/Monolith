@@ -9001,36 +9001,6 @@ entities:
     - type: Transform
       pos: 4.4919105,-7.383171
       parent: 1
-- proto: NFMagazineRifle30
-  entities:
-  - uid: 1145
-    components:
-    - type: Transform
-      parent: 1140
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-  - uid: 1146
-    components:
-    - type: Transform
-      parent: 1140
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-  - uid: 1147
-    components:
-    - type: Transform
-      parent: 1140
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-  - uid: 1148
-    components:
-    - type: Transform
-      parent: 1140
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
 - proto: NFSpawnMobWeaponTurretLaserSyndicate
   entities:
   - uid: 1169

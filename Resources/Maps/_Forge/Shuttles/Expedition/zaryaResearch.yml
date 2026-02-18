@@ -8130,22 +8130,6 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: NFAmmunitionBoxShellShotgunBuckshot
-  entities:
-  - uid: 1238
-    components:
-    - type: Transform
-      parent: 1772
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-  - uid: 1736
-    components:
-    - type: Transform
-      parent: 1771
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
 - proto: NFAmmunitionBoxShellShotgunFlare
   entities:
   - uid: 662
@@ -8155,16 +8139,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: NFAmmunitionBoxShellShotgunSlug
-  entities:
-  - uid: 1742
-    components:
-    - type: Transform
-      parent: 1771
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-- proto: NFWeaponEnergyPistolDisabler
+- proto: WeaponDisabler
   entities:
   - uid: 697
     components:

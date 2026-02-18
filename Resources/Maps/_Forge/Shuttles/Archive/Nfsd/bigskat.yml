@@ -42232,28 +42232,6 @@ entities:
     - type: Transform
       pos: -1.5247068,-16.61781
       parent: 1
-- proto: NFAmmunitionBoxShellShotgunBuckshot
-  entities:
-  - uid: 4393
-    components:
-    - type: Transform
-      pos: -4.5169754,-15.39906
-      parent: 1
-  - uid: 4394
-    components:
-    - type: Transform
-      pos: -4.5169754,-15.77406
-      parent: 1
-  - uid: 4395
-    components:
-    - type: Transform
-      pos: -4.5013504,-16.195934
-      parent: 1
-  - uid: 4396
-    components:
-    - type: Transform
-      pos: -4.5013504,-16.602184
-      parent: 1
 - proto: NFAmmunitionBoxShellShotgunPractice
   entities:
   - uid: 1173
@@ -42452,88 +42430,6 @@ entities:
     - type: Transform
       pos: 5.330416,-10.3637295
       parent: 1
-- proto: NFMagazinePistol45
-  entities:
-  - uid: 1081
-    components:
-    - type: Transform
-      pos: -4.738748,-10.858579
-      parent: 1
-  - uid: 1237
-    components:
-    - type: Transform
-      pos: -4.566873,-10.842943
-      parent: 1
-  - uid: 2093
-    components:
-    - type: Transform
-      pos: -4.738748,-10.59277
-      parent: 1
-  - uid: 2094
-    components:
-    - type: Transform
-      pos: -4.363748,-10.59277
-      parent: 1
-  - uid: 8054
-    components:
-    - type: Transform
-      pos: -4.348123,-10.842943
-      parent: 1
-  - uid: 8055
-    components:
-    - type: Transform
-      pos: -4.582498,-10.59277
-      parent: 1
-- proto: NFMagazineSubMachineGunTopMounted35
-  entities:
-  - uid: 8525
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 3.2857952,-22.35134
-      parent: 1
-  - uid: 8526
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 3.2857952,-22.35134
-      parent: 1
-  - uid: 8527
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 3.6451702,-22.335714
-      parent: 1
-  - uid: 8528
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 3.6451702,-22.335714
-      parent: 1
-  - uid: 8529
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 4.36392,-21.304464
-      parent: 1
-  - uid: 8530
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 4.36392,-21.304464
-      parent: 1
-  - uid: 8531
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 4.692045,-21.38259
-      parent: 1
-  - uid: 8532
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 4.692045,-21.38259
-      parent: 1
 - proto: NfsdTechFab
   entities:
   - uid: 4292
@@ -42609,7 +42505,7 @@ entities:
     - type: Transform
       pos: -49.447075,0.68463683
       parent: 1
-- proto: NFWeaponEnergySubMachineGunDisabler
+- proto: WeaponDisablerSMG
   entities:
   - uid: 4384
     components:
@@ -42632,7 +42528,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: NFWeaponPistolMk58
+- proto: WeaponPistolMk58
   entities:
   - uid: 5022
     components:
@@ -42658,7 +42554,7 @@ entities:
       parent: 5024
     - type: Physics
       canCollide: False
-- proto: NFWeaponPistolN1984
+- proto: WeaponPistolN1984
   entities:
   - uid: 8049
     components:
@@ -42750,7 +42646,7 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -4.6690435,-20.511557
       parent: 1
-- proto: NFWeaponRifleAssaultLecter
+- proto: WeaponRifleLecter
   entities:
   - uid: 4342
     components:
@@ -42814,7 +42710,7 @@ entities:
       parent: 4329
     - type: Physics
       canCollide: False
-- proto: NFWeaponShotgunKammerer
+- proto: WeaponShotgunKammerer
   entities:
   - uid: 4322
     components:
@@ -42846,7 +42742,7 @@ entities:
       parent: 4321
     - type: Physics
       canCollide: False
-- proto: NFWeaponShotgunKammererLessLethal
+- proto: WeaponShotgunKammererLessLethal
   entities:
   - uid: 3363
     components:

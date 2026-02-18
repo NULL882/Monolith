@@ -84,7 +84,7 @@
     sprite: Objects/Weapons/Guns/Battery/disabler.rsi
     state: base
   content:
-  - NFWeaponEnergyPistolDisabler
+  - WeaponDisabler
   - Zipties
   - Zipties
   - PaperWrittenMedic

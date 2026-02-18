@@ -5728,7 +5728,7 @@ entities:
       parent: 2549
     - type: Physics
       canCollide: False
-- proto: NFWeaponRifleAssaultLecter
+- proto: WeaponRifleLecter
   entities:
   - uid: 2555
     components:
@@ -5750,7 +5750,7 @@ entities:
       parent: 2553
     - type: Physics
       canCollide: False
-- proto: NFWeaponShotgunKammerer
+- proto: WeaponShotgunKammerer
   entities:
   - uid: 2550
     components:

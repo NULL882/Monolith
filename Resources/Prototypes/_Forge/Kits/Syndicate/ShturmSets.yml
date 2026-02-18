@@ -45,8 +45,8 @@
   content:
   - ClothingHeadHelmetSyndicate
   - ClothingOuterEVASuitSyndicate
-  - NFWeaponShotgunKammerer
-  - NFAmmunitionBoxShellShotgunBuckshot
+  - WeaponShotgunKammerer
+  # - NFAmmunitionBoxShellShotgunBuckshot
   - MedkitFilled
   - CombatMedipen
   - CrisisAutoInjector

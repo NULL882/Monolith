@@ -4912,7 +4912,7 @@ entities:
       containers:
         solution@drink: !type:ContainerSlot
           ent: 1236
-- proto: ChemistryBottleNitrogen
+- proto: NitrogenChemistryBottle
   entities:
   - uid: 1233
     mapInit: true
@@ -5024,7 +5024,7 @@ entities:
       containers:
         solution@drink: !type:ContainerSlot
           ent: 1221
-- proto: ChemistryBottleUnstableMutagen
+- proto: UnstableMutagenChemistryBottle
   entities:
   - uid: 1254
     mapInit: true
@@ -9302,7 +9302,7 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 9.5,7.5
       parent: 1
-- proto: NFWeaponEnergyPistolDisabler
+- proto: WeaponDisabler
   entities:
   - uid: 20
     components:
