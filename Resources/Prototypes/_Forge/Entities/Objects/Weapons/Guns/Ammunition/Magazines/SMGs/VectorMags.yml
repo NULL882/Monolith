@@ -8,11 +8,11 @@
     tags:
       - MagazineVector22
   - type: BallisticAmmoProvider
-    proto: NFCartridgeRifle25
+    proto: ForgeCartridgeRifle25
     mayTransfer: true
     whitelist:
       tags:
-        - NFCartridgeRifle25
+        - ForgeCartridgeRifle25
     capacity: 44
   - type: Item
     size: Small

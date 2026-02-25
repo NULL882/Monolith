@@ -44,10 +44,5 @@
           stationSubtext: 'frontier-lobby-Bastille-subtext'
           stationDescription: 'frontier-lobby-Bastille-description'
           lobbySortOrder: 4
-        - type: StationJobs
-          availableJobs:
-            Pilot: [ -1, -1 ]
-            Contractor: [ -1, -1 ]
-            Mercenary: [ -1, -1 ]
         - type: StationDeadDrop
           maxDeadDrops: 1 # Fewer here, players start here.

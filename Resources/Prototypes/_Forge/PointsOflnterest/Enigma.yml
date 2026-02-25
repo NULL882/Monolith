@@ -44,10 +44,3 @@
           stationSubtext: 'frontier-lobby-Syndicate-subtext'
           stationDescription: 'frontier-lobby-Syndicate-description'
           lobbySortOrder: 3
-        - type: StationJobs
-          availableJobs:
-            smuggler: [ 1, 1 ]
-            Stormtrooper: [ 2, 2 ]
-            Commander: [ 1, 1 ]
-            EngineerSyn: [ 1, 1 ]
-            smugglerBodyguard: [ 1, 1 ]

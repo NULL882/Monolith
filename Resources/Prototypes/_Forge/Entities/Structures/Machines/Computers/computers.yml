@@ -172,9 +172,6 @@
         node: start
       - !type:DoActsBehavior
         acts: ["Destruction"]
-  - type: Construction
-    graph: ComputerPirateBounty
-    node: repaired
 
 - type: entity
   name: renegate bounty redemption computer
@@ -224,9 +221,6 @@
         node: start
       - !type:DoActsBehavior
         acts: ["Destruction"]
-  - type: Construction
-    graph: ComputerPirateBountyRedemption
-    node: repaired
 
 - type: entity
   parent: ComputerShuttleAntag
@@ -250,5 +244,3 @@
     radius: 1.5
     energy: 1.6
     color: "#c94242"
-  - type: Computer # Forge-change
-    board: FComputerShuttleAntagCircuitboard

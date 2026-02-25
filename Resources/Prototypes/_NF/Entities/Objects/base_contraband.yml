@@ -59,16 +59,6 @@
   id: BaseC2Contraband
   abstract: true
 
-# Forge-Change-Start
-- type: entity
-  parent: BaseC2Contraband
-  id: BaseC2ContrabandDisallowSecs
-  abstract: true
-  components:
-  - type: Contraband
-    severity: Class2DisallowNFSD
-    allowedDepartments: []
-# Forge-Change-End
 # endregion
 
 # region Class 3 Objects

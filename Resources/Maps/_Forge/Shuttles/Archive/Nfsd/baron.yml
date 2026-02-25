@@ -20183,23 +20183,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: -16.9725,-46.300724
       parent: 2
-- proto: FrontierUplinkCoin1
-  entities:
-  - uid: 2074
-    components:
-    - type: Transform
-      pos: -26.2636,-5.139526
-      parent: 2
-  - uid: 2075
-    components:
-    - type: Transform
-      pos: -26.73235,-5.530151
-      parent: 2
-  - uid: 2076
-    components:
-    - type: Transform
-      pos: -26.2011,-6.498901
-      parent: 2
 - proto: GasDualPortVentPump
   entities:
   - uid: 3937

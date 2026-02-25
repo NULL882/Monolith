@@ -8,11 +8,11 @@
     tags:
       - MagazineP90LRK
   - type: BallisticAmmoProvider
-    proto: NFCartridgeRifle25
+    proto: ForgeCartridgeRifle25
     mayTransfer: true
     whitelist:
       tags:
-        - NFCartridgeRifle25
+        - ForgeCartridgeRifle25
     capacity: 50
   - type: Item
     size: Small

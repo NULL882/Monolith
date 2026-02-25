@@ -48,11 +48,11 @@
     tags:
       - ShuttleSmgRifleAmmoBox
   - type: BallisticAmmoProvider
-    proto: NFCartridgePistol35
+    proto: ForgeCartridgePistol35
     mayTransfer: true
     whitelist:
        tags:
-         - NFCartridgePistol35
+         - ForgeCartridgePistol35
     capacity: 100
     soundRack:
       path: /Audio/Weapons/Guns/Bolt/lmg_bolt_closed.ogg
@@ -89,10 +89,10 @@
     tags:
       - ShuttleRifleAmmoBox
   - type: BallisticAmmoProvider
-    proto: NFCartridgeRifle30
+    proto: ForgeCartridgeRifle30
     whitelist:
        tags:
-         - NFCartridgeRifle30
+         - ForgeCartridgeRifle30
     capacity: 150
     mayTransfer: true
     soundRack:

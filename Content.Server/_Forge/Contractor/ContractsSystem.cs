@@ -45,9 +45,9 @@ public sealed class ContractsSystem : EntitySystem
 
     // Validation in case of changes
     [ValidatePrototypeId<NpcFactionPrototype>]
-    private const string Pirate = "NFPirate";
+    private const string Pirate = " ";
     [ValidatePrototypeId<NpcFactionPrototype>]
-    private const string Syndicate = "NFSyndicate";
+    private const string Syndicate = " ";
 
     [ValidatePrototypeId<StackPrototype>]
     private const string Credit = "Credit";

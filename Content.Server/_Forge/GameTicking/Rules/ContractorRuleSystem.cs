@@ -51,12 +51,12 @@ namespace Content.Server.GameTicking.Rules
 
         // Validation in case of changes
         [ValidatePrototypeId<NpcFactionPrototype>]
-        private const string Pirate = "NFPirate";
+        private const string Pirate = " ";
         [ValidatePrototypeId<NpcFactionPrototype>]
-        private const string Syndicate = "NFSyndicate";
+        private const string Syndicate = " ";
 
         [ValidatePrototypeId<JobPrototype>]
-        private const string Mercenary = "Mercenary"; // ID профессии наёмника. Измените, если он другой.
+        private const string Mercenary = " "; // ID профессии наёмника. Измените, если он другой.
 
         [ValidatePrototypeId<EntityPrototype>]
         private const string MindRole = "MindRoleContractor";

@@ -21,11 +21,11 @@
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
         name: Chamber
-        startingItem: NFCartridgePistol45
+        startingItem: ForgeCartridgePistol45
         priority: 1
         whitelist:
           tags:
-            - NFCartridgePistol45
+            - ForgeCartridgePistol45
 
 - type: entity
   id: ForgeBaseWeaponFrameRifleSniperNanotrasen
@@ -83,11 +83,11 @@
   #       whitelistFailPopup: gun-magazine-whitelist-fail
   #     gun_chamber:
   #       name: Chamber
-  #       startingItem: NFCartridgeRifle30
+  #       startingItem: ForgeCartridgeRifle30
   #       priority: 1
   #       whitelist:
   #         tags:
-  #           - NFCartridgeRifle30
+  #           - ForgeCartridgeRifle30
   - type: ContainerContainer
     containers:
       ballistic-ammo: !type:Container
@@ -154,11 +154,11 @@
   #       whitelistFailPopup: gun-magazine-whitelist-fail
   #     gun_chamber:
   #       name: Chamber
-  #       startingItem: NFCartridgeRifle30
+  #       startingItem: ForgeCartridgeRifle30
   #       priority: 1
   #       whitelist:
   #         tags:
-  #           - NFCartridgeRifle30
+  #           - ForgeCartridgeRifle30
   - type: ContainerContainer
     containers:
       ballistic-ammo: !type:Container
@@ -314,11 +314,11 @@
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
         name: Chamber
-        startingItem: NFCartridgePistol45
+        startingItem: ForgeCartridgePistol45
         priority: 1
         whitelist:
           tags:
-            - NFCartridgePistol45
+            - ForgeCartridgePistol45
   - type: ContainerContainer
     containers:
       ballistic-ammo: !type:Container
@@ -394,11 +394,11 @@
   #       whitelistFailPopup: gun-magazine-whitelist-fail
   #     gun_chamber:
   #       name: Chamber
-  #       startingItem: NFCartridgeRifle30
+  #       startingItem: ForgeCartridgeRifle30
   #       priority: 1
   #       whitelist:
   #         tags:
-  #           - NFCartridgeRifle30
+  #           - ForgeCartridgeRifle30
   - type: ContainerContainer
     containers:
       ballistic-ammo: !type:Container
@@ -455,11 +455,11 @@
   #       whitelistFailPopup: gun-magazine-whitelist-fail
   #     gun_chamber:
   #       name: Chamber
-  #       startingItem: NFCartridgeRifle30
+  #       startingItem: ForgeCartridgeRifle30
   #       priority: 1
   #       whitelist:
   #         tags:
-  #           - NFCartridgeRifle30
+  #           - ForgeCartridgeRifle30
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot
@@ -598,11 +598,11 @@
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
         name: Chamber
-        startingItem: NFCartridgePistol45
+        startingItem: ForgeCartridgePistol45
         priority: 1
         whitelist:
           tags:
-            - NFCartridgePistol45
+            - ForgeCartridgePistol45
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot

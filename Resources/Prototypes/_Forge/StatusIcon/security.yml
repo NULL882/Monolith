@@ -1,9 +1,0 @@
-- type: securityIcon
-  id: OverlordIcon
-  priority: 2
-  locationPreference: Right
-  layer: Mod
-  isShaded: true
-  icon:
-    sprite: /Textures/Forge/Interface/Misc/job_icons.rsi
-    state: overlord

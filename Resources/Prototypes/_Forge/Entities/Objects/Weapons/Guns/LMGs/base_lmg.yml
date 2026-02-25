@@ -56,13 +56,13 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: NFMagazineBoxRifle20
+        startingItem: ForgeMagazineBoxRifle20
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
         priority: 2
         whitelist:
           tags:
-            - NFMagazineBoxRifle20
+            - ForgeMagazineBoxRifle20
       gun_chamber:
         name: Chamber
         startingItem: ForgeCartridgeRifle20

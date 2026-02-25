@@ -7229,14 +7229,6 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 2.4702332,9.583789
       parent: 1
-- proto: NFWeaponPistolViper
-  entities:
-  - uid: 1038
-    components:
-    - type: Transform
-      parent: 1037
-    - type: Physics
-      canCollide: False
 - proto: NFWeaponRifleAssaultVulcan
   entities:
   - uid: 1040

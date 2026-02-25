@@ -44,8 +44,8 @@
     mayTransfer: true
     whitelist:
       tags:
-        - NFCartridgePistol45
-    proto: NFCartridgePistol45
+        - ForgeCartridgePistol45
+    proto: ForgeCartridgePistol45
     capacity: 20
   - type: Sprite
     sprite: Forge/Objects/Weapons/Guns/Ammunition/Magazine/45magazine.rsi
@@ -81,7 +81,7 @@
   parent: BaseMagazineRifle45
   components:
   - type: BallisticAmmoProvider
-    proto: NFCartridgePistol45
+    proto: ForgeCartridgePistol45
 
 - type: entity
   id: MagazineRifle45Rubber
@@ -89,7 +89,7 @@
   parent: BaseMagazineRifle45
   components:
   - type: BallisticAmmoProvider
-    proto: NFCartridgePistol45Rubber
+    proto: ForgeCartridgePistol45Rubber
   - type: Sprite
     sprite: Forge/Objects/Weapons/Guns/Ammunition/Magazine/45magazine.rsi
     layers:
@@ -103,7 +103,7 @@
   parent: BaseMagazineRifle45
   components:
   - type: BallisticAmmoProvider
-    proto: NFCartridgePistol45AP
+    proto: ForgeCartridgePistol45AP
   - type: Sprite
     sprite: Forge/Objects/Weapons/Guns/Ammunition/Magazine/45magazine.rsi
     layers:
@@ -117,7 +117,7 @@
   parent: BaseMagazineRifle45
   components:
   - type: BallisticAmmoProvider
-    proto: NFCartridgePistol45Emp
+    proto: ForgeCartridgePistol45Emp
   - type: Sprite
     sprite: Forge/Objects/Weapons/Guns/Ammunition/Magazine/45magazine.rsi
     layers:
@@ -131,7 +131,7 @@
   parent: BaseMagazineRifle45
   components:
   - type: BallisticAmmoProvider
-    proto: NFCartridgePistol45Uranium
+    proto: ForgeCartridgePistol45Uranium
   - type: Sprite
     sprite: Forge/Objects/Weapons/Guns/Ammunition/Magazine/45magazine.rsi
     layers:
@@ -145,7 +145,7 @@
   parent: BaseMagazineRifle45
   components:
   - type: BallisticAmmoProvider
-    proto: NFCartridgePistol45Practice
+    proto: ForgeCartridgePistol45Practice
   - type: Sprite
     sprite: Forge/Objects/Weapons/Guns/Ammunition/Magazine/45magazine.rsi
     layers:
@@ -159,7 +159,7 @@
   parent: BaseMagazineRifle45
   components:
   - type: BallisticAmmoProvider
-    proto: NFCartridgePistol45Overpressure
+    proto: ForgeCartridgePistol45Overpressure
   - type: Sprite
     sprite: Forge/Objects/Weapons/Guns/Ammunition/Magazine/45magazine.rsi
     layers:
@@ -173,7 +173,7 @@
   parent: BaseMagazineRifle45
   components:
   - type: BallisticAmmoProvider
-    proto: NFCartridgePistol45Incendiary
+    proto: ForgeCartridgePistol45Incendiary
   - type: Sprite
     sprite: Forge/Objects/Weapons/Guns/Ammunition/Magazine/45magazine.rsi
     layers:

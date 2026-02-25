@@ -111,3 +111,102 @@
 
 - type: Tag
   id: ForgeBlueprintNfsdTechfab
+
+  # .25
+- type: Tag
+  id: ForgeMagazineRifle25
+
+- type: Tag
+  id: ForgeCartridgeRifle25
+
+  # .35
+- type: Tag
+  id: ForgeMagazinePistol35
+
+- type: Tag
+  id: ForgeMagazineSubMachineGunPistol35
+
+- type: Tag
+  id: ForgeMagazineHighCapacityPistol35
+
+- type: Tag
+  id: ForgeCartridgePistol35
+
+  # .45
+- type: Tag
+  id: ForgeMagazinePistol45
+
+- type: Tag
+  id: ForgeCartridgePistol45
+
+  # .60
+- type: Tag
+  id: ForgeCartridgeRifle60
+
+  # .30
+- type: Tag
+  id: ForgeMagazineRifle30
+
+- type: Tag
+  id: ForgeCartridgeRifle30
+
+- type: Tag
+  id: ForgeMagazineLowCapacityRifle30
+
+  # .20
+- type: Tag
+  id: ForgeMagazineClipRifle20
+
+- type: Tag
+  id: ForgeMagazineBoxRifle20
+
+- type: Tag
+  id: ForgeMagazineRifle20
+
+- type: Tag
+  id: ForgeCartridgeRifle20
+
+- type: Tag
+  id: ForgeMagazineDrumRifle20
+
+- type: Tag
+  id: CartridgeRifle
+
+- type: Tag
+  id: CartridgeAntiMateriel
+
+- type: Tag
+  id: MagazineShotgun
+
+- type: Tag
+  id: ShellShotgun
+
+- type: Tag
+  id: 203mmCartridge
+
+- type: Tag
+  id: ForgeMagazineSubMachineGunTopMountedPistol35
+
+- type: Tag
+  id: ForgeMagazineSubMachineGunPistol45
+
+- type: Tag
+  id: MagazinePistolCaselessRifle
+
+- type: Tag
+  id: MagazinePistolSubMachineGunTopMounted
+
+- type: Tag
+  id: CartridgePistol
+
+- type: Tag
+  id: CartridgeCaselessRifle
+
+- type: Tag
+  id: MagazineCaselessRifle
+
+- type: Tag
+  id: CartridgeMagnum
+
+- type: Tag
+  id: ShellShotgunLight

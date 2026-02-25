@@ -96,7 +96,7 @@
   name: shell box (.50 incendiary)
   components:
   - type: BallisticAmmoProvider
-    proto: NFShellShotgunIncendiary
+    proto: ForgeShellShotgunIncendiary
   - type: Sprite
     layers:
     - state: base
@@ -114,7 +114,7 @@
   name: shell box (.50 uranium)
   components:
   - type: BallisticAmmoProvider
-    proto: NFShellShotgunUranium
+    proto: ForgeShellShotgunUranium
   - type: Sprite
     layers:
     - state: base

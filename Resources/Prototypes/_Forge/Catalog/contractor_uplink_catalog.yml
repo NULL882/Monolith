@@ -23,23 +23,10 @@
   - ContractorUplinkWeaponry
 
 - type: listing
-  id: ContractorUplinkPistolViper
-  name: uplink-pistol-viper-name
-  description: uplink-pistol-viper-desc
-  productEntity: NFWeaponPistolViper
-  discountCategory: rareDiscounts
-  discountDownTo:
-    Telecrystal: 4
-  cost:
-    Telecrystal: 6
-  categories:
-  - ContractorUplinkWeaponry
-
-- type: listing
   id: ContractorUplinkNFWeaponPistolAnaconda45
   name: uplink-pistol-anaconda-name
   description: uplink-pistol-anaconda-desc
-  productEntity: NFWeaponPistolAnaconda45
+  productEntity: ForgeWeaponPistolAnaconda45
   discountCategory: rareDiscounts
   discountDownTo:
     Telecrystal: 14
@@ -52,7 +39,7 @@
   id: ContractorUplinkRevolverPython
   name: uplink-revolver-python-name
   description: uplink-revolver-python-desc
-  productEntity: NFWeaponRevolverRitland45
+  productEntity: ForgeWeaponRevolverRitland45
   discountCategory: rareDiscounts
   discountDownTo:
     Telecrystal: 4
@@ -66,7 +53,7 @@
   id: ContractorUplinkPistolCobra
   name: uplink-pistol-cobra-name
   description: uplink-pistol-cobra-desc
-  productEntity: NFWeaponPistolCobra
+  productEntity: ForgeWeaponPistolCobra
   discountCategory: rareDiscounts
   discountDownTo:
     Telecrystal: 4
@@ -80,7 +67,7 @@
   id: ContractorUplinkRifleMosin
   name: uplink-rifle-mosin-name
   description: uplink-rifle-mosin-desc
-  productEntity: NFWeaponRifleBarlowsBolt
+  productEntity: ForgeWeaponRifleBarlowsBolt
   cost:
     Telecrystal: 2
   categories:
@@ -186,7 +173,7 @@
   id: ContractorUplinkEstoc
   name: Эсток
   description: Специальная стрелковая винтовка, стреляющая очередями по 3 патрона. Эсток была разработана как дальнобойный аналог Лектера, оснащенный удлиненным 20-дюймовым стволом и оптическим прицелом.
-  productEntity: NFWeaponRifleEstoc
+  productEntity: ForgeWeaponRifleEstoc
   discountCategory: usualDiscounts
   discountDownTo:
     Telecrystal: 21
@@ -327,7 +314,7 @@
   name: uplink-pistol-magazine-name
   description: uplink-pistol-magazine-desc
   icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_mag.rsi, state: red-icon }
-  productEntity: NFMagazinePistol35
+  productEntity: ForgeMagazinePistol35
   cost:
     Telecrystal: 2
   categories:
@@ -339,7 +326,7 @@
   name: uplink-pistol-magazine-c20r-name
   description: uplink-pistol-magazine-c20r-desc
   icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/smg_mag.rsi, state: red-icon }
-  productEntity: NFMagazineSubMachineGun35
+  productEntity: ForgeMagazineSubMachineGun35
   cost:
     Telecrystal: 4
   categories:
@@ -351,7 +338,7 @@
 #   name: uplink-pistol-magazine-caseless-name
 #   description: uplink-pistol-magazine-caseless-desc
 #   icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/CaselessRifle/caseless_pistol_mag.rsi, state: red-icon }
-#   productEntity: NFMagazinePistol45
+#   productEntity: ForgeMagazinePistol45
 #   cost:
 #     Telecrystal: 2
 #   categories:
@@ -363,7 +350,7 @@
   name: uplink-speedloader-magnum-name
   description: uplink-speedloader-magnu-desc
   icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/magnum_speed_loader.rsi, state: icon }
-  productEntity: NFSpeedLoaderPistol45
+  productEntity: ForgeSpeedLoaderPistol45
   cost:
     Telecrystal: 6
   categories:
@@ -374,7 +361,7 @@
   id: ContractorUplinkMosinAmmo
   name: uplink-mosin-ammo-name
   description: uplink-mosin-ammo-desc
-  productEntity: NFAmmunitionBoxRifle30
+  productEntity: ForgeAmmunitionBoxRifle30
   cost:
     Telecrystal: 2
   categories:
@@ -385,7 +372,7 @@
   id: ContractorUplinkHristovAmmo
   name: uplink-sniper-ammo-name
   description: uplink-sniper-ammo-desc
-  productEntity: NFAmmunitionBoxRifle60
+  productEntity: ForgeAmmunitionBoxRifle60
   cost:
     Telecrystal: 4
   categories:
@@ -986,7 +973,7 @@
   id: ContractorUplinkNVGContractor
   name: прибор ночного видения DCN™
   description: Усовершенствованный сенсорный дисплей, который выдает идентификационные данные и обеспечивает видимость в полной темноте.
-  productEntity: NFClothingEyesNightVisionGoggleContractor
+  productEntity: ForgeClothingEyesNightVisionGoggleContractor
   discountCategory: veryRareDiscounts
   discountDownTo:
     Telecrystal: 7
@@ -1165,7 +1152,7 @@
   id: ContractorUplinkRevolverCapGun
   name: uplink-revolver-cap-gun-name
   description: uplink-revolver-cap-gun-desc
-  productEntity: NFRevolverCapGun
+  productEntity: ForgeRevolverCapGun
   discountCategory: rareDiscounts
   discountDownTo:
     Telecrystal: 4
@@ -1265,7 +1252,7 @@
   id: ContractorUplinkRevolverCapGunFake
   name: uplink-revolver-cap-gun-fake-name
   description: uplink-revolver-cap-gun-fake-desc
-  productEntity: NFRevolverCapGunFake
+  productEntity: ForgeRevolverCapGunFake
   discountCategory: rareDiscounts
   discountDownTo:
     Telecrystal: 6

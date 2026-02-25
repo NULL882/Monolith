@@ -40,11 +40,11 @@
           - MagazineVector22
       gun_chamber:
         name: Chamber
-        startingItem: NFCartridgeRifle25
+        startingItem: ForgeCartridgeRifle25
         priority: 1
         whitelist:
           tags:
-          - NFCartridgeRifle25
+          - ForgeCartridgeRifle25
   - type: ContainerContainer
     containers:
       ballistic-ammo: !type:Container

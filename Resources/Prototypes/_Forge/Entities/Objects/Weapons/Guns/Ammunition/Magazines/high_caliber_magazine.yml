@@ -13,8 +13,8 @@
     mayTransfer: true
     whitelist:
       tags:
-      - NFCartridgeRifle60
-    proto: NFCartridgeRifle60
+      - ForgeCartridgeRifle60
+    proto: ForgeCartridgeRifle60
     capacity: 5
   - type: ContainerContainer
     containers:
@@ -46,7 +46,7 @@
   parent: BaseMagazineAntiMateriel
   components:
   - type: BallisticAmmoProvider
-    proto: NFCartridgeRifle60
+    proto: ForgeCartridgeRifle60
 
 - type: entity
   id: MagazineAntiMaterielRubber
@@ -61,7 +61,7 @@
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
   - type: BallisticAmmoProvider
-    proto: NFCartridgeRifle60Rubber
+    proto: ForgeCartridgeRifle60Rubber
 
 - type: entity
   id: MagazineAntiMaterielAP
@@ -76,7 +76,7 @@
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
   - type: BallisticAmmoProvider
-    proto: NFCartridgeRifle60AP
+    proto: ForgeCartridgeRifle60AP
 
 - type: entity
   id: MagazineAntiMaterielIncendiary
@@ -91,4 +91,4 @@
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
   - type: BallisticAmmoProvider
-    proto: NFCartridgeRifle60Incendiary
+    proto: ForgeCartridgeRifle60Incendiary

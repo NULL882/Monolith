@@ -1,4 +1,0 @@
-- type: accessLevel
-  id: Modules
-  name: id-card-access-level-basic-modules
-  canAddToIdCard: false

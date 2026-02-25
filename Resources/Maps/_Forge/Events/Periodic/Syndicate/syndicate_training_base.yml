@@ -9176,7 +9176,7 @@ entities:
       rot: 3.141592653589793 rad
       pos: -3.8756385,2.1994584
       parent: 1
-- proto: NFCartridgePistol35
+- proto: ForgeCartridgePistol35
   entities:
   - uid: 1180
     mapInit: true
@@ -9188,7 +9188,7 @@ entities:
       nextSound: -862.8998725
     - type: Physics
       canCollide: False
-- proto: NFCartridgePistol35Practice
+- proto: ForgeCartridgePistol35Practice
   entities:
   - uid: 1194
     mapInit: true
@@ -9200,7 +9200,7 @@ entities:
       nextSound: -862.8998725
     - type: Physics
       canCollide: False
-- proto: NFCartridgePistol35Rubber
+- proto: ForgeCartridgePistol35Rubber
   entities:
   - uid: 1195
     mapInit: true
@@ -9212,7 +9212,7 @@ entities:
       nextSound: -862.8998725
     - type: Physics
       canCollide: False
-- proto: NFCartridgePistol35Uranium
+- proto: ForgeCartridgePistol35Uranium
   entities:
   - uid: 1188
     mapInit: true

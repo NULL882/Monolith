@@ -26557,7 +26557,7 @@ entities:
     - type: Transform
       pos: -1.858201,-9.729167
       parent: 1
-- proto: NFCartridgePistol45
+- proto: ForgeCartridgePistol45
   entities:
   - uid: 3286
     components:
