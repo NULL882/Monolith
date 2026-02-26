@@ -21,9 +21,6 @@
   addComponents:
   - type: IFF
     color: "#a68614"
-  - type: StationTransit
-    routes:
-      SpawnPoints: 30
   - type: ProtectedGrid
     preventArtifactTriggers: True
     preventExplosions: True

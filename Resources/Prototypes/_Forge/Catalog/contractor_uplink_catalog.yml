@@ -23,57 +23,6 @@
   - ContractorUplinkWeaponry
 
 - type: listing
-  id: ContractorUplinkNFWeaponPistolAnaconda45
-  name: uplink-pistol-anaconda-name
-  description: uplink-pistol-anaconda-desc
-  productEntity: ForgeWeaponPistolAnaconda45
-  discountCategory: rareDiscounts
-  discountDownTo:
-    Telecrystal: 14
-  cost:
-    Telecrystal: 20
-  categories:
-  - ContractorUplinkWeaponry
-
-- type: listing
-  id: ContractorUplinkRevolverPython
-  name: uplink-revolver-python-name
-  description: uplink-revolver-python-desc
-  productEntity: ForgeWeaponRevolverRitland45
-  discountCategory: rareDiscounts
-  discountDownTo:
-    Telecrystal: 4
-  cost:
-    Telecrystal: 8 # Originally was 13 and then 8 TC but was not used due to high cost
-  categories:
-  - ContractorUplinkWeaponry
-
-# Inbuilt suppressor so it's sneaky + more expensive.
-- type: listing
-  id: ContractorUplinkPistolCobra
-  name: uplink-pistol-cobra-name
-  description: uplink-pistol-cobra-desc
-  productEntity: ForgeWeaponPistolCobra
-  discountCategory: rareDiscounts
-  discountDownTo:
-    Telecrystal: 4
-  cost:
-    Telecrystal: 8
-  categories:
-  - ContractorUplinkWeaponry
-
-# Poor accuracy, slow to fire, cheap option
-- type: listing
-  id: ContractorUplinkRifleMosin
-  name: uplink-rifle-mosin-name
-  description: uplink-rifle-mosin-desc
-  productEntity: ForgeWeaponRifleBarlowsBolt
-  cost:
-    Telecrystal: 2
-  categories:
-  - ContractorUplinkWeaponry
-
-- type: listing
   id: ContractorUplinkEsword
   name: uplink-esword-name
   description: uplink-esword-desc
@@ -143,20 +92,6 @@
   - ContractorUplinkWeaponry
 
 - type: listing
-  id: ContractorUplinkSniperBundle
-  name: uplink-sniper-bundle-name
-  description: uplink-sniper-bundle-desc
-  icon: { sprite: /Textures/Objects/Weapons/Guns/Snipers/heavy_sniper.rsi, state: base }
-  productEntity: BriefcaseSyndieSniperBundleFilled
-  discountCategory: usualDiscounts
-  discountDownTo:
-    Telecrystal: 12
-  cost:
-    Telecrystal: 24
-  categories:
-  - ContractorUplinkWeaponry
-
-- type: listing
   id: ContractorUplinkAsmg
   name: АСПТ
   description: Разобранная и упакованная Автономная Сторожевая Пулеметная Турель (АСПТ). ВНИМАНИЕ! Разобранная турель будет враждебной к любому, кто не находился рядом (в пределах 3 м) после распаковки!
@@ -166,19 +101,6 @@
     Telecrystal: 18
   cost:
     Telecrystal: 32
-  categories:
-  - ContractorUplinkWeaponry
-
-- type: listing
-  id: ContractorUplinkEstoc
-  name: Эсток
-  description: Специальная стрелковая винтовка, стреляющая очередями по 3 патрона. Эсток была разработана как дальнобойный аналог Лектера, оснащенный удлиненным 20-дюймовым стволом и оптическим прицелом.
-  productEntity: ForgeWeaponRifleEstoc
-  discountCategory: usualDiscounts
-  discountDownTo:
-    Telecrystal: 21
-  cost:
-    Telecrystal: 36
   categories:
   - ContractorUplinkWeaponry
 
@@ -343,40 +265,6 @@
 #     Telecrystal: 2
 #   categories:
 #   - ContractorUplinkAmmo
-
-# For the Python
-- type: listing
-  id: ContractorUplinkSpeedLoaderMagnumAP
-  name: uplink-speedloader-magnum-name
-  description: uplink-speedloader-magnu-desc
-  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/magnum_speed_loader.rsi, state: icon }
-  productEntity: ForgeSpeedLoaderPistol45
-  cost:
-    Telecrystal: 6
-  categories:
-  - ContractorUplinkAmmo
-
-# For the mosin
-- type: listing
-  id: ContractorUplinkMosinAmmo
-  name: uplink-mosin-ammo-name
-  description: uplink-mosin-ammo-desc
-  productEntity: ForgeAmmunitionBoxRifle30
-  cost:
-    Telecrystal: 2
-  categories:
-  - ContractorUplinkAmmo
-
-# for the hristov
-- type: listing
-  id: ContractorUplinkHristovAmmo
-  name: uplink-sniper-ammo-name
-  description: uplink-sniper-ammo-desc
-  productEntity: ForgeAmmunitionBoxRifle60
-  cost:
-    Telecrystal: 4
-  categories:
-  - ContractorUplinkAmmo
 
 - type: listing
   id: ContractorUplinkAmmoTech

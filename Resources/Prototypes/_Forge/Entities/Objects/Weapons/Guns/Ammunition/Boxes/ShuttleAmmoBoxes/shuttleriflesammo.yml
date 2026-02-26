@@ -7,7 +7,7 @@
     tags:
       - ShuttleShotgunShellsBox
   - type: BallisticAmmoProvider
-    proto: NFShellShotgunBuckshot
+    proto: ForgeShellShotgunBuckshot
     mayTransfer: true
     whitelist:
        tags:
@@ -130,7 +130,7 @@
     tags:
       - ShuttleMagnumRifleAmmoBox
   - type: BallisticAmmoProvider
-    proto: CartridgeMagnum
+    proto: BaseCartridgeMagnum
     mayTransfer: true
     whitelist:
        tags:

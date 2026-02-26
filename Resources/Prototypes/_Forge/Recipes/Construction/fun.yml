@@ -1,7 +1,0 @@
-- type: construction
-  id: PlushieNekoArk
-  graph: PlushieNekoArk
-  startNode: start
-  targetNode: NekoArk
-  category: construction-category-misc
-  objectType: Item

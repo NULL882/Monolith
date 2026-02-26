@@ -50,13 +50,13 @@ namespace Content.Server.GameTicking.Rules
         [Dependency] private readonly LoadoutSystem _loadout = default!;
 
         // Validation in case of changes
-        [ValidatePrototypeId<NpcFactionPrototype>]
-        private const string Pirate = " ";
-        [ValidatePrototypeId<NpcFactionPrototype>]
-        private const string Syndicate = " ";
+//        [ValidatePrototypeId<NpcFactionPrototype>]
+//        private const string Pirate = " ";
+//        [ValidatePrototypeId<NpcFactionPrototype>]
+//        private const string Syndicate = " ";
 
-        [ValidatePrototypeId<JobPrototype>]
-        private const string Mercenary = " "; // ID профессии наёмника. Измените, если он другой.
+//        [ValidatePrototypeId<JobPrototype>]
+//        private const string Mercenary = " "; // ID профессии наёмника. Измените, если он другой.
 
         [ValidatePrototypeId<EntityPrototype>]
         private const string MindRole = "MindRoleContractor";
@@ -139,13 +139,13 @@ namespace Content.Server.GameTicking.Rules
                     continue;
 
                 // You can add any new faction here if necessary
-                if (_factionSystem.IsMember((candidate, null), Pirate)
-                    || _factionSystem.IsMember((candidate, null), Syndicate))
-                    continue;
+ //               if (_factionSystem.IsMember((candidate, null), Pirate)
+ //                   || _factionSystem.IsMember((candidate, null), Syndicate))
+ //                   continue;
 
                 if (!_mind.TryGetMind(candidate, out var mindId, out _) ||
-                    !_jobSystem.MindTryGetJob(mindId, out var jobProto) ||
-                    jobProto.ID != Mercenary)
+                    !_jobSystem.MindTryGetJob(mindId, out var jobProto))
+//                   || jobProto.ID != Mercenary)
                     continue;
 
                 candidates.Add(candidate);

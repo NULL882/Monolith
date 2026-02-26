@@ -44,10 +44,10 @@ public sealed class ContractsSystem : EntitySystem
     [Dependency] private readonly StoreSystem _store = default!;
 
     // Validation in case of changes
-    [ValidatePrototypeId<NpcFactionPrototype>]
-    private const string Pirate = " ";
-    [ValidatePrototypeId<NpcFactionPrototype>]
-    private const string Syndicate = " ";
+//    [ValidatePrototypeId<NpcFactionPrototype>]
+//    private const string Pirate = " ";
+//    [ValidatePrototypeId<NpcFactionPrototype>]
+//    private const string Syndicate = " ";
 
     [ValidatePrototypeId<StackPrototype>]
     private const string Credit = "Credit";
@@ -379,9 +379,9 @@ public sealed class ContractsSystem : EntitySystem
             if (HasComp<ContractorComponent>(uid))
                 continue;
 
-            if (_factionSystem.IsMember((uid, null), Pirate)
-                || _factionSystem.IsMember((uid, null), Syndicate))
-                continue;
+//            if (_factionSystem.IsMember((uid, null), Pirate)
+//                || _factionSystem.IsMember((uid, null), Syndicate))
+//                continue;
 
             candidates.Add(uid);
         }

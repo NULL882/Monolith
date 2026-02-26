@@ -9269,7 +9269,7 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 21.06935,11.086905
       parent: 1
-- proto: NFShellShotgunBuckshot
+- proto: ForgeShellShotgunBuckshot
   entities:
   - uid: 426
     components:

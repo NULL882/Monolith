@@ -8830,7 +8830,7 @@ entities:
       pos: -7.5,-2.5
       parent: 1
     - type: BallisticAmmoProvider
-      proto: NFShellShotgunBuckshot
+      proto: ForgeShellShotgunBuckshot
   - uid: 109
     components:
     - type: Transform
@@ -8838,7 +8838,7 @@ entities:
       pos: 7.5,2.5
       parent: 1
     - type: BallisticAmmoProvider
-      proto: NFShellShotgunBuckshot
+      proto: ForgeShellShotgunBuckshot
   - uid: 356
     components:
     - type: Transform
@@ -8846,7 +8846,7 @@ entities:
       pos: 7.5,-2.5
       parent: 1
     - type: BallisticAmmoProvider
-      proto: NFShellShotgunBuckshot
+      proto: ForgeShellShotgunBuckshot
   - uid: 357
     components:
     - type: Transform
@@ -8854,28 +8854,28 @@ entities:
       pos: -7.5,2.5
       parent: 1
     - type: BallisticAmmoProvider
-      proto: NFShellShotgunBuckshot
+      proto: ForgeShellShotgunBuckshot
   - uid: 383
     components:
     - type: Transform
       pos: 2.5,-8.5
       parent: 1
     - type: BallisticAmmoProvider
-      proto: NFShellShotgunBuckshot
+      proto: ForgeShellShotgunBuckshot
   - uid: 421
     components:
     - type: Transform
       pos: -2.5,8.5
       parent: 1
     - type: BallisticAmmoProvider
-      proto: NFShellShotgunBuckshot
+      proto: ForgeShellShotgunBuckshot
   - uid: 422
     components:
     - type: Transform
       pos: 2.5,8.5
       parent: 1
     - type: BallisticAmmoProvider
-      proto: NFShellShotgunBuckshot
+      proto: ForgeShellShotgunBuckshot
   - uid: 991
     components:
     - type: Transform
@@ -8948,7 +8948,7 @@ entities:
       pos: -2.5,-8.5
       parent: 1
     - type: BallisticAmmoProvider
-      proto: NFShellShotgunBuckshot
+      proto: ForgeShellShotgunBuckshot
   - uid: 1300
     components:
     - type: Transform

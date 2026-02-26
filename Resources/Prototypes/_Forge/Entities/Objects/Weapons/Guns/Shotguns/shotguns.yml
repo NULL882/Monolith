@@ -228,7 +228,7 @@
       path: /Audio/_Forge/Weapons/Guns/Gunshots/shotgun_metal.ogg
   - type: BallisticAmmoProvider
     capacity: 10
-    proto: NFShellShotgunBuckshot
+    proto: ForgeShellShotgunBuckshot
     whitelist:
       tags:
       - ShellShotgun

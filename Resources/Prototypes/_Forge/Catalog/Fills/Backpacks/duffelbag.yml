@@ -74,11 +74,3 @@
         amount: 4
       - id: ForgeMagazineRifle20Overpressure
         amount: 4
-      - id: ForgeAmmunitionBoxRifle25Overpressure
-        amount: 2
-      - id: ForgeAmmunitionBoxRifle30Overpressure
-        amount: 2
-      - id: ForgeAmmunitionBoxRifle20Overpressure
-        amount: 2
-      - id: ForgeAmmunitionBoxRifle20Overpressure
-        amount: 2

@@ -1,7 +1,0 @@
-- type: construction
-  id: NFClothingEyesNightVisionGogglesMed
-  graph: NFClothingEyesNightVisionGogglesMed
-  startNode: start
-  targetNode: NightVisionGogglesMed
-  category: construction-category-clothing
-  objectType: Item
