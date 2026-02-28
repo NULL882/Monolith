@@ -50,7 +50,7 @@
   description: Heavy magnum cartridge mostly used by revolvers. Standard kinetic ammunition is common and useful in most situations.
   components:
   - type: CartridgeAmmo
-    # proto: BulletMagnum # Frontier
+    proto: ForgeBulletPistol45 # Forge-change
 
 # WizDen
 #region base

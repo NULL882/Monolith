@@ -1040,7 +1040,7 @@
   id: ContractorUplinkRevolverCapGun
   name: uplink-revolver-cap-gun-name
   description: uplink-revolver-cap-gun-desc
-  productEntity: ForgeRevolverCapGun
+  productEntity: RevolverCapGun
   discountCategory: rareDiscounts
   discountDownTo:
     Telecrystal: 4
@@ -1140,7 +1140,7 @@
   id: ContractorUplinkRevolverCapGunFake
   name: uplink-revolver-cap-gun-fake-name
   description: uplink-revolver-cap-gun-fake-desc
-  productEntity: ForgeRevolverCapGunFake
+  productEntity: RevolverCapGunFake
   discountCategory: rareDiscounts
   discountDownTo:
     Telecrystal: 6

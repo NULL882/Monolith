@@ -31,7 +31,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/hpistol.ogg
   - type: BasicEntityAmmoProvider
-    proto: NFCartridgePistol45Overpressure
+    proto: ForgeCartridgePistol45Overpressure
     capacity: 7
     count: 7
   - type: RechargeBasicEntityAmmo
@@ -42,6 +42,3 @@
   - type: ContainerContainer
     containers:
       ballistic-ammo: !type:Container
-  - type: NFWeaponDetails
-    manufacturer: weapon-details-manufacturer-cybersun-industries
-    class: weapon-details-class-pistol

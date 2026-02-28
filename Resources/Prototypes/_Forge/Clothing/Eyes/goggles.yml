@@ -159,7 +159,7 @@
 
 - type: entity
   parent: [ClothingEyesNightVisionGoggles, ShowSecurityIcons, ShowMedicalIcons, BaseC3Contraband]
-  id: NFClothingEyesNightVisionGoggleContractor
+  id: ForgeClothingEyesNightVisionGoggleContractor
   name: прибор ночного видения DCN™
   description: Усовершенствованный сенсорный дисплей, который выдает идентификационные данные и обеспечивает видимость в полной темноте.
   components:

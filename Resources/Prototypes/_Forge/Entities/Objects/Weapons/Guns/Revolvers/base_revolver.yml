@@ -23,8 +23,6 @@
     delay: 0.66
   - type: StaticPrice
     price: 200
-  - type: NFWeaponDetails
-    class: weapon-details-class-revolver
 
 #region manufacturer
 - type: entity
@@ -38,8 +36,6 @@
     angleIncrease: 1.3
     angleDecay: 4.7
     fireRate: 3
-  - type: NFWeaponDetails
-    manufacturer: weapon-details-manufacturer-gorlex-steel-works
 
 #region chamber
 - type: entity

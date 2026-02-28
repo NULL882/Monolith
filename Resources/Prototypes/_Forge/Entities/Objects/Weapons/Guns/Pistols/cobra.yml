@@ -13,6 +13,6 @@
       params:
         volume: -5
   - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/Pistols/cobra.rsi
+    sprite: Objects/Weapons/Guns/Pistols/cobra.rsi
   - type: Clothing
-    sprite: _NF/Objects/Weapons/Guns/Pistols/cobra.rsi
+    sprite: Objects/Weapons/Guns/Pistols/cobra.rsi
