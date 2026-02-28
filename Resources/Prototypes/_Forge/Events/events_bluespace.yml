@@ -218,3 +218,129 @@
         - /Maps/_Forge/Events/Periodic/Mercenary/mercenary_cache.yml
     rewardAccounts:
       Nfsd: 1.0
+
+- type: entity
+  id: BluespaceVaultError
+  parent: BaseStationEventShortDelay
+  components:
+  - type: StationEvent
+    startAnnouncement: station-event-bluespace-vault-start-announcement
+    startAudio:
+      path: /Audio/_Forge/Announcements/Events/oleg_bluespace_vault_arrival.ogg # Forge-Change
+    endAnnouncement: station-event-bluespace-vault-end-announcement
+    endAudio:
+      path: /Audio/_Forge/Announcements/Events/oleg_bluespace_vault_leave.ogg # Forge-Change
+    warningAnnouncement: station-event-bluespace-vault-warning-announcement
+    earliestStart: 100
+    weight: 5
+    duration: 1020
+    maxDuration: 1350
+    reoccurrenceDelay: 360 # 6 hours
+  - type: BluespaceErrorRule
+    groups:
+      grid: !type:GridSpawnGroup
+        nameLoc:
+        - station-event-bluespace-name-SecureNTVault
+        minimumDistance: 1500
+        maximumDistance: 2500
+        addComponents:
+        - type: Gravity
+          enabled: true
+          inherent: true
+        - type: IFF
+          color: "#E10F9B"
+        - type: LinkedLifecycleGridParent
+        - type: ProtectedGrid
+          preventArtifactTriggers: true
+        - type: PreventPilot
+        - type: ForceAnchor
+        paths:
+        - /Maps/_Forge/Events/Periodic/NanoTrasen/storageNt.yml #Forge-Change
+    rewardAccounts:
+      Nfsd: 0.25
+      Frontier: 0.25
+      Medical: 0.25
+      Edison: 0.25
+
+- type: entity
+  id: BluespaceVaultSmallError
+  parent: BaseStationEventShortDelay
+  components:
+  - type: StationEvent
+    startAnnouncement: station-event-bluespace-vault-start-announcement
+    startAudio:
+      path: /Audio/_Forge/Announcements/Events/oleg_bluespace_vault_arrival.ogg # Forge-Change
+    endAnnouncement: station-event-bluespace-vault-end-announcement
+    endAudio:
+      path: /Audio/_Forge/Announcements/Events/oleg_bluespace_vault_leave.ogg # Forge-Change
+    warningAnnouncement: station-event-bluespace-vault-warning-announcement
+    earliestStart: 100
+    maximumPlayers: 30
+    weight: 5
+    duration: 590
+    maxDuration: 780
+    reoccurrenceDelay: 360 # 6 hours
+  - type: BluespaceErrorRule
+    groups:
+      grid: !type:GridSpawnGroup
+        nameLoc:
+        - station-event-bluespace-name-SecureNTVault
+        minimumDistance: 1500
+        maximumDistance: 2500
+        addComponents:
+        - type: Gravity
+          enabled: true
+          inherent: true
+        - type: IFF
+          color: "#E10F9B"
+        - type: LinkedLifecycleGridParent
+        - type: ProtectedGrid
+          preventArtifactTriggers: true
+        - type: PreventPilot
+        - type: ForceAnchor
+        paths:
+        - /Maps/_Forge/Events/Periodic/NanoTrasen/storageNtSmall.yml #Forge-Change
+    rewardAccounts:
+      Nfsd: 0.25
+      Frontier: 0.25
+      Medical: 0.25
+      Edison: 0.25
+
+- type: entity
+  id: BluespaceSyndicateFTLInterception
+  parent: BaseStationEventShortDelay
+  components:
+  - type: StationEvent
+    startAnnouncement: station-event-bluespace-generic-ftl-start-announcement
+    startAudio:
+      path: /Audio/_Forge/Announcements/Events/oleg_bluespace_ship_arrival.ogg # Forge-Change
+    warningAnnouncement: station-event-bluespace-generic-ftl-warning-announcement
+    endAnnouncement: station-event-bluespace-generic-ftl-end-announcement
+    endAudio:
+      path: /Audio/_Forge/Announcements/Events/oleg_bluespace_ship_leave.ogg # Forge-Change
+    earliestStart: 80
+    minimumPlayers: 15
+    weight: 1
+    duration: 1800
+    maxDuration: 2400
+    reoccurrenceDelay: 360 # 6 hours
+  - type: BluespaceErrorRule
+    groups:
+      grid: !type:GridSpawnGroup
+        nameLoc:
+        - station-event-bluespace-name-UnidentifiedVessel
+        minimumDistance: 1500
+        maximumDistance: 2500
+        addComponents:
+        - type: Gravity
+          enabled: true
+          inherent: true
+        - type: IFF
+          color: "#E10F9B"
+        - type: LinkedLifecycleGridParent
+        - type: ProtectedGrid
+          preventArtifactTriggers: true
+        - type: PreventPilot
+        - type: ForceAnchor
+        paths:
+        - /Maps/_Forge/Events/Periodic/Syndicate/syndieftlintercept.yml #Forge-Change

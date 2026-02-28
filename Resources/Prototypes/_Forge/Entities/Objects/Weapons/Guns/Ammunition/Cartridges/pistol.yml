@@ -42,6 +42,15 @@
   - type: StaticPrice
     price: 1
 
+- type: entity
+  categories: [ HideSpawnMenu ] # Frontier
+  id: CartridgeMagnum
+  name: cartridge (.45 magnum)
+  parent: BaseCartridgeMagnum
+  description: Heavy magnum cartridge mostly used by revolvers. Standard kinetic ammunition is common and useful in most situations.
+  components:
+  - type: CartridgeAmmo
+    # proto: BulletMagnum # Frontier
 
 # WizDen
 #region base
