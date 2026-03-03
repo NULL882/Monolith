@@ -190,6 +190,8 @@
     size: Small
     shape:
     - 0,0,2,3
+  - type: Storage
+    maxItemSize: Small
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHealmetContractorStealh
