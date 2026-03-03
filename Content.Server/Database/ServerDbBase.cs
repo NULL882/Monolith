@@ -286,9 +286,8 @@ namespace Content.Server.Database
                 antags.ToHashSet(),
                 traits.ToHashSet(),
                 loadouts,
-                company,
-                barkVoice // Corvax-Frontier-Barks
-                );
+                barkVoice, // Corvax-Frontier-Barks
+                company);
         }
 
         private static Profile ConvertProfiles(HumanoidCharacterProfile humanoid, int slot, Profile? profile = null)
