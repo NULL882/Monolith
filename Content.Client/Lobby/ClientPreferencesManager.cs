@@ -1,11 +1,13 @@
 using System.Linq;
 using Content.Shared._Mono.Company;
+using Content.Shared.CCVar;
 using Content.Shared.Preferences;
 using Robust.Client;
 using Robust.Client.Player;
 using Robust.Shared.Network;
 using Robust.Shared.Utility;
 using Robust.Shared.Prototypes;
+using Robust.Shared.Configuration;
 
 namespace Content.Client.Lobby
 {
@@ -19,6 +21,8 @@ namespace Content.Client.Lobby
         [Dependency] private readonly IClientNetManager _netManager = default!;
         [Dependency] private readonly IBaseClient _baseClient = default!;
         [Dependency] private readonly IPlayerManager _playerManager = default!;
+        [Dependency] private readonly IConfigurationManager _cfg = default!; // Forge-Change
+        [Dependency] private readonly Players.PlayTimeTracking.JobRequirementsManager _jobRequirements = default!; // Forge-Change
 
         public event Action? OnServerDataLoaded;
 
@@ -73,6 +77,15 @@ namespace Content.Client.Lobby
                 {
                     profile = humanoidProfile.WithCompany("None");
                 }
+
+                // Forge-Change-Start: apply whitelisted starting balance on client for new characters so UI matches server
+                if (_jobRequirements.IsWhitelisted() &&
+                    humanoidProfile.BankBalance == HumanoidCharacterProfile.DefaultBalance)
+                {
+                    var startingBalance = _cfg.GetCVar(CCVars.GameWhitelistedStartingBalance);
+                    profile = humanoidProfile.WithBankBalance(startingBalance);
+                }
+                // Forge-Change-End
             }
 
             profile.EnsureValid(_playerManager.LocalSession!, collection);

@@ -21,6 +21,7 @@ debug_coordinates_admin_only = true
 cryo_sleep_rejoining = true
 role_timer_override = ""
 role_whitelist = true
+whitelisted_starting_balance = 100000
 
 [shuttle]
 auto_call_time = 360

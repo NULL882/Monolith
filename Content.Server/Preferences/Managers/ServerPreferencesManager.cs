@@ -103,8 +103,19 @@ namespace Content.Server.Preferences.Managers
 
             var curPrefs = prefsData.Prefs!;
             var session = _playerManager.GetSessionById(userId);
-
             profile.EnsureValid(session, _dependencies);
+
+            // Forge-Change-Start: set increased starting bank balance for new globally whitelisted characters
+            if (profile is HumanoidCharacterProfile humanoidProfile && !curPrefs.Characters.ContainsKey(slot))
+            {
+                var whitelisted = await _db.GetWhitelistStatusAsync(userId);
+                if (whitelisted)
+                {
+                    var startingBalance = _cfg.GetCVar(CCVars.GameWhitelistedStartingBalance);
+                    profile = humanoidProfile.WithBankBalance(startingBalance);
+                }
+            }
+            // Forge-Change-End
 
             var profiles = new Dictionary<int, ICharacterProfile>(curPrefs.Characters)
 
@@ -288,7 +299,18 @@ namespace Content.Server.Preferences.Managers
             var prefs = await _db.GetPlayerPreferencesAsync(userId, cancel);
             if (prefs is null)
             {
-                return await _db.InitPrefsAsync(userId, HumanoidCharacterProfile.Random(), cancel);
+                var profile = HumanoidCharacterProfile.Random();
+
+                // Forge-Change-Start: give higher initial balance to first character of globally whitelisted players
+                var whitelisted = await _db.GetWhitelistStatusAsync(userId);
+                if (whitelisted)
+                {
+                    var startingBalance = _cfg.GetCVar(CCVars.GameWhitelistedStartingBalance);
+                    profile = profile.WithBankBalance(startingBalance);
+                }
+                // Forge-Change-End
+
+                return await _db.InitPrefsAsync(userId, profile, cancel);
             }
 
             return prefs;
