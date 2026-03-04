@@ -106,7 +106,9 @@ namespace Content.Server.Preferences.Managers
             profile.EnsureValid(session, _dependencies);
 
             // Forge-Change-Start: set increased starting bank balance for new globally whitelisted characters
-            if (profile is HumanoidCharacterProfile humanoidProfile && !curPrefs.Characters.ContainsKey(slot))
+            if (profile is HumanoidCharacterProfile humanoidProfile &&
+                !curPrefs.Characters.ContainsKey(slot) &&
+                humanoidProfile.BankBalance == HumanoidCharacterProfile.DefaultBalance)
             {
                 var whitelisted = await _db.GetWhitelistStatusAsync(userId);
                 if (whitelisted)

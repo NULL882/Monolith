@@ -70,21 +70,18 @@ namespace Content.Client.Lobby
             // Verify company exists if this is a humanoid profile
             if (profile is HumanoidCharacterProfile humanoidProfile)
             {
+                // Forge-Change-Start
+                var humanoid = humanoidProfile;
+
                 var protoManager = IoCManager.Resolve<IPrototypeManager>();
-                if (!string.IsNullOrEmpty(humanoidProfile.Company) &&
-                    humanoidProfile.Company != "None" &&
-                    !protoManager.HasIndex<CompanyPrototype>(humanoidProfile.Company))
+                if (!string.IsNullOrEmpty(humanoid.Company) &&
+                    humanoid.Company != "None" &&
+                    !protoManager.HasIndex<CompanyPrototype>(humanoid.Company))
                 {
-                    profile = humanoidProfile.WithCompany("None");
+                    humanoid = humanoid.WithCompany("None");
                 }
 
-                // Forge-Change-Start: apply whitelisted starting balance on client for new characters so UI matches server
-                if (_jobRequirements.IsWhitelisted() &&
-                    humanoidProfile.BankBalance == HumanoidCharacterProfile.DefaultBalance)
-                {
-                    var startingBalance = _cfg.GetCVar(CCVars.GameWhitelistedStartingBalance);
-                    profile = humanoidProfile.WithBankBalance(startingBalance);
-                }
+                profile = humanoid;
                 // Forge-Change-End
             }
 
@@ -101,6 +98,16 @@ namespace Content.Client.Lobby
 
         public void CreateCharacter(ICharacterProfile profile)
         {
+            // Forge-Change-Start: apply whitelisted starting balance for brand new characters so UI matches server
+            if (profile is HumanoidCharacterProfile humanoidProfile &&
+                _jobRequirements.IsWhitelisted() &&
+                humanoidProfile.BankBalance == HumanoidCharacterProfile.DefaultBalance)
+            {
+                var startingBalance = _cfg.GetCVar(CCVars.GameWhitelistedStartingBalance);
+                profile = humanoidProfile.WithBankBalance(startingBalance);
+            }
+            // Forge-Change-End
+
             var characters = new Dictionary<int, ICharacterProfile>(Preferences.Characters);
             var lowest = Enumerable.Range(0, Settings.MaxCharacterSlots)
                 .Except(characters.Keys)
