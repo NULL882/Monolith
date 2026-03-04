@@ -1,4 +1,4 @@
-﻿using Content.Shared.Roles;
+using Content.Shared.Roles;
 using Robust.Shared.Configuration;
 
 namespace Content.Shared.CCVar;
@@ -130,6 +130,12 @@ public sealed partial class CCVars
     /// </summary>
     public static readonly CVarDef<bool>
         GameRoleWhitelist = CVarDef.Create("game.role_whitelist", true, CVar.SERVER | CVar.REPLICATED);
+
+    /// <summary>
+    ///     Forge-Change: starting bank balance for globally whitelisted players' new characters.
+    /// </summary>
+    public static readonly CVarDef<int>
+        GameWhitelistedStartingBalance = CVarDef.Create("game.whitelisted_starting_balance", 100_000, CVar.SERVER | CVar.REPLICATED);
 
     /// <summary>
     ///     Whether or not disconnecting inside of a cryopod should remove the character or just store them until they reconnect.

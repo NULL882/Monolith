@@ -195,6 +195,10 @@ public sealed class PlayTimeTrackingSystem : EntitySystem
             !_cfg.GetCVar(CCVars.GameRoleTimers))
             return true;
 
+        var isWhitelisted = player.ContentData()?.Whitelisted ?? false; // Forge-Change: bypass role timers for globally whitelisted players
+        if (isWhitelisted)
+            return true; // Forge-Change
+
         if (!_tracking.TryGetTrackerTimes(player, out var playTimes))
         {
             Log.Error($"Unable to check playtimes {Environment.StackTrace}");
@@ -209,6 +213,10 @@ public sealed class PlayTimeTrackingSystem : EntitySystem
         var roles = new HashSet<ProtoId<JobPrototype>>();
         if (!_cfg.GetCVar(CCVars.GameRoleTimers))
             return roles;
+
+        var isWhitelisted = player.ContentData()?.Whitelisted ?? false; // Forge-Change: globally whitelisted players ignore disallowed-jobs timer checks
+        if (isWhitelisted)
+            return roles; // Forge-Change
 
         if (!_tracking.TryGetTrackerTimes(player, out var playTimes))
         {
@@ -237,8 +245,10 @@ public sealed class PlayTimeTrackingSystem : EntitySystem
             Log.Error($"Playtimes weren't ready yet for {player} on roundstart!");
             playTimes ??= new Dictionary<string, TimeSpan>();
         }
-
         var isWhitelisted = player.ContentData()?.Whitelisted ?? false; // DeltaV - Whitelist requirement
+
+        if (isWhitelisted)
+            return; // Forge-Change: do not filter jobs by playtime for globally whitelisted players
 
         for (var i = 0; i < jobs.Count; i++)
         {
