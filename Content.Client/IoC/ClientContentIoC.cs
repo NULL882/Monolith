@@ -62,6 +62,10 @@ namespace Content.Client.IoC
             collection.Register<PlayerRateLimitManager>();
             collection.Register<SharedPlayerRateLimitManager, PlayerRateLimitManager>();
             collection.Register<TitleWindowManager>();
+
+            // Forge-Change: register sponsor manager on client like in Frontier1
+            collection.Register<SponsorManager>();
+            collection.Register<ISharedSponsorManager, SponsorManager>();
         }
     }
 }
