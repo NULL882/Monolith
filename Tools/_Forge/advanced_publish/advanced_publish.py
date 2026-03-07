@@ -177,7 +177,7 @@ def upload_file(file_path: str, fork_id: str, publish_token: str, pool_connectio
                 "Robust-Cdn-Publish-File": os.path.basename(file_path),
                 "Robust-Cdn-Publish-Version": version
             }
-            resp = session.post(f"{ROBUST_CDN_URL}fork/{fork_id}/publish/file", data=file, headers=headers, timeout=(30,180))
+            resp = session.post(f"{ROBUST_CDN_URL}fork/{fork_id}/publish/file", data=file, headers=headers, timeout=(60,300))
             resp.raise_for_status()
         return file_path
     except FileNotFoundError:
