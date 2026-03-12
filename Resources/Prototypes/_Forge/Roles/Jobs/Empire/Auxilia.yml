@@ -30,7 +30,7 @@
   #   - !type:RoleTimeRequirement
   #     role: # Позже добавить альтернативные тебования времени за аналогичную роль у ТСФ
   #     time: 43200 # 12 hours
-  startingGear: PirateNAuxuilaGearFGear
+  startingGear: AuxuilaGear
   icon: JobIconEmpireAuxilia
   supervisors: job-supervisors-praetorian
   weight: 15
