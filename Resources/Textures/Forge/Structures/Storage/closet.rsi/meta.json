@@ -1,7 +1,7 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Made by Weilpatient",
+  "copyright": "renegate's made by Weilpatient, imperial by v6st for Forge",
   "size": {
     "x": 32,
     "y": 32
@@ -75,6 +75,27 @@
     },
     {
       "name": "renegate_med"
+    },
+    {
+      "name": "imperial_door"
+    },
+    {
+      "name": "imperial_open"
+    },
+    {
+      "name": "imperial"
+    },
+    {
+      "name": "implord_door"
+    },
+    {
+      "name": "implord_open"
+    },
+    {
+      "name": "implord"
+    },
+    {
+      "name": "impinq_door"
     }
   ]
 }

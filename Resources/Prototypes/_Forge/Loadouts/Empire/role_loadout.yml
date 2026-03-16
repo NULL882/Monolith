@@ -13,9 +13,9 @@
   - EmpireGloves
   - EmpireShoes
   - EmpireBackpack
-  # - EmpireEars
+  - EmpireEars
   # - EmpireBoxSurvival
-  # - EmpirePDA
+  - EmpirePDA
   - ContractorWallet
   - ContractorCartridge
 #  - ContractorImplanter # Mono - TSF has a skill issue sometimes
@@ -42,9 +42,9 @@
   - EmpireGloves
   - EmpireShoes
   - EmpireBackpack
-  # - EmpireEars
+  - EmpireEars
   # - EmpireBoxSurvival
-  # - EmpirePDA
+  - EmpirePDA
   - ContractorWallet
   - ContractorCartridge
 #  - ContractorImplanter # Mono - TSF has a skill issue sometimes
@@ -71,9 +71,9 @@
   - EmpireGloves
   - EmpireShoes
   - EmpireBackpack
-  # - EmpireEars
+  - EmpireEars
   # - EmpireBoxSurvival
-  # - EmpirePDA
+  - EmpireGoldPDA
   - ContractorWallet
   - ContractorCartridge
 #  - ContractorImplanter # Mono - TSF has a skill issue sometimes
@@ -101,9 +101,9 @@
   - EmpireGloves
   - EmpireShoes
   - EmpireBackpack
-  # - EmpireEars
+  - EmpireEars
   # - EmpireBoxSurvival
-  # - EmpirePDA
+  - EmpireGoldPDA
   - ContractorWallet
   - ContractorCartridge
 #  - ContractorImplanter # Mono - TSF has a skill issue sometimes
@@ -130,9 +130,9 @@
   - EmpireGloves
   - EmpireShoes
   - EmpireBackpack
-  # - EmpireEars
+  - EmpireEars
   # - EmpireBoxSurvival
-  # - EmpirePDA
+  - EmpireInqPDA
   - ContractorWallet
   - ContractorCartridge
 #  - ContractorImplanter # Mono - TSF has a skill issue sometimes
@@ -159,9 +159,9 @@
   - EmpireGloves
   - EmpireShoes
   - EmpireBackpack
-  # - EmpireEars
+  - EmpireEars
   # - EmpireBoxSurvival
-  # - EmpirePDA
+  - EmpireGoldPDA
   - ContractorWallet
   - ContractorCartridge
 #  - ContractorImplanter # Mono - TSF has a skill issue sometimes
@@ -188,9 +188,9 @@
   - EmpireGloves
   - EmpireShoes
   - EmpireBackpack
-  # - EmpireEars
+  - EmpireEars
   # - EmpireBoxSurvival
-  # - EmpirePDA
+  - EmpireGoldPDA
   - ContractorWallet
   - ContractorCartridge
 #  - ContractorImplanter # Mono - TSF has a skill issue sometimes
@@ -217,9 +217,9 @@
   - EmpireGloves
   - EmpireShoes
   - EmpireBackpack
-  # - EmpireEars
+  - EmpireEars
   # - EmpireBoxSurvival
-  # - EmpirePDA
+  - EmpireCommanderPDA
   - ContractorWallet
   - ContractorCartridge
 #  - ContractorImplanter # Mono - TSF has a skill issue sometimes

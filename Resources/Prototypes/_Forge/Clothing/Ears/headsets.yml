@@ -73,7 +73,7 @@
     sprite: Forge/Clothing/Ears/Headsets/headset_renegade.rsi
   - type: Clothing
     sprite: Forge/Clothing/Ears/Headsets/headset_renegade.rsi
-    
+
 - type: entity
   parent: [ClothingHeadsetAlt, BaseC3Contraband, ContrabandClothing]
   id: ClothingHeadsetRenegadeTech
@@ -89,7 +89,7 @@
     sprite: Forge/Clothing/Ears/Headsets/headset_renegade.rsi
   - type: Clothing
     sprite: Forge/Clothing/Ears/Headsets/headset_renegade.rsi
-    
+
 - type: entity
   parent: [ClothingHeadsetAlt, BaseC3Contraband, ContrabandClothing]
   id: ClothingHeadsetRenegadedCom
@@ -106,3 +106,18 @@
   - type: Clothing
     sprite: Forge/Clothing/Ears/Headsets/headset_renegade.rsi
 
+- type: entity
+  parent: ClothingHeadsetAlt
+  id: ClothingHeadsetEmpire
+  name: Empire headset
+  description: An updated, modular intercom that fits over the head. Takes encryption keys.
+  components:
+  - type: Sprite
+    sprite: Forge/Clothing/Ears/Headsets/headset_emp.rsi
+  - type: Clothing
+    sprite: Forge/Clothing/Ears/Headsets/headset_emp.rsi
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyCommon
+      - EncryptionKeyEmpire

@@ -92,7 +92,7 @@
     - state: pm_label
 
 - type: entity
-  parent: [EncryptionKey, BaseC3Contraband] 
+  parent: [EncryptionKey, BaseC3Contraband]
   id: EncryptionKeyRenegade
   suffix: Ренегаты
   name: renegade encryption key
@@ -101,15 +101,15 @@
     - type: EncryptionKey
       channels:
       - Renegade
-      defaultChannel: Renegade    
+      defaultChannel: Renegade
     - type: Sprite
       sprite: Forge/Objects/Devices/encryption_keys.rsi
       layers:
         - state: crypt_renegade
         - state: ren_label
-        
+
 - type: entity
-  parent: [EncryptionKey, BaseC3Contraband] 
+  parent: [EncryptionKey, BaseC3Contraband]
   id: EncryptionKeyRenegadeTech
   suffix: Ренегаты
   name: technical renegade encryption key
@@ -119,15 +119,15 @@
       channels:
       - Renegade
       - TechRenegade
-      defaultChannel: TechRenegade     
+      defaultChannel: TechRenegade
     - type: Sprite
       sprite: Forge/Objects/Devices/encryption_keys.rsi
       layers:
         - state: crypt_renegade
         - state: techren_label
-        
+
 - type: entity
-  parent: [EncryptionKey, BaseC3Contraband] 
+  parent: [EncryptionKey, BaseC3Contraband]
   id: EncryptionKeyRenegadeCom
   suffix: Ренегаты
   name: command renegade encryption key
@@ -138,9 +138,28 @@
       - Renegade
       - TechRenegade
       - ComRenegade
-      defaultChannel: ComRenegade  
+      defaultChannel: ComRenegade
     - type: Sprite
       sprite: Forge/Objects/Devices/encryption_keys.rsi
       layers:
         - state: crypt_renegade
         - state: comren_label
+
+- type: entity
+  parent: EncryptionKey
+  id: EncryptionKeyEmpire
+  name: empire encryption key
+  categories: [ DoNotMap ]
+  description: An encryption key for coordinating empire guardians.
+  components:
+  - type: EncryptionKey
+    channels:
+    - Empire
+    defaultChannel: Empire
+  - type: Item
+    sprite: Forge/Objects/Devices/encryption_keys.rsi
+  - type: Sprite
+    sprite: Forge/Objects/Devices/encryption_keys.rsi
+    layers:
+    - state: crypt_silver
+    - state: emp_label
