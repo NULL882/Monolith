@@ -18375,3 +18375,10 @@ Entries:
   id: 2026
   time: '2026-03-19T19:34:56.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3475
+- author: EldritchPineapple
+  changes:
+    - type: Tweak
+      message: minor changes to aldebaran gun placement and rewired the spica a wee bit
+  id: 2027
+  time: '2026-03-19T19:42:18.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3487
