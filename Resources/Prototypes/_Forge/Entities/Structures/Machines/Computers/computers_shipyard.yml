@@ -22,3 +22,30 @@
     interfaces:
       enum.ShipyardConsoleUiKey.Renegate:
        type: ShipyardConsoleBoundUserInterface
+
+- type: entity
+  id: ComputerShipyardEmpire
+  parent: [BaseStructureDisableToolUse, BaseStructureIndestructible, ComputerShipyardBase]
+  name: empire shipyard console
+  description: Console for commissioning Imperial Navy vessels.
+  suffix: Empire
+  components:
+  - type: Sprite
+    sprite: Forge/Structures/Machines/computers.rsi
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer_engi
+    - map: ["computerLayerKeyboard"]
+      state: generic_keyboard
+    - map: ["computerLayerScreen"]
+      state: shipyard_engi
+    - map: ["computerLayerKeys"]
+      state: telesci_key
+  - type: ActivatableUI
+    key: enum.ShipyardConsoleUiKey.Empire
+  - type: UserInterface
+    interfaces:
+      enum.ShipyardConsoleUiKey.Empire:
+        type: ShipyardConsoleBoundUserInterface
+  - type: ShipyardConsole
+    shipyardChannel: Empire

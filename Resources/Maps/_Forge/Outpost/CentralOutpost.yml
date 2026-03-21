@@ -4,8 +4,8 @@ meta:
   engineVersion: 264.0.0
   forkId: ""
   forkVersion: ""
-  time: 03/20/2026 12:15:21
-  entityCount: 11876
+  time: 03/21/2026 05:23:23
+  entityCount: 11892
 maps:
 - 11876
 grids:
@@ -312,9 +312,9 @@ entities:
     - type: SpreaderGrid
       spreadQueues:
         MetalFoam: []
-        Smoke: []
-        Puddle: []
         Kudzu: []
+        Puddle: []
+        Smoke: []
     - type: Shuttle
       dampingModifier: 0.25
     - type: GridPathfinding
@@ -11738,7 +11738,7 @@ entities:
       pos: 16.5,61.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -63576.91
+      secondsUntilStateChange: -63774.176
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -11957,7 +11957,7 @@ entities:
       pos: -23.5,65.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -74217.336
+      secondsUntilStateChange: -74414.6
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -31920,6 +31920,18 @@ entities:
       powerLoad: 5
     - type: Battery
       startingCharge: 0
+- proto: ComputerShipyardEmpire
+  entities:
+  - uid: 11877
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -12.5,52.5
+      parent: 2
+    - type: ApcPowerReceiver
+      powerLoad: 5
+    - type: Battery
+      startingCharge: 0
 - proto: ComputerShipyardMedical
   entities:
   - uid: 10816
@@ -31937,6 +31949,18 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 32.5,71.5
+      parent: 2
+    - type: ApcPowerReceiver
+      powerLoad: 5
+    - type: Battery
+      startingCharge: 0
+- proto: ComputerShipyardRenegate
+  entities:
+  - uid: 11878
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -13.5,52.5
       parent: 2
     - type: ApcPowerReceiver
       powerLoad: 5
@@ -40127,7 +40151,7 @@ entities:
       pos: -27.5,18.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -74505.9
+      secondsUntilStateChange: -74703.164
       state: Closing
     - type: DeviceNetwork
       deviceLists:
@@ -42550,7 +42574,7 @@ entities:
       pos: 24.5,23.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -28884.555
+      secondsUntilStateChange: -29081.82
       state: Closing
     - type: DeviceNetwork
       deviceLists:
@@ -43146,6 +43170,118 @@ entities:
     components:
     - type: Transform
       pos: -23.315956,61.553753
+      parent: 2
+- proto: ForgeSpawnPointArbiter
+  entities:
+  - uid: 11885
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -5.5,56.5
+      parent: 2
+- proto: ForgeSpawnPointAuxilia
+  entities:
+  - uid: 11886
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -4.5,56.5
+      parent: 2
+- proto: ForgeSpawnPointCardinal
+  entities:
+  - uid: 11887
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -3.5,56.5
+      parent: 2
+- proto: ForgeSpawnPointConsul
+  entities:
+  - uid: 11888
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -3.5,55.5
+      parent: 2
+- proto: ForgeSpawnPointInquisitor
+  entities:
+  - uid: 11889
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -4.5,55.5
+      parent: 2
+- proto: ForgeSpawnPointNeophyte
+  entities:
+  - uid: 11890
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -5.5,55.5
+      parent: 2
+- proto: ForgeSpawnPointPraefect
+  entities:
+  - uid: 11892
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -2.5,56.5
+      parent: 2
+- proto: ForgeSpawnPointPraetorian
+  entities:
+  - uid: 11891
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -2.5,55.5
+      parent: 2
+- proto: ForgeSpawnPointRenegateBaron
+  entities:
+  - uid: 11879
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -22.5,56.5
+      parent: 2
+- proto: ForgeSpawnPointRenegateDraftsman
+  entities:
+  - uid: 11882
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -22.5,55.5
+      parent: 2
+- proto: ForgeSpawnPointRenegateFlunky
+  entities:
+  - uid: 11883
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -21.5,55.5
+      parent: 2
+- proto: ForgeSpawnPointRenegateForeman
+  entities:
+  - uid: 11884
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -20.5,55.5
+      parent: 2
+- proto: ForgeSpawnPointRenegateOverseer
+  entities:
+  - uid: 11881
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -20.5,56.5
+      parent: 2
+- proto: ForgeSpawnPointRenegateQuack
+  entities:
+  - uid: 11880
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -21.5,56.5
       parent: 2
 - proto: GasAnalyzer
   entities:

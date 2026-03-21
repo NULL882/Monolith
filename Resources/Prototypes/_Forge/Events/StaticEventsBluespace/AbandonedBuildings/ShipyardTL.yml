@@ -10,29 +10,29 @@
 
 # Notes:
 #
-- type: pointOfInterest
-  id: ShipyardTL
-  name: Заброшенная Верфь TechnicLogistic
-  minimumDistance: 4000
-  maximumDistance: 5500
-  gridPath: /Maps/_Forge/POI/shipyard_tl.yml
-  addComponents:
-  - type: IFF
-    color: "#c2c0c0"
-    readOnly: true
-  - type: Shuttle
+#- type: pointOfInterest
+#  id: ShipyardTL
+#  name: Заброшенная Верфь TechnicLogistic
+#  minimumDistance: 4000
+#  maximumDistance: 5500
+#  gridPath: /Maps/_Forge/POI/shipyard_tl.yml
+#  addComponents:
+#  - type: IFF
+#    color: "#c2c0c0"
+#    readOnly: true
+#  - type: Shuttle
 
-- type: gameMap
-  id: ShipyardTL
-  mapName: Заброшенная Верфь TechnicLogistic
-  mapPath: /Maps/_Forge/POI/shipyard_tl.yml
-  minPlayers: 0
-  stations:
-    ShipyardTL:
-      stationProto: StandardFrontierOutpost
-      components:
-        - type: StationNameSetup
-          mapNameTemplate: 'Заброшенная Верфь TechnicLogistic '
-        - type: StationJobs
-          availableJobs: {}
-        - type: StationDeadDropHintExempt
+#- type: gameMap
+#  id: ShipyardTL
+#  mapName: Заброшенная Верфь TechnicLogistic
+#  mapPath: /Maps/_Forge/POI/shipyard_tl.yml
+#  minPlayers: 0
+#  stations:
+#    ShipyardTL:
+#      stationProto: StandardFrontierOutpost
+#      components:
+#        - type: StationNameSetup
+#          mapNameTemplate: 'Заброшенная Верфь TechnicLogistic '
+#        - type: StationJobs
+#          availableJobs: {}
+#        - type: StationDeadDropHintExempt
