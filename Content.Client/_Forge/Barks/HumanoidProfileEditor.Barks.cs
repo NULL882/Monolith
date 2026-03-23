@@ -1,5 +1,6 @@
 using System.Linq;
 using Content.Shared._Forge.Barks;
+using Content.Client._Forge.Barks;
 
 namespace Content.Client.Lobby.UI; // No, it doesn't need to be changed. It will break the logic.
 
