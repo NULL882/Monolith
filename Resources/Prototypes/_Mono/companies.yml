@@ -286,3 +286,11 @@
   - burrrkeye
   - enkidienne
   - chugaa
+
+- type: company
+  id: Renegates
+  form: Antagonist
+  name: Сопротивление Ренегатов
+  description: renegate-resistance-description
+  color: "#6B2D2D"
+  disabled: true

@@ -13,7 +13,9 @@ public sealed partial class HumanoidProfileEditor
         _barkVoiceList = _prototypeManager
             .EnumeratePrototypes<BarkPrototype>()
             .Where(o => o.RoundStart)
-            .OrderBy(o => Loc.GetString(o.Name))
+            // `BarkPrototype.Name` is human-readable and currently isn't backed by Fluent keys.
+            // Using Loc.GetString here causes spam warnings for non-en cultures.
+            .OrderBy(o => o.Name) // Forge-Change: added Forge-Change prefix to the function name
             .ToList();
 
         BarkVoiceButton.OnItemSelected += args =>
@@ -37,7 +39,8 @@ public sealed partial class HumanoidProfileEditor
         {
             var voice = _barkVoiceList[i];
 
-            var name = Loc.GetString(voice.Name);
+            // Avoid Fluent lookup for `voice.Name` for the same reason as above.
+            var name = voice.Name; // Forge-Change: added Forge-Change prefix to the function name
             BarkVoiceButton.AddItem(name, i);
 
             if (firstVoiceChoiceId == 1)
