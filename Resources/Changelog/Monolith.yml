@@ -19264,3 +19264,10 @@ Entries:
   id: 2124
   time: '2026-04-03T18:25:56.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3680
+- author: Redrover1760
+  changes:
+    - type: Tweak
+      message: Increased TSF Mech Blip visibility
+  id: 2125
+  time: '2026-04-03T18:26:26.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3667
