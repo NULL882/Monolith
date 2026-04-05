@@ -27,6 +27,7 @@
   description: company-nexus-description
   color: "#0f3b62"
   icon: Nexus
+  whitelisted: true
 
 - type: company
   id: Renegates
