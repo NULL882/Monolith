@@ -8,7 +8,7 @@
 - type: radioChannel
   id: Renegade
   name: chat-radio-renegade
-  keycode: 'ы'
+  keycode: 'ф'
   frequency: 1125
   color: "#bd33a4"
 
@@ -22,34 +22,27 @@
 - type: radioChannel
   id: ComRenegade
   name: chat-radio-com-renegade
-  keycode: 'е'
+  keycode: 'й'
   frequency: 1134
   color: "#8b008b"
 
 - type: radioChannel
   id: Empire
   name: chat-radio-imperial
-  keycode: 'й'
+  keycode: 'ы'
   frequency: 1246
   color: "#ab7a52"
 
 - type: radioChannel
   id: EmpireCommand
   name: chat-radio-imperial-command
-  keycode: 'ф'
+  keycode: 'е'
   frequency: 1247
   color: "#c49a6c"
 
 - type: radioChannel
-  id: SyndicateShturm
-  name: chat-radio-syndicate
-  keycode: 'э'
-  frequency: 1214
-  color: "#9f5253"
-
-- type: radioChannel
   id: Hospital
   name: chat-radio-trauma
-  keycode: 'и'
+  keycode: 'п'
   frequency: 1356
   color: "#009e79"

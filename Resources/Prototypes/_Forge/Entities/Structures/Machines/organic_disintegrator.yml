@@ -1,0 +1,77 @@
+- type: entity
+  parent: [ BaseMachineIndestructible, ConstructibleMachine ]
+  id: BaseOrganicDesintegrator
+  name: organic disintegrator
+  description: A relic of the ancient civilization, when activated, it generates a molecular decay field that selectively destroys chimeric biomass. Within seconds, any aggressive organic forms within the zone are transformed into harmless, inert dust, without affecting the normal flora and fauna.
+  abstract: true
+  components:
+  - type: LanguageSpeaker
+  - type: LanguageKnowledge
+    speaks:
+    - Azaziba
+    understands:
+    - Azaziba
+  - type: ApcPowerReceiver
+    powerLoad: 1024
+  - type: ExtensionCableReceiver
+  - type: StationAiWhitelist
+  - type: Sprite
+    sprite: Structures/Machines/telecomms.rsi
+    snapCardinals: true
+    layers:
+    - state: icon
+    - state: unlit
+      shader: unshaded
+      map: ["enum.PowerDeviceVisualLayers.Powered"]
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: GenericVisualizer
+    visuals:
+      enum.PowerDeviceVisuals.Powered:
+        enum.PowerDeviceVisualLayers.Powered:
+          True: { visible: true }
+          False: { visible: false }
+  - type: Appearance
+  - type: AmbientOnPowered
+  - type: AmbientSound
+    volume: -9
+    range: 5
+    sound:
+      path: /Audio/Ambience/Objects/server_fans.ogg
+  - type: WiresVisuals
+  - type: Physics
+    bodyType: Static
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.4,-0.4,0.4,0.4"
+        density: 190
+        mask:
+        - MachineMask
+        layer:
+        - MachineLayer
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 150
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Breakage"]
+  - type: LetoferolAnnihilatorZone
+    target: Chimera
+    updateInterval: 2
+    damage:
+      types:
+        Heat: 20
+
+- type: entity
+  parent: BaseOrganicDesintegrator
+  id: OrganicDesintegrator300
+  suffix: 300
+  components:
+  - type: LetoferolAnnihilatorZone
+    radius: 300
+    radarColor: "#008200FF"

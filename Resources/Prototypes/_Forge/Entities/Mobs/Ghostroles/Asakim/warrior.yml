@@ -1,0 +1,132 @@
+- type: entity
+  parent: MobAsakim
+  id: MobAsakimWarrior
+  name: asakim warrior
+  suffix: Asakim
+  components:
+  - type: RandomHumanoidAppearance
+    randomizeName: True
+  - type: HumanoidAppearance
+    height: 1.2
+    width: 1.2
+  - type: Loadout
+    prototypes: [AsakimWarriorGear]
+  - type: GhostRole
+    name: ghost-role-information-asakim-name
+    description: ghost-role-information-asakim-description
+    rules: ghost-role-information-asakim-rules
+    raffle:
+      settings: default
+    requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 180000
+  - type: GhostTakeoverAvailable
+  - type: RandomMetadata
+    nameSegments:
+    - NamesFirstMilitary
+    - NamesLastMilitary
+  - type: NpcFactionMember
+    factions:
+    - Syndicate
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      200: Critical
+      300: Dead
+  - type: SlowOnDamage
+    speedModifierThresholds:
+      100: 0.8
+      180: 0.5
+  - type: Stamina
+    critThreshold: 250
+  - type: SurgerySpeedModifier
+    speedModifier: 1.5
+  - type: IntrinsicRadioReceiver
+  - type: IntrinsicRadioTransmitter
+    channels:
+    - Common
+    - Remnants
+  - type: ActiveRadio
+    channels:
+    - Common
+    - Remnants
+  - type: AutoImplant
+    implants:
+    - FreedomImplant
+  - type: Access
+    tags:
+    - Remnant
+    - Mercenary
+  - type: LanguageKnowledge
+    speaks:
+    - Azaziba
+    - Draconic
+    understands:
+    - Freespeak
+    - SolCommon
+    - ForgeSibera
+    - Elyran
+    - TauCetiBasic
+    - NovuNederic
+    - Tradeband
+    - Chittin
+    - RootSpeak
+    - ValyrianStandard
+    - Hydraspeak
+    - Marish
+    - Moffic
+    - Nekomimetic
+    - Draconic
+    - Azaziba
+    - Calcic
+    - Bubblish
+    - SiikMaas
+    - NalRasan
+    - SiikTajr
+    - YaSsa
+    - Delvahii
+    - NewKinPidgin
+    - Canilunzt
+    - Xeeplian
+    - Cat
+    - Dog
+    - Fox
+    - Xeno
+    - Monkey
+    - Mouse
+    - Chicken
+    - Duck
+    - Cow
+    - Sheep
+    - Kangaroo
+    - Pig
+    - Crab
+    - Kobold
+    - Hissing
+    - Penguin
+    - Deer
+    - RobotTalk
+    - DroneTalk
+    - Sign
+
+- type: startingGear
+  id: AsakimWarriorGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitNinja
+    back: ClothingBackpackSatchelAsakim
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: ClothingOuterHardsuitAsakimUnremoveable
+    shoes: ClothingShoesBootsMagAsakimForge
+    pocket1: SyringeCaseNaniteFilled
+    pocket2: DoubleEmergencyOxygenTankFilled
+    belt: WeaponPhaseBlade
+    suitstorage: WeaponRifleAsakimAutopulser
+  storage:
+    back:
+    - DoubleEmergencyOxygenTankFilled
+    - HandHeldMassScannerBorg
+    - PowerDrill
+    - JawsOfLife
+    - WelderExperimental
+    - ShipRepairDeviceRedacted
+    - InfectionScannerAsakim
