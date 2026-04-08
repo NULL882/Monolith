@@ -683,7 +683,7 @@ public partial class ShuttleNavControl : BaseShuttleControl // Mono
     #region Forge-Change
     private void DrawZones(DrawingHandleScreen handle, Matrix3x2 worldToView, MapId currentMapId)
     {
-        var zoneQuery = EntManager.EntityQueryEnumerator<LetoferolAnnihilatorZoneComponent, TransformComponent>();
+        var zoneQuery = EntManager.EntityQueryEnumerator<AnnihilatorZoneVisualsComponent, TransformComponent>();
         while (zoneQuery.MoveNext(out var zoneUid, out var zoneComp, out var xform))
         {
             if (xform.MapID != currentMapId)

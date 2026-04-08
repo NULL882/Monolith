@@ -1,5 +1,12 @@
 - type: entity
-  parent: [ BaseMachineIndestructible, ConstructibleMachine ]
+  id: AnnihilatorZone
+  components:
+  - type: AnnihilatorZoneVisuals
+  - type: Transform
+    noRot: false
+
+- type: entity
+  parent: [ BaseMachinePowered ]
   id: BaseOrganicDesintegrator
   name: organic disintegrator
   description: A relic of the ancient civilization, when activated, it generates a molecular decay field that selectively destroys chimeric biomass. Within seconds, any aggressive organic forms within the zone are transformed into harmless, inert dust, without affecting the normal flora and fauna.
@@ -11,34 +18,21 @@
     - Azaziba
     understands:
     - Azaziba
-  - type: ApcPowerReceiver
-    powerLoad: 1024
-  - type: ExtensionCableReceiver
   - type: StationAiWhitelist
   - type: Sprite
-    sprite: Structures/Machines/telecomms.rsi
+    sprite: Forge/Structures/Machines/desintegrator.rsi
     snapCardinals: true
+    offset: 0, 0.5
     layers:
     - state: icon
     - state: unlit
       shader: unshaded
-      map: ["enum.PowerDeviceVisualLayers.Powered"]
-    - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
-  - type: GenericVisualizer
-    visuals:
-      enum.PowerDeviceVisuals.Powered:
-        enum.PowerDeviceVisualLayers.Powered:
-          True: { visible: true }
-          False: { visible: false }
   - type: Appearance
-  - type: AmbientOnPowered
   - type: AmbientSound
-    volume: -9
-    range: 5
+    volume: 1
+    range: 7
     sound:
-      path: /Audio/Ambience/Objects/server_fans.ogg
-  - type: WiresVisuals
+      path: /Audio/Ambience/Objects/hdd_buzz.ogg
   - type: Physics
     bodyType: Static
   - type: Fixtures
@@ -56,7 +50,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 150
+        damage: 750
       behaviors:
       - !type:DoActsBehavior
         acts: ["Breakage"]
@@ -65,13 +59,48 @@
     updateInterval: 2
     damage:
       types:
-        Heat: 20
+        Heat: 35
 
 - type: entity
   parent: BaseOrganicDesintegrator
   id: OrganicDesintegrator300
   suffix: 300
   components:
+  - type: Sprite
+    sprite: Forge/Structures/Machines/desintegrator.rsi
+    snapCardinals: true
+    layers:
+    - state: icon
+    - state: logo_nt
+    - state: unlit
+      shader: unshaded
+      map: ["enum.PowerDeviceVisualLayers.Powered"]
   - type: LetoferolAnnihilatorZone
     radius: 300
-    radarColor: "#008200FF"
+    zoneColor: "#008200FF"
+
+- type: entity
+  parent: BaseOrganicDesintegrator
+  id: OrganicDesintegratorMini
+  suffix: 70
+  components:
+  - type: Sprite
+    sprite: Forge/Structures/Machines/mini_desintegrator.rsi
+    snapCardinals: true
+    layers:
+    - state: icon
+    - state: unlit
+      shader: unshaded
+      map: ["enum.PowerDeviceVisualLayers.Powered"]
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: StructuralMetallic
+  - type: LetoferolAnnihilatorZone
+    radius: 70
+    zoneColor: "#b63273FF"
+    target: Chimera
+    updateInterval: 2
+    damage:
+      types:
+        Heat: 35
+        Radiation: 10

@@ -14,7 +14,7 @@ namespace Content.Shared._Forge.LetoferolAnnihilator
         [DataField]
         public TimeSpan UpdateInterval = TimeSpan.FromSeconds(1);
 
-        [DataField]
+        [DataField, AutoNetworkedField]
         public int Radius = 5;
 
         [DataField(required: true)]
@@ -25,5 +25,11 @@ namespace Content.Shared._Forge.LetoferolAnnihilator
 
         [DataField, AutoNetworkedField]
         public Color ZoneColor = Color.White;
+
+        [ViewVariables]
+        public EntityUid? Generator;
+
+        [ViewVariables]
+        public EntityUid? GridZone;
     }
 }
