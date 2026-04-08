@@ -5,13 +5,13 @@
   frequency: 1459
   color: "#2cdb2c"
 
-- type: radioChannel
-  id: CentCom
-  name: chat-radio-centcom
-  keycode: 'ц' # Forge-Change
-  frequency: 1337
-  color: "#2681a5"
-  longRange: true
+# - type: radioChannel
+#   id: CentCom
+#   name: chat-radio-centcom
+#   keycode: 'ц' # Forge-Change
+#   frequency: 1337
+#   color: "#2681a5"
+#   longRange: true
 
 - type: radioChannel
   id: Command
@@ -94,7 +94,7 @@
 - type: radioChannel
   id: Freelance
   name: chat-radio-freelance
-  keycode: 'л' # Forge-Change
+  keycode: 'k' # Forge-Change
   frequency: 1984
   color: "#f6ce64"
   # long range since otherwise it'd defeat the point of a handheld radio independent of telecomms
@@ -103,7 +103,7 @@
 - type: radioChannel
   id: VanguardCommand
   name: chat-radio-vanguard-command
-  keycode: 'у' # Forge-Change
+  keycode: 'r' # Forge-Change
   frequency: 1985
   color: "#BF94E4"
   # long range since otherwise it'd defeat the point of a handheld radio independent of telecomms

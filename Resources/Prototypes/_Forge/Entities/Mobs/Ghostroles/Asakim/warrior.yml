@@ -1,11 +1,25 @@
 - type: entity
+  name: asakim warrior spawner
+  id: SpawnMobAsakimWarrior
+  suffix: Forge
+  parent: MarkerBase
+  components:
+  - type: ConditionalSpawner
+    prototypes:
+    - MobAsakimWarrior
+  - type: Sprite
+    sprite: Markers/jobs.rsi
+    layers:
+    - state: green
+    - sprite: _Mono/Mobs/Species/Asakim/parts.rsi
+      state: full
+
+- type: entity
   parent: MobAsakim
   id: MobAsakimWarrior
   name: asakim warrior
   suffix: Asakim
   components:
-  - type: RandomHumanoidAppearance
-    randomizeName: True
   - type: HumanoidAppearance
     height: 1.2
     width: 1.2
@@ -23,11 +37,11 @@
   - type: GhostTakeoverAvailable
   - type: RandomMetadata
     nameSegments:
-    - NamesFirstMilitary
-    - NamesLastMilitary
+    - "Юнит"
+    - SyndicateNamesNormal
   - type: NpcFactionMember
     factions:
-    - Syndicate
+    - SiliconsExpeditionNF
   - type: MobThresholds
     thresholds:
       0: Alive
@@ -35,8 +49,8 @@
       300: Dead
   - type: SlowOnDamage
     speedModifierThresholds:
-      100: 0.8
-      180: 0.5
+      150: 0.8
+      190: 0.5
   - type: Stamina
     critThreshold: 250
   - type: SurgerySpeedModifier

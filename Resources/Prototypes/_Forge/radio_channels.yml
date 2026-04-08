@@ -1,18 +1,4 @@
 - type: radioChannel
-  id: MercenaryFM
-  name: mercenaryfm-radio
-  keycode: '1' # I NEED MORE RU CHAR
-  frequency: 1063
-  color: "#376333"
-
-- type: radioChannel
-  id: SyndicateShturm
-  name: chat-radio-syndicate
-  keycode: '2' # I NEED MORE RU CHAR
-  frequency: 1214
-  color: "#9f5253"
-
-- type: radioChannel
   id: Renegade
   name: chat-radio-renegade
   keycode: 'ф'
@@ -29,7 +15,7 @@
 - type: radioChannel
   id: ComRenegade
   name: chat-radio-com-renegade
-  keycode: 'й'
+  keycode: 'ц'
   frequency: 1134
   color: "#8b008b"
 
@@ -43,7 +29,7 @@
 - type: radioChannel
   id: EmpireCommand
   name: chat-radio-imperial-command
-  keycode: 'е'
+  keycode: 'у'
   frequency: 1247
   color: "#c49a6c"
 

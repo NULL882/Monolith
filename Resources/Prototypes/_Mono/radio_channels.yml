@@ -31,6 +31,6 @@
 - type: radioChannel
   id: Remnants
   name: chat-radio-remnants
-  keycode: 'д' # Forge-Change
+  keycode: 'й' # Forge-Change
   color: "#21b0a4"
   longRange: true
