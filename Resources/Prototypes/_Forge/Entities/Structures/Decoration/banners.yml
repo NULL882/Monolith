@@ -24,6 +24,7 @@
   parent: BannerBase
   name: Banner NSC
   description: The banner of the trade alliance Nexus Star Consortium smells like expensive paint.
+  suffix: Нексус
   components:
   - type: Sprite
     sprite: Forge/Structures/Decoration/banner.rsi
@@ -50,3 +51,23 @@
   - type: Sprite
     sprite: Forge/Structures/Decoration/banner.rsi
     state: banner_empire
+
+- type: entity
+  id: BannerDaybreak
+  parent: BannerBase
+  name: Banner Daybreak
+  description: Daybreak corporation banner.
+  components:
+  - type: Sprite
+    sprite: Forge/Structures/Decoration/banner.rsi
+    state: banner_sune
+
+- type: entity
+  id: BannerPlayerCorpOne
+  parent: BannerBase
+  name: Banner Hunter Therapeutics
+  description: Hunter Therapeutics banner.
+  components:
+  - type: Sprite
+    sprite: Forge/Structures/Decoration/banner.rsi
+    state: banner_ivi

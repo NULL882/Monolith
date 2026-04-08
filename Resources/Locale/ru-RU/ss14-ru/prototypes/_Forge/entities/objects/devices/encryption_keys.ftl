@@ -24,3 +24,19 @@ ent-EncryptionKeyPlantManager = ключ шифрования менеджера
     .desc = Ключ шифрования, используемый для координации инженеров.
 ent-EncryptionKeyHospital = ключ шифрования травмы тим
     .desc = Ключ шифрования, используемый для координации сотрудников TTI.
+
+ent-EncryptionKeyViperGroup = ключ шифрования Viper Group
+    .desc = Ключ шифрования, используемый для переговоров внутри банды VG.
+ent-EncryptionKeyPaycheckBratva = ключ шифрования Paycheck Bratva
+    .desc = Ключ шифрования, используемый для переговоров внутри банды Paycheck.
+ent-EncryptionKeyMidnightArmsCo = ключ шифрования MAC
+    .desc = Ключ шифрования, используемый для переговоров внутри компании Midnight Arms Co.
+ent-EncryptionKeyUNSA = ключ шифрования UNSA
+    .desc = Ключ шифрования, используемый для переговоров внутри UNSA.
+ent-EncryptionKeyUllmanIndustries = ключ шифрования U.I.
+    .desc = Ключ шифрования, используемый для переговоров внутри компании Ullman Undustires.
+ent-EncryptionKeyBlackhawk = ключ шифрования Blackhawk PMC
+    .desc = Ключ шифрования, используемый для переговоров внутри Blackhawk PMC.
+ent-EncryptionKeyTechnicLogistic = ключ шифрования TechnicLogistic
+    .desc = Ключ шифрования, используемый для переговоров внутри TechnicLogistic.
+
