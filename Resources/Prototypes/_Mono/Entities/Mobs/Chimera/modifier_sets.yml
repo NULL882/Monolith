@@ -1,9 +1,9 @@
 - type: damageModifierSet
   id: Chimera
   coefficients:
-    Heat: 2.1 # Forge-Change
+    Heat: 1.5 # Forge-Change
     Cold: 0.6
-    Radiation: 2.5 # Forge-Change
+    Radiation: 1.6 # Forge-Change
     Shock: 1.2
     Blunt: 0.2
     Slash: 0.6
