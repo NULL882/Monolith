@@ -4,7 +4,7 @@ meta:
   engineVersion: 275.2.0
   forkId: ""
   forkVersion: ""
-  time: 04/08/2026 21:08:28
+  time: 04/09/2026 09:27:30
   entityCount: 485
 maps: []
 grids:
@@ -94,10 +94,10 @@ entities:
     - type: OccluderTree
     - type: SpreaderGrid
       spreadQueues:
-        Puddle: []
-        MetalFoam: []
         Smoke: []
+        MetalFoam: []
         Kudzu: []
+        Puddle: []
     - type: Shuttle
       dampingModifier: 0.25
     - type: GridPathfinding
@@ -2498,6 +2498,11 @@ entities:
     - type: Transform
       pos: 2.5,10.5
       parent: 1
+  - uid: 392
+    components:
+    - type: Transform
+      pos: 0.5,14.5
+      parent: 1
   - uid: 393
     components:
     - type: Transform
@@ -2925,11 +2930,6 @@ entities:
     components:
     - type: Transform
       pos: -3.5,5.5
-      parent: 1
-  - uid: 392
-    components:
-    - type: Transform
-      pos: 0.5,14.5
       parent: 1
 - proto: WeaponLaserTurretFlayer
   entities:
