@@ -45,16 +45,16 @@
   - type: MobThresholds
     thresholds:
       0: Alive
-      200: Critical
-      300: Dead
+      125: Critical
+      200: Dead
   - type: SlowOnDamage
     speedModifierThresholds:
-      150: 0.8
-      190: 0.5
+      80: 0.8
+      100: 0.5
   - type: Stamina
     critThreshold: 250
   - type: SurgerySpeedModifier
-    speedModifier: 1.5
+    speedModifier: 1.2
   - type: IntrinsicRadioReceiver
   - type: IntrinsicRadioTransmitter
     channels:
