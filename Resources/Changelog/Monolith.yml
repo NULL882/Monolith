@@ -19608,3 +19608,10 @@ Entries:
   id: 2163
   time: '2026-04-10T14:49:46.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3705
+- author: Ilya246
+  changes:
+    - type: Fix
+      message: Potentially reduced autopilot/ship AI grid collision likelihood.
+  id: 2164
+  time: '2026-04-10T15:16:43.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3745
