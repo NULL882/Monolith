@@ -19817,3 +19817,10 @@ Entries:
   id: 2187
   time: '2026-04-13T17:43:55.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3441
+- author: chuga-git
+  changes:
+    - type: Add
+      message: '"Entropy" electron torpedos (ADS Wyrm) have received a speed boost.'
+  id: 2188
+  time: '2026-04-13T18:02:20.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3710
