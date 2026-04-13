@@ -19786,3 +19786,20 @@ Entries:
   id: 2184
   time: '2026-04-13T17:10:17.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3702
+- author: Kiithnaras
+  changes:
+    - type: Tweak
+      message: Improves Tricordrazine with limitations.
+    - type: Tweak
+      message: Improves lifetime of many basic/common chems.
+    - type: Add
+      message: >-
+        A Pre-Filled version of the Chemmaster is now available for sale at
+        flatpack vendors!
+    - type: Tweak
+      message: Slightly improves Arithrazine effects.
+    - type: Tweak
+      message: Improves Epinephrine effects.
+  id: 2185
+  time: '2026-04-13T17:27:35.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3576
