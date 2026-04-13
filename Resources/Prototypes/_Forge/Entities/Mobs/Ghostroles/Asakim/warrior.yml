@@ -43,7 +43,7 @@
     - SyndicateNamesNormal
   - type: NpcFactionMember
     factions:
-    - SiliconsExpeditionNF
+    - SyndicateNF
   - type: MobThresholds
     thresholds:
       0: Alive
@@ -69,6 +69,7 @@
     - FreedomImplant
   - type: Access
     tags:
+    - SyndicateAgent
     - Remnant
     - Mercenary
   - type: LanguageKnowledge
