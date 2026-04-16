@@ -19966,3 +19966,14 @@ Entries:
   id: 2204
   time: '2026-04-16T16:18:43.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3531
+- author: NazrinNya
+  changes:
+    - type: Tweak
+      message: RCD have been severely buffed.
+    - type: Tweak
+      message: Super part rating has upped to 4, Advanced part rating has upped to 3.
+    - type: Tweak
+      message: Super parts now require fissile uranium to be produced.
+  id: 2205
+  time: '2026-04-16T16:35:54.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3804
