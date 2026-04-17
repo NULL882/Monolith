@@ -93,7 +93,8 @@ public sealed class MaxTimeRestartRuleSystem : GameRuleSystem<MaxTimeRestartRule
         GameTicker.EndRound(Loc.GetString("rule-time-has-run-out"));
         var delay = component.RoundEndDelay == TimeSpan.Zero ? component.PostRoundDuration : component.RoundEndDelay;
         _chatManager.DispatchServerAnnouncement(Loc.GetString("rule-restarting-in-seconds", ("seconds", (int) delay.TotalSeconds)));
-        Timer.Spawn(delay, () => GameTicker.RestartRound(), component.TimerCancel.Token);
+        // Do not pass TimerCancel: RunLevelChanged(PostRound) calls StopTimer and would cancel RestartRound.
+        Timer.Spawn(delay, () => GameTicker.RestartRound());
     }
 
     private static DateTimeOffset GetNextCycleStart(DateTimeOffset nowUtc, TimeSpan restartInterval, TimeSpan cycleLeadTime)
