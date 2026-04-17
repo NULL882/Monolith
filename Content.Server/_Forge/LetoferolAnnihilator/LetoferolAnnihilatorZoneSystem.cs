@@ -98,7 +98,7 @@ namespace Content.Server._Forge.LetoferolAnnihilator
 
                 hasThreat = true;
                 if (shouldApplyDamage)
-                    _damageable.TryChangeDamage(entity, damage, ignoreResistances: false);
+                    _damageable.TryChangeDamage(entity, damage!, ignoreResistances: false);
             }
 
             component.ThreatActive = hasThreat;
